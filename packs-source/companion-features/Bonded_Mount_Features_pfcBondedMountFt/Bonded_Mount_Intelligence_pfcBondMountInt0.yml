@@ -1,0 +1,37 @@
+_id: pfcBondMountInt0
+_key: '!items!pfcBondMountInt0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcBondedMountFt
+img: icons/magic/perception/third-eye-blue-red.webp
+name: Bonded Mount Intelligence
+ownership:
+  default: 0
+sort: 100000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Bonded Mount
+  changes:
+    - _id: pfcInt601
+      formula: max(0, 6 - @abilities.int.base)
+      operator: add
+      priority: -100
+      target: int
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>Bonded mounts have an Intelligence of at least 6.</p>
+  subType: companion
+type: feat

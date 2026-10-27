@@ -1,0 +1,89 @@
+_id: J0fHsdJUxjuqHTtX
+_key: '!items!J0fHsdJUxjuqHTtX'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Osprey (Familiar)
+ownership:
+  default: 0
+sort: 4900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: QQNI9Bar
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: GWVlr8Hb
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: JV8Vs03u
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: VAVDBgC1
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 2i94pg1o
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 4px7pGS4
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 talons (1d4)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Survival checks (use hawk stats for ospreys)</p>
+  links:
+    children: []
+    supplements:
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Very Strong Attack (Talon)
+        uuid: Compendium.astora-mod.misc-features.Item.RrbEYxqTQ1Rkjtxi
+      - name: Osprey Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.na4NZk4upbywWCmL
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

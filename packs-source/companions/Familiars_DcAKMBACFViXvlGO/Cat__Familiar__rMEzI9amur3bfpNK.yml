@@ -1,0 +1,95 @@
+_id: rMEzI9amur3bfpNK
+_key: '!items!rMEzI9amur3bfpNK'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Cat (Familiar)
+ownership:
+  default: 0
+sort: 700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 6SBHRY19
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 3J3QK5P2
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: bQcanYlw
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: v6OeU18Y
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: sFAw5yVN
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: x9eNSpyP
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: RGy7urwI
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 claws (1d2), bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Stealth checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Cat Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.2hhaLGxEZnPE4EM0
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

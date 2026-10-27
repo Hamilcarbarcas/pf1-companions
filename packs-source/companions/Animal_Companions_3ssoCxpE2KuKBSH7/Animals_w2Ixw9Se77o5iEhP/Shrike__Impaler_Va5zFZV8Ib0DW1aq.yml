@@ -1,0 +1,88 @@
+_id: Va5zFZV8Ib0DW1aq
+_key: '!items!Va5zFZV8Ib0DW1aq'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Shrike, Impaler
+ownership:
+  default: 0
+sort: 8000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: wIBNgzTs
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: A3a0ISAy
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: CdlEduAZ
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 3SS7Ro6F
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 0oE7tf7L
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: U3dXoPfo
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This large bird has brown and gray feathers and a vicious hooked beak.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>7th-Level Advancement:</strong> size Medium; +2 natural armor; +2 Str, +2 Con; Impale.</p><p>Impale (Ex):</p><p>When an impaler shrike has a creature at least one size smaller than itself Grappled in its beak, it can move the creature to a dangerous location, such as a spike or a Broken tree limb. This works like the Reposition combat maneuver, except the shrike can move an opponent to an occupied square. An impaler shrike still provokes an Attack of Opportunity using this ability, so it typically pins its victim before attempting this maneuver. As part of this Reposition, an impaler shrike can attempt a melee Touch Attack against an AC of 15 to impale the victim on a nearby spike or similar Object. If this attack is successful, the victim takes an amount of piercing damage appropriate for the impaling Object’s size.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Shrike, Impaler Advancement
+        uuid: Compendium.pf1-companions.companions.Item.Xetkazn5a1CwQQKj
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

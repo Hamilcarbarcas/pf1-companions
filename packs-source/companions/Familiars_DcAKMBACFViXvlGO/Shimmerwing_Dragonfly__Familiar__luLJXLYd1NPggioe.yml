@@ -1,0 +1,88 @@
+_id: luLJXLYd1NPggioe
+_key: '!items!luLJXLYd1NPggioe'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Shimmerwing Dragonfly (Familiar)
+ownership:
+  default: 0
+sort: 7600000
+system:
+  changeFlags: {}
+  changes:
+    - _id: K46WN04t
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: PcOdAmaB
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: TXpfuU8D
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: XRq2tFlp
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Aob6xaJr
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: NNvWiPtr
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: <p><strong>Natural Attacks:</strong> claw (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Fly checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Single Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.JJsMMoBNT42TCtkO
+      - name: Shimmerwing Dragonfly Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.RKhAU6dURalAfeml
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: perfect
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

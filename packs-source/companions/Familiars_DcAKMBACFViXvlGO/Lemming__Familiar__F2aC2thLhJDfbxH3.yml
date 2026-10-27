@@ -1,0 +1,85 @@
+_id: F2aC2thLhJDfbxH3
+_key: '!items!F2aC2thLhJDfbxH3'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Lemming (Familiar)
+ownership:
+  default: 0
+sort: 3900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: MWiKCeCD
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: h3RLxgwT
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: rmLMPE4J
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: NdPWD5Ln
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: mBm8UYW1
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: WpUizIFT
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +2 bonus on Fortitude saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Lemming Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.Zp0Cwx6Y8E77VXfu
+  size: dim
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 15
+    swim: null
+  tags:
+    - Familiar Species
+type: race

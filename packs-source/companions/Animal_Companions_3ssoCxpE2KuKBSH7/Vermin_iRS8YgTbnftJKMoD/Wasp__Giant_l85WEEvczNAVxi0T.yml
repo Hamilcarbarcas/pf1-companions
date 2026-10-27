@@ -1,0 +1,83 @@
+_id: l85WEEvczNAVxi0T
+_key: '!items!l85WEEvczNAVxi0T'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Wasp, Giant
+ownership:
+  default: 0
+sort: 1800000
+system:
+  changeFlags: {}
+  changes:
+    - _id: 18DoY1j2
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: YIaKDAJ8
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: I1PECEdC
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: a0RhMnP3
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: ct2QAOR2
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>This horse-sized wasp is covered in yellow and black vertical stripes—its stinger is the size of a sword and drips with venom.</p><p><strong>Natural Attacks:</strong> sting (1d6 plus poison)</p><p><strong>Special Qualities:</strong> CMD +8 vs. Trip</p><p><strong>Special Attacks:</strong> Poison</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 6 rounds, mild Dexterity, 1 save to cure.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Sting
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      - name: Strong Attack (Sting)
+        uuid: Compendium.astora-mod.misc-features.Item.fwdmE4sUCMMC12uI
+      - name: Wasp, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.YpgYt4IYKCJyrTcW
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: good
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

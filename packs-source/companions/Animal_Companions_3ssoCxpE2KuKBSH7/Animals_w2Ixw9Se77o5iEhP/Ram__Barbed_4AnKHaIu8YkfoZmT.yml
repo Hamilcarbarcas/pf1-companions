@@ -1,0 +1,94 @@
+_id: 4AnKHaIu8YkfoZmT
+_key: '!items!4AnKHaIu8YkfoZmT'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ram, Barbed
+ownership:
+  default: 0
+sort: 7000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: wnJSWF3O
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: aq6SYKiP
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 8gSb3OiA
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 5UOzOGDe
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: KtLxKQCE
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 3bVcfhcJ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: rBlcJTFH
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> gore (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Bleed (gore, 1), Powerful Charge (gore, 1d8).</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Ram, Barbed Advancement
+        uuid: Compendium.pf1-companions.companions.Item.hlERSbltLF2xWoOr
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

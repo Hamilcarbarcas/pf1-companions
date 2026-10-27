@@ -1,0 +1,100 @@
+_id: O78EpSzLX05TliEu
+_key: '!items!O78EpSzLX05TliEu'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Porcupine, Giant
+ownership:
+  default: 0
+sort: 6600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: gkM8RzK3
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: JMAuo0VQ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: tpMWHZXR
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: abYi09X4
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: vjLjNZWi
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: EJRxxCsK
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jzVemx8I
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: ddECJgjS
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This lumbering forest creature is adorned with an array of long, sharp quills that protrude from its coarse pelt.</p><p><strong>Natural Attacks:</strong> tail slap (1d4)</p><p><strong>Special Attacks:</strong> Quills</p><p><strong>4th-Level Advancement:</strong> size Medium; +1 natural armor; +2 Str, -2 Dex, +4 Con; Quills (upgraded).</p><p>Quills (Ex):</p><p>Any creature attacking a porcupine with a Natural Weapon or an Unarmed Attack takes 1 point of piercing damage. A creature that Grapples a porcupine takes 1d3 points of piercing damage each round it does so. At 4th level, the damage from attacking the porcupine increases to 1d3 and also includes attacks with a light or one-handed weapon, and the damage a creature takes for grappling it increases to 2d4.</p>
+  links:
+    children: []
+    supplements:
+      - name: Tail Slap
+        uuid: Compendium.astora-mod.combat-items.Item.i7tJJDuZm51q8JWf
+      - name: Porcupine, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.6pQMLMYxXVnl84vC
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

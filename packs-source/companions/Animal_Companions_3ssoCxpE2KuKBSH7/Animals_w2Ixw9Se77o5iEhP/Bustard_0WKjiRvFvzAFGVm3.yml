@@ -1,0 +1,96 @@
+_id: 0WKjiRvFvzAFGVm3
+_key: '!items!0WKjiRvFvzAFGVm3'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bustard
+ownership:
+  default: 0
+sort: 1700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: UfGFxA2z
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 8sDReicc
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: SfCfxhW4
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: jjVFbBpn
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: XHX6Jys0
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: daRvhiGf
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: QZY1TlXt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>The bustard is a sizable bird with long legs. Bustards can fly, but they do so relatively poorly and prefer to walk or run.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 talons (1d4)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Bustard Advancement
+        uuid: Compendium.pf1-companions.companions.Item.55DFIsCaE2g2PzDu
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 50
+    flyManeuverability: poor
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

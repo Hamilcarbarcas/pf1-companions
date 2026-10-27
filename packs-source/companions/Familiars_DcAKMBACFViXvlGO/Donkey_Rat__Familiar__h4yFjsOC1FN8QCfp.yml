@@ -1,0 +1,95 @@
+_id: h4yFjsOC1FN8QCfp
+_key: '!items!h4yFjsOC1FN8QCfp'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Donkey Rat (Familiar)
+ownership:
+  default: 0
+sort: 1700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: zyxfXZPr
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: VWAtB5Po
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: P1Oeb0GP
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: OMA84ubA
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: gruXaLft
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 9h1vdas3
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: ypjIUhju
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Fortitude saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Donkey Rat Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.1a067ZQ9GIahlB6u
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: 20
+  tags:
+    - Familiar Species
+type: race

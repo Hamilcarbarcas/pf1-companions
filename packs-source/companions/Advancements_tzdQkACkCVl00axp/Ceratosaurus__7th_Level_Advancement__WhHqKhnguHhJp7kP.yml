@@ -1,0 +1,62 @@
+_id: WhHqKhnguHhJp7kP
+_key: '!items!WhHqKhnguHhJp7kP'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Ceratosaurus (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 8300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: OKdiwg9O
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: bzyLpMgN
+      formula: '8'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: TIYNQreS
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: GujjRHj7
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: DmAZCWLM
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The ceratosaurus's 7th-level advancement.</p><p><strong>Gains:</strong> Blood Rage, Ferocity</p>
+  subType: companion
+type: feat

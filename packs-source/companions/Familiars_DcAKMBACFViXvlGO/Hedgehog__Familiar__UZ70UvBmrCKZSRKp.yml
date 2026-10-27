@@ -1,0 +1,91 @@
+_id: UZ70UvBmrCKZSRKp
+_key: '!items!UZ70UvBmrCKZSRKp'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Hedgehog (Familiar)
+ownership:
+  default: 0
+sort: 3000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: JjFOchd8
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: r2CQMOGQ
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: NbEFFZOa
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: olWVwuMC
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: rOZTJkZb
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: K1zAuGtL
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: AR4SNm4D
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +2 bonus on Will saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Hedgehog Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.aboI37OxH60PsVxK
+  size: dim
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

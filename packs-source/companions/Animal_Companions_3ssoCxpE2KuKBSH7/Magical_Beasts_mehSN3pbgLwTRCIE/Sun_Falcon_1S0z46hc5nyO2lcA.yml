@@ -1,0 +1,91 @@
+_id: 1S0z46hc5nyO2lcA
+_key: '!items!1S0z46hc5nyO2lcA'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Sun Falcon
+ownership:
+  default: 0
+sort: 900000
+system:
+  changeFlags: {}
+  changes:
+    - _id: sirHmLeg
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: NJ37Dors
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: OtdTtwbh
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: JOeRPQCo
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: MIhXVsKj
+      formula: '5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: SoBMCtuk
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: <p><strong>Natural Attacks:</strong> talon (1d4 plus burn)</p><p><strong>Special Attacks:</strong> Breath Weapon, Burn (1d4)</p><p><strong>9th-Level Advancement:</strong> size Small; +4 natural armor; +2 Str, +4 Con; Breath Weapon (upgraded), Burn (1d6).</p><p>Breath Weapon (Su):</p><p>This breath attack can be used once per day, and deals 3d6 fire damage in a 30 ft. line on a failed Reflex Save (DC 10 + 1/2 HD + Constitution modifier for half). If the companion's owner possesses the Beast Speaker Mastery feat, this ability can be used three times per day.</p><p>Blinding Flash (Su):</p><p>Three times per day, the sun falcon can blast an intense wave of heat and light in a 20-foot cone as a Standard Action. Creatures within this area must succeed at a Reflex Save (DC = 10 + 1/2 HD + Charisma modifier) or take 1d6 points of fire damage and be Blinded for 1d4+1 rounds. Creatures that succeed at this save take no fire damage and are instead Dazzled for 1 round.</p>
+  links:
+    children: []
+    supplements:
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Single Attack (Talon)
+        uuid: Compendium.astora-mod.misc-features.Item.CadMy7h6syaUrwf1
+      - name: Very Strong Attack (Talon)
+        uuid: Compendium.astora-mod.misc-features.Item.RrbEYxqTQ1Rkjtxi
+      - name: Sun Falcon Advancement
+        uuid: Compendium.pf1-companions.companions.Item.Zu4VrgnfIqv9a7eT
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: good
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

@@ -1,0 +1,87 @@
+_id: LnTLjAimOuIgQ2rq
+_key: '!items!LnTLjAimOuIgQ2rq'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Chicken (Familiar)
+ownership:
+  default: 0
+sort: 1000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: YPX2S2Vb
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 6mQRJeEP
+      formula: '1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: SHGf7Su4
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: nLu8aK5G
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 4tHTAX1u
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: noWQ4GYS
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 hit points</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Chicken Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.5zL1n6OTKhPaBdx2
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 20
+    flyManeuverability: clumsy
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,91 @@
+_id: yYOH04JLHhDDjaHR
+_key: '!items!yYOH04JLHhDDjaHR'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Horned Lizard (Familiar)
+ownership:
+  default: 0
+sort: 3100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: m4RRjH0Y
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: InfaOFkx
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Bc506dnQ
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: De3nNcJ9
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: CRhrmGkz
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: zJ17kyOx
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: dAmkwftZ
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +2 bonus on Fortitude saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Horned Lizard Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.pbfc3IYwhUqSSZD8
+  size: dim
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,37 @@
+_id: pfcMountSpellRes
+_key: '!items!pfcMountSpellRes'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcBondedMountFt
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+name: Mount Spell Resistance
+ownership:
+  default: 0
+sort: 200000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Bonded Mount
+  changes:
+    - _id: pfcSR1501
+      formula: max(@attributes.sr.total, @class.level + 11)
+      operator: set
+      priority: -100
+      target: spellResist
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The mount gains spell resistance equal to the paladin's level + 11 ([[@class.level + 11]]).</p>
+  subType: companion
+type: feat

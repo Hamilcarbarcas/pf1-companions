@@ -1,0 +1,89 @@
+_id: MxUylTy5KZjglgkR
+_key: '!items!MxUylTy5KZjglgkR'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Styracosaurus
+ownership:
+  default: 0
+sort: 3200000
+system:
+  changeFlags: {}
+  changes:
+    - _id: 0atiZOgh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: rrQABmBM
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: KrXLVUKs
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 9Crq8yKq
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Ohk8sGCm
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: nx8dgv2w
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This bulky, four-legged dinosaur has a long nasal horn and a crest studded with additional horns sweeping back from its skull.</p><p><strong>Natural Attacks:</strong> gore (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; Ferocity, Reflexive Strike.</p><p>Reflexive Strike (Ex):</p><p>A styracosaurus can make three additional attacks of opportunity each round. The dinosaur makes these attacks with its horned crest, but they are treated as normal gore attacks. This ability stacks with the Combat Reflexes feat.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Styracosaurus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.N6jhVRwTl21BATNy
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

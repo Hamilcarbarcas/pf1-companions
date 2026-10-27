@@ -1,0 +1,102 @@
+_id: oGxa4y63wskOErYo
+_key: '!items!oGxa4y63wskOErYo'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Pony
+ownership:
+  default: 0
+sort: 6500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: nTtawMow
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: iqnX4y6D
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: WyzCN9vT
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: GrN2P9b2
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 9yZifVNC
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 49YQD4AT
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: QgqNM4yU
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: E5E7baeJ
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This squat equine plods forward with large, curious eyes. As it nears, it extends its muzzle, clearly expecting a treat.</p><p><strong>Natural Attacks:</strong> 2 hoofs (1d3)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con; Combat Trained.</p>
+  links:
+    children: []
+    supplements:
+      - name: Hoof
+        uuid: Compendium.astora-mod.combat-items.Item.eUBYo3efWNTbc8gE
+      - name: Weak Attack (Hoof)
+        uuid: Compendium.astora-mod.misc-features.Item.b63ewwhOgnedLxth
+      - name: Pony Advancement
+        uuid: Compendium.pf1-companions.companions.Item.QchmsG9MovzkKBLJ
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

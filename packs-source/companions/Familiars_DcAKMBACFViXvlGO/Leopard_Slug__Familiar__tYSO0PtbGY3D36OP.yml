@@ -1,0 +1,84 @@
+_id: tYSO0PtbGY3D36OP
+_key: '!items!tYSO0PtbGY3D36OP'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Leopard Slug (Familiar)
+ownership:
+  default: 0
+sort: 4000000
+system:
+  changeFlags: {}
+  changes:
+    - _id: LSYj01Lp
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: ApjwgJ0k
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: xJPUnezn
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: oihEmc4t
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: IEjm9gEB
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: boVjcMR1
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p><strong>Special Qualities:</strong> Compression, Slime Strand, Suction</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Climb checks</p>'
+  links:
+    children: []
+    supplements:
+      - name: Leopard Slug Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.H3Ka0nKUvteW3dyJ
+  size: dim
+  speeds:
+    burrow: null
+    climb: 10
+    fly: null
+    flyManeuverability: ''
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

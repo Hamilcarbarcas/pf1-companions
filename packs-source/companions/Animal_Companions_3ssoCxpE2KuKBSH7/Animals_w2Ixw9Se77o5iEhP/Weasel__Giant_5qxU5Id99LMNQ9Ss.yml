@@ -1,0 +1,81 @@
+_id: 5qxU5Id99LMNQ9Ss
+_key: '!items!5qxU5Id99LMNQ9Ss'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Weasel, Giant
+ownership:
+  default: 0
+sort: 9800000
+system:
+  changeFlags: {}
+  changes:
+    - _id: H7hoE4ND
+      formula: '9'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: tO3i7isC
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: gXgQd6g9
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: QHCQqw75
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: PtIaZ2lY
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This massive weasel moves smoothly across the ground, almost slithering like a snake, before pouncing with teeth bared.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Attacks:</strong> Blood Drain (bite, 1 Con), Grab</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weasel, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.4LLEAUe1YpVgv67e
+  size: sm
+  speeds:
+    burrow: null
+    climb: 10
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

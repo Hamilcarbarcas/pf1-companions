@@ -1,0 +1,96 @@
+_id: svxbUNiPIsGEFi3K
+_key: '!items!svxbUNiPIsGEFi3K'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Crocodile
+ownership:
+  default: 0
+sort: 2600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: njbbT7fy
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: qpVJAGRu
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: PGGJOodO
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 46IRXZcb
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: S8jrwNzF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 0xLhDgdT
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: w2gxd6O1
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>This reptile lunges out of the placid water with shocking speed. Its jaw gapes open in a roar, its powerful tail lashing behind.</p><p><strong>Natural Attacks:</strong> bite (1d6 plus grab)</p><p><strong>Special Qualities:</strong> Hold Breath</p><p><strong>Special Attacks:</strong> Grab</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; new attacks: tail slap (2d6); Sprint, Death Roll.</p><p>Death Roll (Ex):</p><p>When grappling a foe of its size or smaller, a crocodile can perform a death roll upon making a successful Grapple check. As it clings to its foe, it tucks in its legs and rolls rapidly, twisting and wrenching its victim. The crocodile inflicts its bite damage and knocks the creature Prone. If successful, the crocodile maintains its Grapple.</p><p>Sprint (Ex):</p><p>Once per minute a crocodile may sprint, increasing its land speed to 40 feet for 1 round.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Crocodile Advancement
+        uuid: Compendium.pf1-companions.companions.Item.P1YS4iQmrjvnlpLA
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: 30
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

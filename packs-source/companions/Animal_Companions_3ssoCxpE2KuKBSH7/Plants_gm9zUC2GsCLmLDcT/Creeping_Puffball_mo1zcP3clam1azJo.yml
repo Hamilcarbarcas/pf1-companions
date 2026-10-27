@@ -1,0 +1,101 @@
+_id: mo1zcP3clam1azJo
+_key: '!items!mo1zcP3clam1azJo'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Creeping Puffball
+ownership:
+  default: 0
+sort: 700000
+system:
+  changeFlags: {}
+  changes:
+    - _id: thCMDjEe
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: FwV8L3Ty
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 1GlV34ia
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: OxdNT3gb
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: w6FP2rgG
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: IG4Qfgvc
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: gaw3AbLv
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: aVL5ACzH
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p>This surprisingly mobile, multicolored ball of fungus crawls around on a nest of dozens of little filament-like “legs.” Its poisonous spores cause those affected to endure bright, dazzling spots of color.</p><p><strong>Natural Attacks:</strong> slam (1d4 plus poison)</p><p><strong>Special Qualities:</strong> Defensive Puff, Cannot be Tripped</p><p><strong>Special Attacks:</strong> Poison</p><p><strong>4th-Level Advancement:</strong> size Medium; +1 natural armor; +4 Str, -2 Dex, +2 Con.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, moderate Wisdom, Dazzled 1 round on each failed save, 1 save to cure.</p><p>Defensive Puff (Ex):</p><p>Once per minute as an Immediate Action when hit, the fungus can expose one adjacent creature to its poison.</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Strong Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.ONkzOGVgRpD9e7jb
+      - name: Creeping Puffball Advancement
+        uuid: Compendium.pf1-companions.companions.Item.SBdngBrDrbWdneh0
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

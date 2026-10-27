@@ -1,0 +1,31 @@
+_id: pfcMultiattackAC
+_key: '!items!pfcMultiattackAC'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcAnimalCompFtr
+img: icons/creatures/claws/claw-bear-paw-swipe-brown.webp
+name: Multiattack
+ownership:
+  default: 0
+sort: 800000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>An animal companion gains Multiattack as a bonus feat if it has three or more natural attacks and does not already have that feat. If it does not have the requisite three or more natural attacks, the animal companion instead gains a second attack with its primary natural weapon, albeit at a -5 penalty. A creature with three or more natural attacks and no secondary attacks, or already possessing the Multiattack feat, gains no benefit.</p>
+  subType: companion
+type: feat

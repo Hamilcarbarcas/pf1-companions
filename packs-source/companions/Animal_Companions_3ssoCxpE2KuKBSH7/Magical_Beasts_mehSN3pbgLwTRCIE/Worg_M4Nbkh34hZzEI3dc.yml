@@ -1,0 +1,100 @@
+_id: M4Nbkh34hZzEI3dc
+_key: '!items!M4Nbkh34hZzEI3dc'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Worg
+ownership:
+  default: 0
+sort: 1100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: Ry4UdE8X
+      formula: '7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: M0LFec7o
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: D4p6ZSBg
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 7s4NZwpK
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: tjg3Boh1
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: WllwtFQt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: u79BvTaM
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+    - _id: YJcNGrUS
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: '<p>This unusually large wolf has an evil, almost intelligent light shining in its deep red eyes.</p><p><strong>Natural Attacks:</strong> bite (1d6 plus trip)</p><p><strong>Special Qualities:</strong> Racial Skill Bonus: +2 Perception, +2 Stealth, +2 Survival</p><p><strong>Special Attacks:</strong> Trip</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Worg Advancement
+        uuid: Compendium.pf1-companions.companions.Item.A1YwldkwZktMYsAe
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

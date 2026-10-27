@@ -1,0 +1,93 @@
+_id: QpFLh24PfJ5Mzgs3
+_key: '!items!QpFLh24PfJ5Mzgs3'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Flying Fox (Familiar)
+ownership:
+  default: 0
+sort: 2300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: g2LGGHxM
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: ryylqubu
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: W3gmNRke
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: Z8PRqxvD
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 78oZgSRW
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: dlvApwQI
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: sHyKGc2h
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Fortitude saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Flying Fox Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.9v2vbiWwa312XUNv
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

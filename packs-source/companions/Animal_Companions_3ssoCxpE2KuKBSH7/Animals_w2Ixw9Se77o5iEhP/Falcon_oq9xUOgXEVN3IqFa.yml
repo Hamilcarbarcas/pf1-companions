@@ -1,0 +1,90 @@
+_id: oq9xUOgXEVN3IqFa
+_key: '!items!oq9xUOgXEVN3IqFa'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Falcon
+ownership:
+  default: 0
+sort: 3600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: GYOB4DRK
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 1cEfwmdE
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 2vkIdzll
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: fCvWAgs9
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: OsbrCVBU
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: LsK2ClTG
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This swift raptor has amazing eyesight and sharp talons.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 talons (1d3)</p><p><strong>4th-Level Advancement:</strong> +2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Falcon Advancement
+        uuid: Compendium.pf1-companions.companions.Item.bF3WpI6sRow5crEj
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 90
+    flyManeuverability: good
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

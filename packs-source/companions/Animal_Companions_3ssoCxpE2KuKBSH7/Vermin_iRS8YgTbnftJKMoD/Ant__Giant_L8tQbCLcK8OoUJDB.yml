@@ -1,0 +1,82 @@
+_id: L8tQbCLcK8OoUJDB
+_key: '!items!L8tQbCLcK8OoUJDB'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ant, Giant
+ownership:
+  default: 0
+sort: 100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: oy42R6jZ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: JKqm2VjB
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: MUHYYHzv
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 44EPHhiK
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 0WEPw0Vo
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>A thin, six-legged ant the size of a pony stands at the ready, its mandibles chittering and its stinger dripping with venom.</p><p><strong>Natural Attacks:</strong> bite (1d4 plus grab)</p><p><strong>Special Qualities:</strong> CMD +8 vs. Trip</p><p><strong>Special Attacks:</strong> Grab</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; new attacks: sting (1d4 plus poison); Poison.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, mild Strength , 1 save to cure.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Ant, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.ROcl7NAzpNlEIgmc
+  size: sm
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

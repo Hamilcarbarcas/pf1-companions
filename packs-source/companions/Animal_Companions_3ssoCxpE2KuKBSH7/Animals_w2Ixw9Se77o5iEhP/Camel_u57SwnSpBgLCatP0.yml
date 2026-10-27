@@ -1,0 +1,102 @@
+_id: u57SwnSpBgLCatP0
+_key: '!items!u57SwnSpBgLCatP0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Camel
+ownership:
+  default: 0
+sort: 1800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: zBghw2o5
+      formula: '8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: iaYMSroM
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: cmijLc4E
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: RjPxFImP
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: KWoeDAYd
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: nuhBCcdl
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: hs0eF3nF
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: ChytOSX1
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This somewhat irritated-looking, one-humped camel has been outfitted with a bridle and saddle.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Attacks:</strong> Spit</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con.</p><p>Spit (Ex):</p><p>As a ranged Touch Attack, a camel can spit on a target within 10 feet. On hit, the target is Sickened for 1d4 rounds.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Very Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.qx2Uq7t6cK8j0jn7
+      - name: Camel Advancement
+        uuid: Compendium.pf1-companions.companions.Item.KGJIHVNUCDdBUnFT
+  size: lg
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

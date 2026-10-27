@@ -1,0 +1,56 @@
+_id: JaKWkRffvagij0IG
+_key: '!items!JaKWkRffvagij0IG'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Llama (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 18900000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: lb3RWeVe
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: EqZkFLph
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: cxCwSdhu
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: lghyQgpt
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>The llama's 4th-level advancement.</p>
+  subType: companion
+type: feat

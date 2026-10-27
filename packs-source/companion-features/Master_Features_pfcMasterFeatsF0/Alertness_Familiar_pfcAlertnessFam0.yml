@@ -1,0 +1,41 @@
+_id: pfcAlertnessFam0
+_key: '!items!pfcAlertnessFam0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcMasterFeatsF0
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+name: Alertness (Familiar)
+ownership:
+  default: 0
+sort: 200000
+system:
+  abilityType: na
+  actions: []
+  changes:
+    - _id: pfcAlrt01
+      formula: 2 + if(gte(@skills.sen.rank, 10), 2)
+      operator: add
+      priority: 0
+      target: skill.sen
+      type: untyped
+    - _id: pfcAlrt02
+      formula: 2 + if(gte(@skills.per.rank, 10), 2)
+      operator: add
+      priority: 0
+      target: skill.per
+      type: untyped
+  contextNotes: []
+  description:
+    value: '<p>While a familiar is within arm''s reach, the master gains the Alertness feat: a +2 bonus on Perception and Sense Motive checks, +4 for a skill with 10 or more ranks.</p>'
+  subType: misc
+type: feat

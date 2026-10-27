@@ -1,0 +1,100 @@
+_id: ljHuzfyPxGtrnPUD
+_key: '!items!ljHuzfyPxGtrnPUD'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Wolfdog
+ownership:
+  default: 0
+sort: 10000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: xN16ncuj
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 3MPoJv8i
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: wA2isFbU
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: l1qoKb1i
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: XB938d75
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: NoEuK2m1
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: x8FrmQjo
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: gXivDV5U
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This creature is a dependable hybrid of wolf and dog.</p><p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>4th-Level Advancement:</strong> +2 natural armor; +2 Str, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Wolfdog Advancement
+        uuid: Compendium.pf1-companions.companions.Item.eUdtMBa6lgFrWszj
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

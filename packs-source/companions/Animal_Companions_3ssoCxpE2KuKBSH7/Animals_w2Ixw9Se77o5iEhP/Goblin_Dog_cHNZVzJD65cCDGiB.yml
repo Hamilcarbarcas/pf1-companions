@@ -1,0 +1,94 @@
+_id: cHNZVzJD65cCDGiB
+_key: '!items!cHNZVzJD65cCDGiB'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Goblin Dog
+ownership:
+  default: 0
+sort: 4200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: SdVbplfB
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: N1O7VWdZ
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Fjq7KSiX
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 9mwdFRiE
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: jQdXEeS6
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: VybaVlxi
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: N2HsiUW5
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This mangy dog's face has the flat nose, beady eyes, and protruding teeth of a rat grown grotesquely large.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Allergic Reaction</p><p><strong>4th-Level Advancement:</strong> size Medium; +1 natural armor; +4 Str, -2 Dex, +4 Con.</p><p>Allergic Reaction (Ex):</p><p>A goblin dog’s dander is highly irritating to all creatures save those with the Goblinoid Subtype. A non-goblinoid creature damaged by a goblin dog’s bite, who deals damage to a goblin dog with a Natural Weapon or Unarmed Attack, or who otherwise comes into contact with a goblin dog (including attempts to Grapple or Ride the creature) must make a Fortitude Save (DC 10 + 1/2 HD + Constitution modifier) or break out in an itching rash. A creature affected by this rash takes a -2 penalty to Dexterity and Charisma for 1 day (multiple allergic reactions do not stack). Remove Disease or any magical healing removes the rash instantly. This is a Disease effect.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Goblin Dog Advancement
+        uuid: Compendium.pf1-companions.companions.Item.VWraqwrZ6NHqQOHc
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

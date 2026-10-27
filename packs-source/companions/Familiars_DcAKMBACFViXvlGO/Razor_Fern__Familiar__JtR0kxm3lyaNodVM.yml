@@ -1,0 +1,85 @@
+_id: JtR0kxm3lyaNodVM
+_key: '!items!JtR0kxm3lyaNodVM'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Razor Fern (Familiar)
+ownership:
+  default: 0
+sort: 6800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: fHvMjrGv
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: qq4o9SKP
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: nAmsAEWa
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: fZAz8KHc
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: fTOxamE8
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: VF00u8eD
+      formula: '15'
+      operator: add
+      priority: 0
+      target: sensets
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +3 bonus on Stealth checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Razor Fern Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.2d7wSy1glBblQg7B
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 15
+    swim: null
+  tags:
+    - Familiar Species
+type: race

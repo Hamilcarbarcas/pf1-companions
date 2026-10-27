@@ -1,0 +1,37 @@
+_id: pfcFamSpellRes00
+_key: '!items!pfcFamSpellRes00'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+name: Spell Resistance
+ownership:
+  default: 0
+sort: 700000
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Familiar
+  changes:
+    - _id: pfcFSR001
+      formula: max(@attributes.sr.total, @class.level + 5)
+      operator: set
+      priority: -100
+      target: spellResist
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>A familiar gains spell resistance equal to the master's level + 5 ([[@class.level + 5]]).</p>
+  subType: companion
+type: feat

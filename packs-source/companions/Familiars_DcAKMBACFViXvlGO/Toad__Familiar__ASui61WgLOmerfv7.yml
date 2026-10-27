@@ -1,0 +1,91 @@
+_id: ASui61WgLOmerfv7
+_key: '!items!ASui61WgLOmerfv7'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Toad (Familiar)
+ownership:
+  default: 0
+sort: 9100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: FfL7L5qM
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: Os7RYQoY
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: tMSt7kSG
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 0ZZ9sgbx
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: nl6aoaNR
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: HyMRkXpf
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 8W8Rpl7Y
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains 3 hit points</p>
+  links:
+    children: []
+    supplements:
+      - name: Toad Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.loP7mF2xMcbKIHgS
+  size: dim
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 5
+    swim: null
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,104 @@
+_id: 6h12dOMSDt2yQ5UF
+_key: '!items!6h12dOMSDt2yQ5UF'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Cat, Small
+ownership:
+  default: 0
+sort: 2200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: djZgatOQ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: vtRS3PzT
+      formula: '11'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: AJy1z16O
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: tn18DI5U
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 6SscfH16
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: QG8cHImi
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: szogLMXJ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: sS95K0V1
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This large, sleek feline has a golden coat spotted with black. Its long and powerful legs are obviously capable of great speed.</p><p><strong>Natural Attacks:</strong> bite (1d4 plus trip), 2 claws (1d2)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Sprint.</p><p>Sprint (Ex):</p><p>Once per hour, a small cat can move at 10 times its normal speed (500 feet) when it makes a Charge.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Weak Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.JdkWF3l6KfY44pFT
+      - name: Cat, Small Advancement
+        uuid: Compendium.pf1-companions.companions.Item.d0AlA5xI8WWqds2U
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

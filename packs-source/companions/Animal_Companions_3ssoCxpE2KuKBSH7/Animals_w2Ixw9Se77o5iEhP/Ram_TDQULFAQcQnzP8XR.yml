@@ -1,0 +1,96 @@
+_id: TDQULFAQcQnzP8XR
+_key: '!items!TDQULFAQcQnzP8XR'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ram
+ownership:
+  default: 0
+sort: 6900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: dx40Ua3u
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: xn10tYFa
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: KNayQd2f
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: JqDmtpVW
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: mkS0SN2i
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: fS903Fe6
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: mtuwGGci
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>A formidable pair of heavy horns curls from the forehead of this sturdy, brown-and-white-furred ram.</p><p><strong>Natural Attacks:</strong> gore (1d3)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Powerful Charge (1d8).</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Weak Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.sMdNFJwMYLYwBga9
+      - name: Ram Advancement
+        uuid: Compendium.pf1-companions.companions.Item.5S9DBfBIp9EQFL7q
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

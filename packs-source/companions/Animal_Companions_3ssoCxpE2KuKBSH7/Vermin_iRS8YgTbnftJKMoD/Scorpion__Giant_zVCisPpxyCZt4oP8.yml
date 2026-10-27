@@ -1,0 +1,89 @@
+_id: zVCisPpxyCZt4oP8
+_key: '!items!zVCisPpxyCZt4oP8'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Scorpion, Giant
+ownership:
+  default: 0
+sort: 1300000
+system:
+  changeFlags: {}
+  changes:
+    - _id: XHQH8FyG
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: SoGmfXCr
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: EKlVOTbf
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 8n3qJC3v
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: Y9IP9Zag
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: Y2T6Mx9o
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensets
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>This giant scorpion scrabbles forward, ferocious claws raised in challenge, stingered tail arched over its back.</p><p><strong>Natural Attacks:</strong> 2 claws (1d4 plus grab), sting (1d4 plus poison)</p><p><strong>Special Qualities:</strong> CMD +12 vs. Trip</p><p><strong>Special Attacks:</strong> Grab, Poison</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; Tremorsense 60 ft, Poison (upgraded).</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 6 rounds, mild Strength, 1 save to cure. At 7th level, the poison follows the moderate Strength track</p>'
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Sting
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      - name: Scorpion, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.3sJ5YBavZghDjO94
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

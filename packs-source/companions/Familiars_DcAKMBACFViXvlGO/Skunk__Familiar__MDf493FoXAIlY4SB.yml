@@ -1,0 +1,95 @@
+_id: MDf493FoXAIlY4SB
+_key: '!items!MDf493FoXAIlY4SB'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Skunk (Familiar)
+ownership:
+  default: 0
+sort: 7700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: AVG2BzpK
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: eGnI6yhj
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: XG7eGlwl
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: UJ6jJE7L
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 0dayHob9
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: WJZyVuHU
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: kuTbJ3my
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3), 2 claws (1d2)</p><p><strong>Special Attacks:</strong> Musk</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Fortitude saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Skunk Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.arEpq9XZVGEwBuIt
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,102 @@
+_id: 5FoBW1GWnQhIJCCv
+_key: '!items!5FoBW1GWnQhIJCCv'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Monitor Lizard
+ownership:
+  default: 0
+sort: 5900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: T90qB5Pc
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: PlDnh9N0
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: ZhRAio1A
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: dunPOM60
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: lESVsJfX
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Oud0ZQ0f
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: mbTyj3uZ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: IyUxBTDU
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.</p><p><strong>Natural Attacks:</strong> bite (1d6 plus grab)</p><p><strong>Special Attacks:</strong> Grab</p><p><strong>7th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +4 Con; Poison.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/hour for 6 hours, Mild Dexterity, 1 save to cure</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Monitor Lizard Advancement
+        uuid: Compendium.pf1-companions.companions.Item.kKn85ClDugAGnyFE
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: 30
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

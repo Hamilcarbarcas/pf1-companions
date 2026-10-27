@@ -1,0 +1,77 @@
+_id: neknut8uwnNi0oRe
+_key: '!items!neknut8uwnNi0oRe'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Diplodocus
+ownership:
+  default: 0
+sort: 1500000
+system:
+  changeFlags: {}
+  changes:
+    - _id: y4gUbB61
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: T8UagS8a
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Dammforx
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: AXD36SaJ
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This enormous, long-necked quadruped moves with an uncanny grace, holding its lengthy, whiplike tail out level behind it.</p><p><strong>Natural Attacks:</strong> tail (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +6 Str, +4 Con; Tail Lash.</p><p>Tail Lash (Ex):</p><p>The diplodocus prefers to attack with its tail. The dinosaur can snap its incredibly long tail with surprising speed like an enormous whip—this is a primary attack that deals bludgeoning and slashing damage. A diplodocus can make two separate attacks with its tail lash as a full-attack action.</p>
+  links:
+    children: []
+    supplements:
+      - name: Tail Slap
+        uuid: Compendium.astora-mod.combat-items.Item.i7tJJDuZm51q8JWf
+      - name: Strong Attack (Tail Slap)
+        uuid: Compendium.astora-mod.misc-features.Item.Ol6KhRBgAQYrPApd
+      - name: Diplodocus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.EFCoCB3IRGR9zcCB
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

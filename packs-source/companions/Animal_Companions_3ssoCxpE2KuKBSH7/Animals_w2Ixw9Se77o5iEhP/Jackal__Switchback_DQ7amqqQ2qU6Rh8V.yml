@@ -1,0 +1,102 @@
+_id: DQ7amqqQ2qU6Rh8V
+_key: '!items!DQ7amqqQ2qU6Rh8V'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Jackal, Switchback
+ownership:
+  default: 0
+sort: 4900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 1dQCAzO1
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: DrRTgJKP
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Yyl3A1uv
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 5y0PQwHa
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: tfcNPm2o
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: i2AU1SNB
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: r8KzcSs5
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: eLeK4Z4Z
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>Resembling a small, half-starved wolf, this canine stares with deep intensity and undeniable hunger.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 claws (1d3)</p><p><strong>Special Qualities:</strong> Problem Solver</p><p><strong>4th-Level Advancement:</strong> +4 Dex, +2 Con; Bonus Feat: Overwhelm.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Jackal, Switchback Advancement
+        uuid: Compendium.pf1-companions.companions.Item.fZteQ2Qzn4JC9qly
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

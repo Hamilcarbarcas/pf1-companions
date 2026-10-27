@@ -1,0 +1,95 @@
+_id: m0MJ16HhxAzgvAAR
+_key: '!items!m0MJ16HhxAzgvAAR'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+  pf1-enhanced-links:
+    renames:
+      - name: Vine
+        tab: supplements
+        uuid: Compendium.astora-mod.combat-items.Item.ccqsxfkXDtV1teZM
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Gulper Plant
+ownership:
+  default: 0
+sort: 800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: fMOYg9g2
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: E6DD8XAr
+      formula: '1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: dinqvpl8
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 3HvXkgC5
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 0MrTeMEG
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: kxCi7HvR
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p>This bulbous green plant can climb or crawl via a network of vines. Its central reservoir can gulp down foes to digest them in an internal well of acid, holding them tight while they struggle.</p><p><strong>Natural Attacks:</strong> 2 vines (1d4 plus grab)</p><p><strong>Special Qualities:</strong> Freeze, Cannot be Tripped</p><p><strong>Special Attacks:</strong> Grab, Swallow Whole (1d6 acid)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +6 Str, -2 Dex, +2 Con; Swallow Whole (1d8 acid).</p>
+  links:
+    children: []
+    supplements:
+      - name: Tentacle
+        uuid: Compendium.astora-mod.combat-items.Item.ccqsxfkXDtV1teZM
+      - name: Extra Attack (Tentacle)
+        uuid: Compendium.astora-mod.misc-features.Item.h6HAelcfDHj1xZaP
+      - name: Gulper Plant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.7NXDrclEpSRLm6Ly
+  size: med
+  speeds:
+    burrow: null
+    climb: 10
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

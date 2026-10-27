@@ -1,0 +1,92 @@
+_id: dY0AQgpNo5QbuOoH
+_key: '!items!dY0AQgpNo5QbuOoH'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Sapling Treant
+ownership:
+  default: 0
+sort: 1100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 6o1tD9Vz
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: apCBvaaZ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: vI8L5kL1
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 8MovVpfl
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: KM9o4EwF
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: rM8pFKeN
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 slams (1d6)</p><p><strong>Special Qualities:</strong> Double damage against objects</p><p><strong>4th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Extra Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.CrvAehqFEYRKnQGo
+      - name: Strong Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.ONkzOGVgRpD9e7jb
+      - name: Sapling Treant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.FvCi2jM1u6qkxViP
+  size: med
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

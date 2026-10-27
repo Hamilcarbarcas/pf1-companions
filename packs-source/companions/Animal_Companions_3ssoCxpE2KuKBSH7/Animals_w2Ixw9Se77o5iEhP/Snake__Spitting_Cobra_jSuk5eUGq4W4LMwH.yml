@@ -1,0 +1,102 @@
+_id: jSuk5eUGq4W4LMwH
+_key: '!items!jSuk5eUGq4W4LMwH'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Snake, Spitting Cobra
+ownership:
+  default: 0
+sort: 8400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: Qlk4j7Jv
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 1af4sIG5
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: tFNC8xez
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 60h7VFdS
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: BkuyOc7D
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: aCqPMf84
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: Lvt2fhUu
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: GewW7s51
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This brightly colored snake can spit its venom, giving it a dangerous ranged attack.</p><p><strong>Natural Attacks:</strong> bite (1d3 plus poison)</p><p><strong>Special Attacks:</strong> Poison, Spit</p><p><strong>7th-Level Advancement:</strong> +2 Dex, +2 Con; Poison (upgraded).</p><p>Poison (Ex):</p><p>Contact, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 6 rounds, causes blurred vision (20% miss chance for 1 round), 1 save to cure. At 7th level, the poison advances to cause the target to become Blinded for 1 round instead of blurred vision.</p><p>Spit (Ex):</p><p>A spitting cobra can make a ranged Touch Attack to apply their poison on a target within 10 feet. This ability can be used once every 2d4 rounds.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Snake, Spitting Cobra Advancement
+        uuid: Compendium.pf1-companions.companions.Item.GbXfiIY3E68ZqJcV
+  size: sm
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

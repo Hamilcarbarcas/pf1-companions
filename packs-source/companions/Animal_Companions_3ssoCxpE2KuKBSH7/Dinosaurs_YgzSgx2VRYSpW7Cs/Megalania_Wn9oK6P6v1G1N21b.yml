@@ -1,0 +1,100 @@
+_id: Wn9oK6P6v1G1N21b
+_key: '!items!Wn9oK6P6v1G1N21b'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Megalania
+ownership:
+  default: 0
+sort: 2300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: qcFbXum7
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: UsCC5WKF
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: eAaU19vK
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: TSUR4WDr
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: nMRIMhog
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: dtYEhlhe
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: WppM32n2
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: Pm9NaZG3
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This gigantic lizard has short but powerful limbs, a muscular tail, and a spiny crest that runs the length of its body.</p><p><strong>Natural Attacks:</strong> bite (1d6 plus grab)</p><p><strong>Special Attacks:</strong> Grab</p><p><strong>7th-Level Advancement:</strong> size Large; +1 natural armor; +4 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Megalania Advancement
+        uuid: Compendium.pf1-companions.companions.Item.zME400i1dRM98do6
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

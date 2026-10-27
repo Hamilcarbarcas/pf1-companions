@@ -1,0 +1,100 @@
+_id: LIINEeO7tF3NQgdG
+_key: '!items!LIINEeO7tF3NQgdG'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Mule-Lizard
+ownership:
+  default: 0
+sort: 600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: wkmjeqbP
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: yuiJo0Re
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: e9sbVv4A
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: qpZrjN5v
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: kYULs51T
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: L8B8hBPx
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: lekq4QGc
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: QXZqjOWQ
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Adaptive Camouflage, Strong-Legged</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; bite gains Strong Attack (Bite).</p><p>Adaptive Camouflage (Ex):</p><p>If given 8 hours in a new environment, the mule-lizard can changed the colors and patterns in its skin to grant itself a +4 bonus on Stealth checks. Alternatively, the master of the mule lizard can provoke it to take on more flamboyant colors, basically taking on patterns and colors of the master’s choice but they lose the Stealth bonus.</p><p>Strong-legged (Ex):</p><p>The mule-lizard is bipedal but has stable, strong legs. They gain a +4 bonus on their CMD vs. Bull Rush and Trip. Additionally, they may carry loads as if they were a quadruped and may carry riders up to their size.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Mule-Lizard Advancement
+        uuid: Compendium.pf1-companions.companions.Item.4tWu6Enxyq32Febl
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

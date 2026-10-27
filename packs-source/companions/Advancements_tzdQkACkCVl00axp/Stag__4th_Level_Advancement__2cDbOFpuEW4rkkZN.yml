@@ -1,0 +1,60 @@
+_id: 2cDbOFpuEW4rkkZN
+_key: '!items!2cDbOFpuEW4rkkZN'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-enhanced-links:
+    classFeatures:
+      - level: 4
+        uuid: Compendium.astora-mod.combat-items.Item.eUBYo3efWNTbc8gE
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Stag (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 31100000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: J78pyztr
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: EmlrZskt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: RxycvkZG
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: 39DN3aIj
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>The stag's 4th-level advancement.</p>
+  subType: companion
+type: feat

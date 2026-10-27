@@ -1,0 +1,102 @@
+_id: 3yZJUZJyjldtcvSq
+_key: '!items!3yZJUZJyjldtcvSq'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Arsinoitherium
+ownership:
+  default: 0
+sort: 500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: n8NKKvdn
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 4opQ1CUH
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: P8zf82nv
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: QREABuTz
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: QnkOGoWz
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: sMTEdXo3
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: onPgPaoB
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: tACmhCZh
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This creature is much like a rhino, some six feet tall and ten feet long, with a pair of massive, knife-like horns curving up from its nose.</p><p><strong>Natural Attacks:</strong> gore (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Powerful Charge (gore, 2d8), Trample.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Arsinoitherium Advancement
+        uuid: Compendium.pf1-companions.companions.Item.kVFwdEDFBxGRx62Q
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

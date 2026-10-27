@@ -1,0 +1,37 @@
+_id: pfcNatArmorBonus
+_key: '!items!pfcNatArmorBonus'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcAnimalCompFtr
+img: icons/magic/defensive/armor-stone-skin.webp
+name: Natural Armor Bonus
+ownership:
+  default: 0
+sort: 300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+  changes:
+    - _id: pfcNac01
+      formula: floor(@class.level / 3) * 2
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: '<p>An improvement to the animal companion''s existing natural armor bonus: +[[floor(@class.level / 3) * 2]].</p>'
+  subType: companion
+type: feat

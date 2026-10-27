@@ -1,0 +1,90 @@
+_id: bUxQdpSXG0BLEprC
+_key: '!items!bUxQdpSXG0BLEprC'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Petrifern (Familiar)
+ownership:
+  default: 0
+sort: 5600000
+system:
+  changeFlags: {}
+  changes:
+    - _id: wNK9NxLb
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: sE1IUDWc
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: SGjSugJq
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: ugAG4n2x
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: tDN6peZr
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 8cTaRhzt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: Tz6UHpN4
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensebs
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: '<p><strong>Special Qualities:</strong> Petrify</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>Master bonus:</strong> Master gains a +1 natural armor bonus to AC</p>'
+  links:
+    children: []
+    supplements:
+      - name: Petrifern Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.f2cpomxj1fnfsqSs
+  size: dim
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

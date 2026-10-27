@@ -1,0 +1,87 @@
+_id: M4KGqAFpBfRrpY0N
+_key: '!items!M4KGqAFpBfRrpY0N'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Isopod, Giant (Familiar)
+ownership:
+  default: 0
+sort: 3300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: ODZYrmjC
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: iRakB3lP
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: W4t7YBPs
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: abcQ4uT6
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: FEALJLhl
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 9L5jUsT2
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p><strong>Natural Attacks:</strong> bite (1d3)</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Reflex saves</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Isopod, Giant Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.B7lUlm4cgilfiBuZ
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: 10
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,108 @@
+_id: rOabmrtrIRqfGNVe
+_key: '!items!rOabmrtrIRqfGNVe'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Dallo
+ownership:
+  default: 0
+sort: 2700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: W2X6DDWn
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: OmfAFJSX
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Bmogr8rr
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: jqtOdX5i
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: DUipeXol
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: ucsi76cc
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: WKDHTWmH
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: dTav43zV
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+    - _id: IoQ0WPHz
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This squat, grunting creature stinks of musk and earth. Leathery plates and black horns protect its woolly underside.</p><p><strong>Natural Attacks:</strong> 2 claws (1d3), gore (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Dallo Advancement
+        uuid: Compendium.pf1-companions.companions.Item.Egvd2U7i8GbjmfG7
+  size: sm
+  speeds:
+    burrow: 10
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

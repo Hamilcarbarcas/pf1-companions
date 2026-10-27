@@ -1,0 +1,36 @@
+_id: jjTKXrPw1u7GpeLN
+_key: '!items!jjTKXrPw1u7GpeLN'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-enhanced-links:
+    classFeatures:
+      - level: 7
+        uuid: Compendium.pf1-companions.companions.Item.Qs0NhuZS2L5COayA
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Snapping Turtle Advancement
+ownership:
+  default: 0
+sort: 29800000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>Grants the snapping turtle's 7th-level advancement when its companion class reaches level 7.</p>
+  subType: archetype
+type: feat

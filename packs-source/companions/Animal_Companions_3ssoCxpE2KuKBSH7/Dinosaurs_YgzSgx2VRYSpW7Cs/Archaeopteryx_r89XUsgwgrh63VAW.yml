@@ -1,0 +1,94 @@
+_id: r89XUsgwgrh63VAW
+_key: '!items!r89XUsgwgrh63VAW'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Archaeopteryx
+ownership:
+  default: 0
+sort: 400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: SA16x6QN
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 2yGNNh6C
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: wEXiYToN
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 9SXPDsgk
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: A8MmdhXe
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: RsHUu3Tr
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: tqx86XsB
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This primeval toothed bird has bright plumage, but it is a relatively poor flyer.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>4th-Level Advancement:</strong> +2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Archaeopteryx Advancement
+        uuid: Compendium.pf1-companions.companions.Item.AWUpCN0n0OxmL4iU
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: poor
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

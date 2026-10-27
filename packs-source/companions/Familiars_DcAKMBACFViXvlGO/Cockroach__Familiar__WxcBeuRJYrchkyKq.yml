@@ -1,0 +1,91 @@
+_id: WxcBeuRJYrchkyKq
+_key: '!items!WxcBeuRJYrchkyKq'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Cockroach (Familiar)
+ownership:
+  default: 0
+sort: 1100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 5JdZgx6w
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: yVcyBYn6
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 1DGkv5cg
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: uCZxIktT
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 2nLfF1Bm
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: VKnF5vwR
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: s5kdwrG0
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +3 hit points</p>
+  links:
+    children: []
+    supplements:
+      - name: Cockroach Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.HHsvZfFCXTjCU2Cj
+  size: dim
+  speeds:
+    burrow: null
+    climb: 20
+    fly: 30
+    flyManeuverability: poor
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

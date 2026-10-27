@@ -1,0 +1,95 @@
+_id: 5MAFVoVVQx6PYyNB
+_key: '!items!5MAFVoVVQx6PYyNB'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Bat (Familiar)
+ownership:
+  default: 0
+sort: 600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: nTiipn3X
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: h7bs7fpk
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 96cPW2OM
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: RWNpdGRv
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: YeKoN810
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Ffi4HKFN
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: fqKhfR1m
+      formula: '20'
+      operator: add
+      priority: 0
+      target: sensebse
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Fly checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Bat Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.qztlD53vcfLImRts
+  size: dim
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: good
+    land: 5
+    swim: null
+  tags:
+    - Familiar Species
+type: race

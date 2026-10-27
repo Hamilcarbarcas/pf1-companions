@@ -1,0 +1,102 @@
+_id: fto0yzskj9zkJ4gE
+_key: '!items!fto0yzskj9zkJ4gE'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bear, Grizzly
+ownership:
+  default: 0
+sort: 1100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: kBKg9MK1
+      formula: '7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 9IYy9khh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Ek6DgNaT
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: GMErpdAd
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Hfwwyfzx
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: x8S84M1n
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: YlbWxwiW
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: jjEsPZvE
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>The infamous grizzly bear is a lumbering and quite impressive companion, particularly when it rises up on its hind feet to loom large. Grizzly bears strike fear into the hearts of most who encounter them.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 claws (1d4)</p><p><strong>7th-Level Advancement:</strong> size Large; +4 natural armor; +4 Str, -2 Dex, +4 Con; Grab.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Bear, Grizzly Advancement
+        uuid: Compendium.pf1-companions.companions.Item.BpU9hYPvklh98bDQ
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,87 @@
+_id: nfpb4rIXor6Xn7Ah
+_key: '!items!nfpb4rIXor6Xn7Ah'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Flying Squirrel (Familiar)
+ownership:
+  default: 0
+sort: 2400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 22LaaCsw
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 0pblD7o2
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: MfSJoFeO
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: LnYf9oxr
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 6ozMestL
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: R6WYiGsQ
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Special Qualities:</strong> Glide</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Fly checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Flying Squirrel Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.A1HvuTAZZujTiGNS
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: clumsy
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

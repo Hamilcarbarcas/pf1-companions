@@ -1,0 +1,89 @@
+_id: KnOVsROJtiFpyZFH
+_key: '!items!KnOVsROJtiFpyZFH'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Triceratops
+ownership:
+  default: 0
+sort: 3500000
+system:
+  changeFlags: {}
+  changes:
+    - _id: 7KwzR7T2
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 217317rv
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: D1j0x548
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 7F5L6FEF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: k17wbmqT
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: TlnziFzF
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This beast’s armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.</p><p><strong>Natural Attacks:</strong> gore (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; Powerful Charge (gore, 2d8).</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Triceratops Advancement
+        uuid: Compendium.pf1-companions.companions.Item.g3EsCX2PzH0mYei5
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

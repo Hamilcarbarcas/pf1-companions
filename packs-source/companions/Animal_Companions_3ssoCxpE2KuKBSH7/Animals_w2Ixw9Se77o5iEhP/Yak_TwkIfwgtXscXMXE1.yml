@@ -1,0 +1,88 @@
+_id: TwkIfwgtXscXMXE1
+_key: '!items!TwkIfwgtXscXMXE1'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Yak
+ownership:
+  default: 0
+sort: 10200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: BallusuP
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: iDbY3jYs
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: dgWTOxib
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: u4IJDGR6
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: DamUtGsy
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: a9IvuVbP
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Stout and stubborn, the yak is sure footed and dependable in rough terrain.</p><p><strong>Natural Attacks:</strong> gore (1d8)</p><p><strong>4th-Level Advancement:</strong> +2 natural armor; +4 Str, +4 Con; Pack Animal.</p><p>Pack Animal (Ex):</p><p>A yak's speed is never modified by encumbrance.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Yak Advancement
+        uuid: Compendium.pf1-companions.companions.Item.on5mrsBgsBXgN4Z2
+  size: lg
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,31 @@
+_id: pfcLinkAnimComp0
+_key: '!items!pfcLinkAnimComp0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcAnimalCompFtr
+img: icons/magic/control/energy-stream-link-blue.webp
+name: Link
+ownership:
+  default: 0
+sort: 100000
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Animal Companion
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>The master can handle their animal companion as a free action, or push it as a move action, even without ranks in the Handle Animal skill. The master gains a +4 circumstance bonus on all wild empathy checks and Handle Animal checks made regarding an animal companion.</p>
+  subType: companion
+type: feat

@@ -1,0 +1,102 @@
+_id: TIrIZrtSwdnNsMBU
+_key: '!items!TIrIZrtSwdnNsMBU'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Titanoboa
+ownership:
+  default: 0
+sort: 3400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: MRAtk2CI
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: hZdceN83
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 0dL7iQ8G
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 5cpYRCBh
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: acCt6tXN
+      formula: '7'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: lufUme8k
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: BLc5DxDT
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 6VpWVlRo
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This immense serpent moves in deliberate, slithering undulations, its forked tongue tasting the air eagerly for the scent of prey.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Constrict (1d6), Grab.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Titanoboa Advancement
+        uuid: Compendium.pf1-companions.companions.Item.U0M2MiM2zBRsKNs9
+  size: med
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: 30
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

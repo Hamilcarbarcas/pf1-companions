@@ -1,0 +1,88 @@
+_id: f0UWYxrW5JSzAP3w
+_key: '!items!f0UWYxrW5JSzAP3w'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Antelope
+ownership:
+  default: 0
+sort: 100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: tVL6wM65
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: e1qRZvuj
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: mQn3iOLP
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: naLG1Ksh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: KrlZ2fY7
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 3J1IH8xT
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This graceful animal has long slender legs and a pair of sharp, sturdy horns arching back from its head.</p><p><strong>Natural Attacks:</strong> gore (1d4)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Antelope Advancement
+        uuid: Compendium.pf1-companions.companions.Item.6A6i7NEA5wqAhLOn
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 60
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

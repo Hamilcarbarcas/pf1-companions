@@ -1,0 +1,114 @@
+_id: FixtkSjPxsVOP5tS
+_key: '!items!FixtkSjPxsVOP5tS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+  pf1-enhanced-links:
+    renames:
+      - name: Bristle
+        tab: supplements
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Caterpillar, Giant
+ownership:
+  default: 0
+sort: 400000
+system:
+  changeFlags: {}
+  changes:
+    - _id: NwxeI7xu
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: SVgQxdHP
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: If02GR6b
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: XTykRteG
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: qzhomvee
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: vtIVbObd
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: lBQ3QXRA
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>This many-legged wormlike creature is a larval form of a moth or butterfly, but as long as it remains a vermin companion, it will not go through this metamorphosis.</p><p><strong>Natural Attacks:</strong> bite (1d6), bristle (1d4 plus poison)</p><p><strong>Special Qualities:</strong> Compression, Cannot be Tripped</p><p><strong>Special Attacks:</strong> Bristles, Poison</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +1 natural armor; +4 Str, -2 Dex, +2 Con.</p><p>Bristles (Ex):</p><p>A creature attacking the giant caterpillar with a natural attack or non-reach melee weapon must succeed at a Reflex Save (DC = 10 + 1/2 HD + Dexterity modifier + 2 Racial bonus) or take damage as if the caterpillar had struck the creature with its bristles attack.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, moderate Strength, 1 save to cure.</p><p>*This is a secondary natural attack that deals piercing damage, and takes a -5 penalty to hit, see Natural Weapon for more information on how secondary attacks work.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Sting
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      - name: Strong Attack (Sting)
+        uuid: Compendium.astora-mod.misc-features.Item.fwdmE4sUCMMC12uI
+      - name: Caterpillar, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.1vWweWTPtnxpZQMF
+  scriptCalls:
+    - _id: UVF63FPqIbIOPrYp
+      category: pf1el:create:supplements:Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      hidden: false
+      img: icons/svg/dice-target.svg
+      name: Secondary attack
+      type: script
+      value: |-
+        const actions = item.toObject().system.actions.map((a) => foundry.utils.mergeObject(a, { naturalAttack: { primary: false } }));
+        await item.update({ "system.actions": actions });
+  size: sm
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

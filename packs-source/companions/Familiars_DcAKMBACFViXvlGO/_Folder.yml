@@ -1,0 +1,20 @@
+_id: DcAKMBACFViXvlGO
+_key: '!folders!DcAKMBACFViXvlGO'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+color: null
+description: ''
+flags: {}
+folder: null
+name: Familiars
+sort: 0
+sorting: a
+type: Item

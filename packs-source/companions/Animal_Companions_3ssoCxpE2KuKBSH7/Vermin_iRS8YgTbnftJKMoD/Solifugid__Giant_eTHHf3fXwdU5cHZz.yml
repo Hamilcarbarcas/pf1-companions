@@ -1,0 +1,97 @@
+_id: eTHHf3fXwdU5cHZz
+_key: '!items!eTHHf3fXwdU5cHZz'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Solifugid, Giant
+ownership:
+  default: 0
+sort: 1400000
+system:
+  changeFlags: {}
+  changes:
+    - _id: XOT9m0X8
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: reTK0fsi
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Ymoqdha4
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: Ae0KGez5
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: NTdZlGd0
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: Tj31XMQH
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: V45ILHJE
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>This vermin’s double set of vertical mandibles make this giant solifugid a particularly ferocious-looking companion. Its speed allows it to strike at its enemies from cover without them knowing what happened.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 claws (1d3)</p><p><strong>Special Qualities:</strong> CMD +12 vs. Trip</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +3 natural armor; +4 Str, -2 Dex, +2 Con; Pounce, Rend (2 claws, 1d4).</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Solifugid, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.hQqPSw6eJs57qoLs
+  size: sm
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

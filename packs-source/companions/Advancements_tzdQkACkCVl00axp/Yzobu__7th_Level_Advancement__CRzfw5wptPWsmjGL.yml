@@ -1,0 +1,62 @@
+_id: CRzfw5wptPWsmjGL
+_key: '!items!CRzfw5wptPWsmjGL'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Yzobu (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 37100000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: rqgXEUcL
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: 1OTfGKMF
+      formula: '8'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: XeMAIwfn
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: GWWrYQmu
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: zECob96o
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The yzobu's 7th-level advancement.</p><p><strong>Gains:</strong> Stench, Stampede, Trample</p>
+  subType: companion
+type: feat

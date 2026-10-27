@@ -1,0 +1,80 @@
+_id: 5C2weelUVH5xYUMH
+_key: '!items!5C2weelUVH5xYUMH'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Scorpion, Greensting (Familiar)
+ownership:
+  default: 0
+sort: 7300000
+system:
+  changeFlags: {}
+  changes:
+    - _id: kCzN3Amj
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: ELjTzVi7
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: iKgDlc9A
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: I0AEJ5xf
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 9cLmf8j9
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p><strong>Natural Attacks:</strong> sting (1d2 plus Poison)</p><p><strong>Special Attacks:</strong> Poison</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>Master bonus:</strong> Master gains a +4 bonus on initiative checks (if familiar is within 1 mile)</p>'
+  links:
+    children: []
+    supplements:
+      - name: Sting
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      - name: Scorpion, Greensting Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.PsUba5JuBdl3WHDH
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

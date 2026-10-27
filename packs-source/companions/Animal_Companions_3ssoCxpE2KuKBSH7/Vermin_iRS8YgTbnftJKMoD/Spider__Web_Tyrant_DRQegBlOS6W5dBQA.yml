@@ -1,0 +1,75 @@
+_id: DRQegBlOS6W5dBQA
+_key: '!items!DRQegBlOS6W5dBQA'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Spider, Web Tyrant
+ownership:
+  default: 0
+sort: 1600000
+system:
+  changeFlags: {}
+  changes:
+    - _id: 4c6RhDjp
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: m7IMyhi8
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: zCrTZ9cW
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: l4vM1Lrz
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>The web tyrant spider’s bright coloration and long legs make for a stunning but unnerving companion.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> CMD +12 vs. Trip</p><p><strong>Special Attacks:</strong> Web</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +1 natural armor; +4 Str, -2 Dex, +2 Con.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Spider, Web Tyrant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.34oM8Bo2EVC3XXML
+  size: sm
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

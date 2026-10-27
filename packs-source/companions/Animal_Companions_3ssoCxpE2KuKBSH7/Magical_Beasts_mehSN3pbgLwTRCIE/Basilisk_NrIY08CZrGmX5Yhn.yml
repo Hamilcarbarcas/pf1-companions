@@ -1,0 +1,96 @@
+_id: NrIY08CZrGmX5Yhn
+_key: '!items!NrIY08CZrGmX5Yhn'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Basilisk
+ownership:
+  default: 0
+sort: 100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: RRX1OOJX
+      formula: '6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: AxvbL9wa
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 0GxEL1hM
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: uo9rH1ln
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: UIXfJSq7
+      formula: '1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: BaAvrbmB
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 37i4aTaq
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Attacks:</strong> Gaze Attack</p><p><strong>9th-Level Advancement:</strong> +2 natural armor; +4 Dex, +4 Con.</p><p>Gaze Attack (Ex):</p><p>Once per day, the basilisk can use its gaze on one target within 30 ft., causing Paralysis for 1d4 rounds on a failed Fortitude Save (DC 10 + 1/2 HD + Constitution modifier). If the companion's owner possesses the Beast Speaker Mastery feat, this ability functions as the Flesh to Stone spell instead (caster level equals the basilisk's HD) instead.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Basilisk Advancement
+        uuid: Compendium.pf1-companions.companions.Item.jlzSWXlv8UpPpKAl
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

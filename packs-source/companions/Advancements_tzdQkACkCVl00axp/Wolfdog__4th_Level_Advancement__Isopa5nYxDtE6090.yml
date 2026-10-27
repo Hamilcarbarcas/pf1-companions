@@ -1,0 +1,50 @@
+_id: Isopa5nYxDtE6090
+_key: '!items!Isopa5nYxDtE6090'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Wolfdog (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 36100000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: w0mDE0yw
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: 0VLWuKUE
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: 88vA4ojx
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The wolfdog's 4th-level advancement.</p>
+  subType: companion
+type: feat

@@ -1,0 +1,62 @@
+_id: xhAKOczsZ3B3JzNT
+_key: '!items!xhAKOczsZ3B3JzNT'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Prionosuchus (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 24300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: 0JR0sadP
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: dhsVJSdq
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: RNTycvdV
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: nluKAl0Z
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: OwMXW8Tq
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The prionosuchus's 7th-level advancement.</p><p><strong>Gains:</strong> Constrict (2d6)</p>
+  subType: companion
+type: feat

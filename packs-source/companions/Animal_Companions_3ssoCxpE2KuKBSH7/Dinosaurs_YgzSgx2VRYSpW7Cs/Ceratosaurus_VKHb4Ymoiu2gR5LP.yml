@@ -1,0 +1,96 @@
+_id: VKHb4Ymoiu2gR5LP
+_key: '!items!VKHb4Ymoiu2gR5LP'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ceratosaurus
+ownership:
+  default: 0
+sort: 900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: D5DRO5v5
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 8Wr1oAF8
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 5iUaYfQb
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: YBtu9QXk
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: WO2RwDhv
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: zlsmTUTM
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: JJpL0UfM
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Bladelike horns jut from the snout and eye ridges of this toothy, bipedal dinosaur.</p><p><strong>Natural Attacks:</strong> bite (1d8)</p><p><strong>Special Qualities:</strong> Trip</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Blood Rage, Ferocity.</p><p>Blood Rage (Ex):</p><p>When a ceratosaurus takes damage in combat, on its next turn it can fly into a rage as a Free Action. It gains +2 Constitution and +2 Strength, but takes a -2 penalty to its AC. The rage lasts as long as the battle or 1 minute, whichever is shorter. It cannot end its rage voluntarily.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Ceratosaurus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.H2kr6Ccd10KdZCn6
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

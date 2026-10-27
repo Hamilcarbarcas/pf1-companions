@@ -1,0 +1,93 @@
+_id: fquw8I88Zxod9aqn
+_key: '!items!fquw8I88Zxod9aqn'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Weasel (Familiar)
+ownership:
+  default: 0
+sort: 9900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: JDGuDoP3
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: NqMn3uOH
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 0XntmsmF
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: bYp1gmZQ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Xq34XKcu
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: SMtp4j8K
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 4oV5MtAM
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3 plus Attach)</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Reflex saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weasel Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.6uryhiZxwRtHKU94
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

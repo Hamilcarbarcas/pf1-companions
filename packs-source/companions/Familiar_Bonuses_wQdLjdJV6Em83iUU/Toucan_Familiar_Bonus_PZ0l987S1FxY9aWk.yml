@@ -1,0 +1,37 @@
+_id: PZ0l987S1FxY9aWk
+_key: '!items!PZ0l987S1FxY9aWk'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    masterBonus: true
+folder: wQdLjdJV6Em83iUU
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Toucan Familiar Bonus
+ownership:
+  default: 0
+sort: 9200000
+system:
+  abilityType: na
+  changes:
+    - _id: PZ0l987S
+      formula: '3'
+      operator: add
+      priority: 0
+      target: skill.dip
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>Master gains a +3 bonus on Diplomacy checks (use raven stats for toucans [cannot speak]).</p><p>Applies to the master while this familiar is linked and present; inactive on the familiar.</p>
+  disabled: true
+  subType: companion
+type: feat

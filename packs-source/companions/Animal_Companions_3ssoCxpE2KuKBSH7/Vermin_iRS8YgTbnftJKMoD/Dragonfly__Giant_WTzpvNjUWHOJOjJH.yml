@@ -1,0 +1,95 @@
+_id: WTzpvNjUWHOJOjJH
+_key: '!items!WTzpvNjUWHOJOjJH'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Dragonfly, Giant
+ownership:
+  default: 0
+sort: 700000
+system:
+  changeFlags: {}
+  changes:
+    - _id: bsMHiPGv
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: vwlr4Bwp
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: ypAh5fkr
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: BQ0gKngq
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: SV30kVeu
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: TpdkaZCq
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: yO6x1YnP
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>These long-winged insects have dazzlingly colorful bodies.</p><p><strong>Natural Attacks:</strong> bite (1d8)</p><p><strong>Special Qualities:</strong> CMD +8 vs. Trip</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +3 natural armor; +4 Str, -2 Dex, +2 Con; Bonus Feat: Fly-by Attack.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Very Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.zhMUGNKVWsqCygZX
+      - name: Dragonfly, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.RytuZ6n1XXchCkJg
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: perfect
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

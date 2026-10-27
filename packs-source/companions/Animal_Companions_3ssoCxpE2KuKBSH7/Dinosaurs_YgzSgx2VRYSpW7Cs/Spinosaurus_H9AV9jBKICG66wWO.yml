@@ -1,0 +1,95 @@
+_id: H9AV9jBKICG66wWO
+_key: '!items!H9AV9jBKICG66wWO'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Spinosaurus
+ownership:
+  default: 0
+sort: 3000000
+system:
+  changeFlags: {}
+  changes:
+    - _id: XOM9obQK
+      formula: '8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: L6rMzaI7
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: VpkKypUs
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: DUyI5zZ3
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: TOGtmddn
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: s8Cnf0ft
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: kzyNfvgh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge that runs down its back.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 claws (1d4)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Spinosaurus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.htj4v7w1jQi3XlSs
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: 20
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

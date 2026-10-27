@@ -1,0 +1,102 @@
+_id: RbUA7eST1DlZn3iz
+_key: '!items!RbUA7eST1DlZn3iz'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Boar
+ownership:
+  default: 0
+sort: 1400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: Wyv2i69o
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: NcOzQIGk
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 0amsdwwi
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: P7KvgfXe
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: r709d5t2
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: uwTwYFwd
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jo3RCAjI
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: fvgoQUfM
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This ill-tempered beast’s tiny, bloodshot eyes glare angrily above a mouth filled with sharp tusks.</p><p><strong>Natural Attacks:</strong> gore (1d6)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Ferocity.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Boar Advancement
+        uuid: Compendium.pf1-companions.companions.Item.X1czyEDj4TAR6Df8
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

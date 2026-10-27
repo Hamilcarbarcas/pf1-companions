@@ -1,0 +1,98 @@
+_id: Rz8P7Eas50yLFbIh
+_key: '!items!Rz8P7Eas50yLFbIh'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Elk
+ownership:
+  default: 0
+sort: 3400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: N6A0nkxu
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 177oMRPs
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: juEIAtG9
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 1Lgni3YD
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: bPqqxqbY
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: QEYNtIhT
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: yvYmJA7A
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud antlers crowning its head.</p><p><strong>Natural Attacks:</strong> gore (1d6), 2 hoofs (1d3)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Hoof
+        uuid: Compendium.astora-mod.combat-items.Item.eUBYo3efWNTbc8gE
+      - name: Weak Attack (Hoof)
+        uuid: Compendium.astora-mod.misc-features.Item.b63ewwhOgnedLxth
+      - name: Elk Advancement
+        uuid: Compendium.pf1-companions.companions.Item.GyIvlDneeHKfcmng
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

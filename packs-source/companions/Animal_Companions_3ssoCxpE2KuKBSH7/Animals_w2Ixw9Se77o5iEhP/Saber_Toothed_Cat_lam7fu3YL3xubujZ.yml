@@ -1,0 +1,100 @@
+_id: lam7fu3YL3xubujZ
+_key: '!items!lam7fu3YL3xubujZ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Saber-Toothed Cat
+ownership:
+  default: 0
+sort: 7700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 12Jdilkg
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: uqoOpkX1
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 5fOOJM42
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: rp7PcnV7
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: SbtdXPZl
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: g2Ciqwpa
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: L6U9UPI2
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: r1WgDRsR
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Somewhat smaller than the more ferocious saber-toothed tiger, the saber-toothed cat is nonetheless an impressive predatory creature.</p><p><strong>Natural Attacks:</strong> 2 claws (1d4 plus grab)</p><p><strong>Special Attacks:</strong> Grab, Saber-Toothed Bite</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Pounce.</p><p>Saber-Toothed Bite (Ex):</p><p>(1d10, advances to 2d8 bite attack, only on a Grapple check to deal damage).</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Saber-Toothed Cat Advancement
+        uuid: Compendium.pf1-companions.companions.Item.tT8Gdn635jI3OuXr
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

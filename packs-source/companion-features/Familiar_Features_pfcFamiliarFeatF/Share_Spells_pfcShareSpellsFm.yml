@@ -1,0 +1,31 @@
+_id: pfcShareSpellsFm
+_key: '!items!pfcShareSpellsFm'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/magic/control/energy-stream-link-large-teal.webp
+name: Share Spells
+ownership:
+  default: 0
+sort: 200000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Familiar
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>At the master's option, any spell (but not any spell-like ability) the master casts on themself also affects the familiar. The familiar must be within 5 feet at the time of casting to receive the benefit. If the spell or effect has a duration other than instantaneous, it stops affecting the familiar if it moves farther than 5 feet away and will not affect the familiar again even if it returns before the duration expires. Additionally, the master may cast a spell with a target of "You" on the familiar (as a touch range spell) instead of on themself. A master and their familiar can share spells even if the spells normally do not affect creatures of the familiar's type (magical beast).</p>
+  subType: companion
+type: feat

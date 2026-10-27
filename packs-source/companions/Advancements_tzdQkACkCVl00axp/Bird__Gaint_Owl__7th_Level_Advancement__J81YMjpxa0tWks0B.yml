@@ -1,0 +1,62 @@
+_id: J81YMjpxa0tWks0B
+_key: '!items!J81YMjpxa0tWks0B'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Bird, Gaint Owl (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 4500000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: MpOhTNW8
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: MOw8yJ6L
+      formula: '8'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: 2x6MZZKL
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: PXlioJKx
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: 70CLzvdc
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: '<p>The bird, gaint owl''s 7th-level advancement.</p><p><strong>Gains:</strong> Racial Skill Modifiers: +4 Stealth, Rend (2 talons, 1d6)</p>'
+  subType: companion
+type: feat

@@ -1,0 +1,50 @@
+_id: ps5issNBtZBVy5bq
+_key: '!items!ps5issNBtZBVy5bq'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Basilisk (9th-Level Advancement)
+ownership:
+  default: 0
+sort: 3300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: RXZX4Sad
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: 8Bit4bbq
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: w6EU9FrQ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The basilisk's 9th-level advancement.</p>
+  subType: companion
+type: feat

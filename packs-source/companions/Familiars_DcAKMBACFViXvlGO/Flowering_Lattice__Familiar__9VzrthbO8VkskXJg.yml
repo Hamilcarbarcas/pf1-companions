@@ -1,0 +1,85 @@
+_id: 9VzrthbO8VkskXJg
+_key: '!items!9VzrthbO8VkskXJg'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Flowering Lattice (Familiar)
+ownership:
+  default: 0
+sort: 2200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: J1UIDrpl
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: f3WVIPXP
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: UR2qN9Zc
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: RDxXEeF6
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: bbluEnwl
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 2fz2oV0a
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +3 bonus on Diplomacy checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Flowering Lattice Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.4i4y3OJxHiSekmqV
+  size: dim
+  speeds:
+    burrow: null
+    climb: 5
+    fly: null
+    flyManeuverability: ''
+    land: 5
+    swim: null
+  tags:
+    - Familiar Species
+type: race

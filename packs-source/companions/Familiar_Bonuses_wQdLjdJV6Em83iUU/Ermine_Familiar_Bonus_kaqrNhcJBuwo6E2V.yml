@@ -1,0 +1,37 @@
+_id: kaqrNhcJBuwo6E2V
+_key: '!items!kaqrNhcJBuwo6E2V'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    masterBonus: true
+folder: wQdLjdJV6Em83iUU
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Ermine Familiar Bonus
+ownership:
+  default: 0
+sort: 2000000
+system:
+  abilityType: na
+  changes:
+    - _id: kaqrNhcJ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: ref
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>Master gains a +2 bonus on Reflex saves (use weasal statistics, +4 Stealth to blend into snow).</p><p>Applies to the master while this familiar is linked and present; inactive on the familiar.</p>
+  disabled: true
+  subType: companion
+type: feat

@@ -1,0 +1,96 @@
+_id: viSlSbWBlu2v6KcT
+_key: '!items!viSlSbWBlu2v6KcT'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Vulture, Giant
+ownership:
+  default: 0
+sort: 9400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: f08zRIvj
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: Qa0nSgUq
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 4SkZxxFD
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: VnOTElid
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: NNyjUB4l
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: PrRDnY4P
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: DeCZAaGk
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger’s vast wingspan.</p><p><strong>Natural Attacks:</strong> bite (1d8)</p><p><strong>Special Qualities:</strong> +4 on saves vs. disease</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Vulture, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.m3ehDQsWVkWsoSP0
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 50
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

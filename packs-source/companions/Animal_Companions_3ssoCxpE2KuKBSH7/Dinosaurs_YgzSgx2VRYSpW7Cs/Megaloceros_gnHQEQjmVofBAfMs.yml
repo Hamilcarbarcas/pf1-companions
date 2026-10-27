@@ -1,0 +1,95 @@
+_id: gnHQEQjmVofBAfMs
+_key: '!items!gnHQEQjmVofBAfMs'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Megaloceros
+ownership:
+  default: 0
+sort: 2400000
+system:
+  changeFlags: {}
+  changes:
+    - _id: YaicCAeJ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: dpOXScr3
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: m5SxDrkR
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: N8BeCeSD
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 5wJsOZf6
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: oRPYyHiA
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: TKLm1DBt
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>The massive and majestic elk stands fully the height of a human at its shoulder, and its antlers stretch over ten feet across.</p><p><strong>Natural Attacks:</strong> gore (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; new attacks: 2 hoofs (1d4); Powerful Charge (2d6).</p>'
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Megaloceros Advancement
+        uuid: Compendium.pf1-companions.companions.Item.7rLFcRyxY1H9K6ls
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

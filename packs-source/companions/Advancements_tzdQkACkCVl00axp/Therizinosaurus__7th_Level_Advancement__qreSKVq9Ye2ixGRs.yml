@@ -1,0 +1,62 @@
+_id: qreSKVq9Ye2ixGRs
+_key: '!items!qreSKVq9Ye2ixGRs'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Therizinosaurus (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 32100000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: HQqhcGRE
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: J9fci0oQ
+      formula: '8'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: ojB9zYjf
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: 5FtKyDK4
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: I2DTz2J5
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The therizinosaurus's 7th-level advancement.</p><p><strong>Gains:</strong> Bleed (1d6), Sweeping Strike</p>
+  subType: companion
+type: feat

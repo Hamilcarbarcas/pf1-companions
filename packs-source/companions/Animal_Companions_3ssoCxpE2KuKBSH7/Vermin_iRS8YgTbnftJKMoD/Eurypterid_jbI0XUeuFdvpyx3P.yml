@@ -1,0 +1,93 @@
+_id: jbI0XUeuFdvpyx3P
+_key: '!items!jbI0XUeuFdvpyx3P'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Eurypterid
+ownership:
+  default: 0
+sort: 800000
+system:
+  changeFlags: {}
+  changes:
+    - _id: rynNCgDy
+      formula: '1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: ggbCGlmZ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: XQvirjob
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: kUK83OpX
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: FBC9CLBi
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: XNICIJkC
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>Also known as sea scorpions, these aquatic insects have pincers and a long stinger.</p><p><strong>Natural Attacks:</strong> 2 claws (1d3), sting (1d3 plus poison)</p><p><strong>Special Qualities:</strong> CMD +8 vs. Trip</p><p><strong>Special Attacks:</strong> Poison</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; Poison (upgraded).</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, mild Constitution, 1 save to cure. At 7th level, the poison follows the moderate Constitution track.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Weak Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.JdkWF3l6KfY44pFT
+      - name: Sting
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      - name: Weak Attack (Sting)
+        uuid: Compendium.astora-mod.misc-features.Item.l0WpAzr21Px0cuUS
+      - name: Eurypterid Advancement
+        uuid: Compendium.pf1-companions.companions.Item.BlWRSGbLark1y3uD
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: 40
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

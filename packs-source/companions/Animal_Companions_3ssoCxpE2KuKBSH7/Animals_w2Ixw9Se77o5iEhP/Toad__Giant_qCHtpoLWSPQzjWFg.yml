@@ -1,0 +1,100 @@
+_id: qCHtpoLWSPQzjWFg
+_key: '!items!qCHtpoLWSPQzjWFg'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Toad, Giant
+ownership:
+  default: 0
+sort: 9100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: oYY7Dh97
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 2b5YJSeu
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: nYoDjg67
+      formula: '6'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: HJcKVV27
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: o6SMFBlG
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: HDZsojVY
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: Y93hWZol
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: YVhsFypV
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Dex; Poison Skin, Swallow Whole.</p><p>Poison Skin (Ex):</p><p>A creature that strikes a giant toad with an unarmed strike or Natural Weapon exposes itself to the toad’s poisonous skin.</p><p>Poison (Ex):</p><p>Contact, 1/round for 4 rounds, Moderate Wisdom, 1 save to cure.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Toad, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.rKTuxcSNusuaWuJB
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: 30
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

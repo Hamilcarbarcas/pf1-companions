@@ -1,0 +1,93 @@
+_id: wspV03erqjKzJdFU
+_key: '!items!wspV03erqjKzJdFU'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Rhamphorhynchus (Familiar)
+ownership:
+  default: 0
+sort: 7000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: qZceKyQF
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: snck64FW
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: vEdwuUzO
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: zYlJ918F
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: RX4OkOIN
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: K1g64Ua5
+      formula: '1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: RyveBnRh
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Special Attacks:</strong> Sudden Swoop</p><p><strong>Master bonus:</strong> Master gains a +4 bonus on initiative checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Rhamphorhynchus Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.8X7SG3MFTagxTkPW
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: good
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

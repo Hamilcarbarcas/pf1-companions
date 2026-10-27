@@ -1,0 +1,94 @@
+_id: j2fCnBcdmVp0xiLx
+_key: '!items!j2fCnBcdmVp0xiLx'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bacallia
+ownership:
+  default: 0
+sort: 700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: phEkLH7M
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: HCjItr8y
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: gli4ObUK
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 25IvDcUe
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: jzhhstnt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: EN9fyZcw
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: ywEVM3xj
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This animal resembles an alpaca with voluminous, shiny wool.</p><p><strong>Natural Attacks:</strong> 2 hoofs (1d4)</p><p><strong>Special Qualities:</strong> Pristine Wool</p><p><strong>Special Attacks:</strong> Spit</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con.</p><p>Spit (Ex):</p><p>Once per hour, a bacallia can spit its foul stomach contents at a single target within 10 feet. The target must succeed at a Fortitude Save (DC = 10 + 1/2 HD + Constitution modifier) or be Sickened for 1d4 rounds.</p><p>Pristine Wool (Ex):</p><p>Most impurities bead and slide off a bacallia’s dense wool, leaving it gleamingly clean. This grants the bacallia a +2 Racial bonus on Saving Throws against contact poisons and effects that would entangle it. It also gains a +1 bonus to its touch AC.</p><p>Dazzling (Ex):</p><p>While uninjured and in normal or bright light, a bacallia’s wool reflects light in distracting ways. All non-bacallias within 10 feet take a -1 penalty on Saving Throws against effects that would dazzle or fascinate them.</p>
+  links:
+    children: []
+    supplements:
+      - name: Hoof
+        uuid: Compendium.astora-mod.combat-items.Item.eUBYo3efWNTbc8gE
+      - name: Bacallia Advancement
+        uuid: Compendium.pf1-companions.companions.Item.j810AqARMHb0FBF7
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

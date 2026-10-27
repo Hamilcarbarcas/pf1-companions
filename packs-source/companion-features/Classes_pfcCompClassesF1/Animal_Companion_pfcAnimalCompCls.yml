@@ -1,0 +1,78 @@
+_id: pfcAnimalCompCls
+_key: '!items!pfcAnimalCompCls'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    kind: animalCompanion
+folder: pfcCompClassesF1
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Animal Companion
+ownership:
+  default: 0
+sort: 100000
+system:
+  bab: med
+  classSkills:
+    acr: true
+    clm: true
+    fly: true
+    per: true
+    ste: true
+    swm: true
+  customHD: ceil((@item.level + 1) * 0.75)
+  description:
+    value: <p>An animal companion's abilities are determined by the master's level and its animal racial traits. They remain creatures of the animal type for purposes of determining which spells can affect them.</p><p><strong>Level</strong> is the master's effective level; PF1 Companions keeps it in step with the master. Hit Dice, base attack bonus, saves, skill ranks and feats follow the animal companion table from it.</p><h3>Skills</h3><p>Animal companions can have ranks in Acrobatics* (Dex), Climb* (Str), Escape Artist (Dex), Fly* (Dex), Intimidate (Cha), Perception* (Wis), Stealth* (Dex), Survival (Wis), and Swim* (Str). Skills marked * are class skills. An animal companion cannot have more ranks in a skill than it has Hit Dice; with Intelligence 3 or higher it can put ranks into any skill.</p><h3>Feats</h3><p>Animal companions select feats from the animal feat list; with Intelligence 3 or higher they can select any feat they are physically capable of using. They cannot select a feat requiring base attack bonus +1 until their second feat at 3 Hit Dice.</p>
+  hd: 8
+  hp: 0
+  level: 1
+  links:
+    children: []
+    classAssociations:
+      - level: 1
+        name: Link
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcLinkAnimComp0
+      - level: 1
+        name: Share Spells
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcShareSpells00
+      - level: 1
+        name: Natural Armor Bonus
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcNatArmorBonus
+      - level: 1
+        name: Str/Dex Bonus
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcStrDexBonus00
+      - level: 1
+        name: Bonus Tricks
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcBonusTricks00
+      - level: 3
+        name: Evasion
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcEvasionAnComp
+      - level: 6
+        name: Devotion
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcDevotionAnCmp
+      - level: 9
+        name: Multiattack
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcMultiattackAC
+      - level: 15
+        name: Improved Evasion
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcImpEvasionAnC
+  savingThrows:
+    fort:
+      value: high
+    ref:
+      value: high
+    will:
+      value: low
+  skillsPerLevel: 1
+  subType: base
+  tag: animalCompanion
+type: class

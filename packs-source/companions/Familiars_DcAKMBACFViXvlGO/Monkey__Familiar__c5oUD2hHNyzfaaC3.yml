@@ -1,0 +1,81 @@
+_id: c5oUD2hHNyzfaaC3
+_key: '!items!c5oUD2hHNyzfaaC3'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Monkey (Familiar)
+ownership:
+  default: 0
+sort: 4700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: LXB7q86j
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: c0MYcCQL
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: PqGYztkz
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: uIciEzDm
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: C6rR5nDJ
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Acrobatics checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Monkey Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.mMTiysUmEhMlE3Iv
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

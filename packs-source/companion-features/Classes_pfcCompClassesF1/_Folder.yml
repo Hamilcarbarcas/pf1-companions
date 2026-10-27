@@ -1,0 +1,20 @@
+_id: pfcCompClassesF1
+_key: '!folders!pfcCompClassesF1'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+color: null
+description: ''
+flags: {}
+folder: null
+name: Classes
+sort: 100000
+sorting: a
+type: Item

@@ -1,0 +1,102 @@
+_id: IouukH4Wq6hH3db2
+_key: '!items!IouukH4Wq6hH3db2'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Marsupial Lion
+ownership:
+  default: 0
+sort: 5500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: ioC5XZRE
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: GPo4JF67
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 9bLBsrt1
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: SzNT3GHh
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: ar6hCn7r
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: yB2cx1ur
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: NURKS9uM
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: UENobZhe
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Somewhat slimmer than the standard lion, the marsupial lion is no less dangerous in battle.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 claws (1d4)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Grab.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Marsupial Lion Advancement
+        uuid: Compendium.pf1-companions.companions.Item.I0f0ya2maf0kdIjV
+  size: med
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

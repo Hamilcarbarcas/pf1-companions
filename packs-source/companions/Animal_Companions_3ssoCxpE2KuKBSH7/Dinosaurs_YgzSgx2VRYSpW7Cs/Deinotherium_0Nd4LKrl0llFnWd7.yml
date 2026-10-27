@@ -1,0 +1,100 @@
+_id: 0Nd4LKrl0llFnWd7
+_key: '!items!0Nd4LKrl0llFnWd7'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Deinotherium
+ownership:
+  default: 0
+sort: 1200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 1CbAe0Kk
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: XogQ80nO
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: U8JR9pwC
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: mO7uOVBj
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: gn0pHet7
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: WVltbn5t
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 73bl8FgL
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This creature resembles an elephant, though it has a shorter, thicker trunk and sharp, downward-curving tusks.</p><p><strong>Natural Attacks:</strong> slam (1d6), gore (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Sweep, Trample.</p><p>Sweep (Ex):</p><p>A deinotherium can sweep a target with its downward-curving tusks and knock the victim to the ground. As part of a Charge, a deinotherium can move up to twice its base speed in a straight line and make a gore attack at any point during its movement. If this attack is successful, the target is knocked Prone and the deinotherium can deal damage with its Trample attack before continuing its movement.</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Strong Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.ONkzOGVgRpD9e7jb
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Deinotherium Advancement
+        uuid: Compendium.pf1-companions.companions.Item.V5LGUFWzJUMCs5pi
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

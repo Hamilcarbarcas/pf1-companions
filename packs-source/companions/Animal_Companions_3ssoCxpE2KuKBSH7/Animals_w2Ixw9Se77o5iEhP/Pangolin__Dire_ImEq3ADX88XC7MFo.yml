@@ -1,0 +1,96 @@
+_id: ImEq3ADX88XC7MFo
+_key: '!items!ImEq3ADX88XC7MFo'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Pangolin, Dire
+ownership:
+  default: 0
+sort: 6300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: mTNiyIve
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: O4AFfdBd
+      formula: '7'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: fA4NqkPu
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: L7qgiHzl
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: JZYjp6wc
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jscvbegG
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: dF2nLqqU
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 claws (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Razor Scales.</p><p>Razor Scales (Ex):</p><p>A dire pangolin’s scales come to fine slicing edges. A creature that strikes a dire pangolin while it is taking a Total Defense action with a melee weapon, an unarmed strike, or a Natural Weapon takes 1d8 + Strength modifier points of slashing damage. Melee weapons with reach do not endanger a user in this way.</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Strong Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.RUTxlE9xMB1McNZs
+      - name: Pangolin, Dire Advancement
+        uuid: Compendium.pf1-companions.companions.Item.7VdjtsVdprFVR0nD
+  size: sm
+  speeds:
+    burrow: 5
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

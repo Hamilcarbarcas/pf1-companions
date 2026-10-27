@@ -1,0 +1,102 @@
+_id: TReJwizirJo07Qqx
+_key: '!items!TReJwizirJo07Qqx'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Skunk, Giant
+ownership:
+  default: 0
+sort: 8200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: fm0Sl4ke
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: xyHdlhRm
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: lBhWnyUg
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 3JUFQH6z
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: zzA5B6wI
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: iTW3Aem0
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: D6RzyzWb
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: O4M18y6v
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Its unmistakable black-and-white-striped coloration gives a clear warning sign to any who’ve experienced this foul-smelling creature’s ire.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 claws (1d4)</p><p><strong>Special Qualities:</strong> Musk</p><p><strong>Special Attacks:</strong> Spray (1/day)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Musk (upgraded), Spray (2/day).</p><p>Musk (Ex):</p><p>(Fort save or Sickened for 1d6 rounds, Con-based DC) After Advancement - (Fort save or Nauseated for 1d3 rounds);</p><p>Spray (Ex):</p><p>A giant skunk can make a ranged Touch Attack to apply their musk to a target within 30 feet. This ability can be used once per day. At 7th level, this ability can be used twice per day.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Skunk, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.QQyEBKWrwVNwzPYr
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

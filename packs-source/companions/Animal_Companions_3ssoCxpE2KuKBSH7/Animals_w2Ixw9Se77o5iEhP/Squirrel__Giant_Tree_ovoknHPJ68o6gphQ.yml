@@ -1,0 +1,100 @@
+_id: ovoknHPJ68o6gphQ
+_key: '!items!ovoknHPJ68o6gphQ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Squirrel, Giant Tree
+ownership:
+  default: 0
+sort: 8800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 6yJhMQXB
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: JpT1ALnu
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: n6Nm4EGt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: xGmM67vf
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: qeJJLJ4W
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: OwFGgyNL
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: tHucf8Qi
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: Jz0hWNp9
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Squirrel, Giant Tree Advancement
+        uuid: Compendium.pf1-companions.companions.Item.B097OMhi005Xi4ut
+  size: sm
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

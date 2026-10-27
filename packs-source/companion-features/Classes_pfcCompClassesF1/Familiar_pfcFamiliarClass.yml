@@ -1,0 +1,86 @@
+_id: pfcFamiliarClass
+_key: '!items!pfcFamiliarClass'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  astora-mod:
+    abilityMilestoneExempt: true
+  pf1-companions:
+    kind: familiar
+folder: pfcCompClassesF1
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Familiar
+ownership:
+  default: 0
+sort: 300000
+system:
+  bab: custom
+  babFormula: '0'
+  classSkills:
+    acr: true
+    clm: true
+    fly: true
+    per: true
+    ste: true
+    swm: true
+  description:
+    value: <p>A familiar is an animal chosen by a spellcaster to aid them in their study of magic. It is treated as a magical beast for effects that depend on its type. Its special abilities apply only while the master and familiar are within 1 mile of each other. Levels of different classes entitled to familiars stack.</p><p><strong>Level</strong> is the master's level; PF1 Companions keeps it in step, and the familiar counts as having that many Hit Dice. Base attack bonus, saves, skills and hit points come from the master (see Familiar Basics).</p>
+  hd: 8
+  hp: 0
+  level: 1
+  links:
+    children: []
+    classAssociations:
+      - level: 1
+        name: Familiar Basics
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcFamiliarBasic
+      - level: 1
+        name: Magical Beast
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcMagicalBeast0
+      - level: 1
+        name: Improved Evasion
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcImpEvasionFam
+      - level: 1
+        name: Share Spells
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcShareSpellsFm
+      - level: 1
+        name: Empathic Link
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcEmpathicLink0
+      - level: 3
+        name: Deliver Touch Spells
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcDeliverTouch0
+      - level: 5
+        name: Speak with Master
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcSpeakMaster00
+      - level: 7
+        name: Speak with Animals of Its Kind
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcSpeakAnimals0
+      - level: 11
+        name: Spell Resistance
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcFamSpellRes00
+      - level: 13
+        name: Scry on Familiar
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcScryOnFamilia
+  savingThrows:
+    fort:
+      custom: '0'
+      value: custom
+    ref:
+      custom: '0'
+      value: custom
+    will:
+      custom: '0'
+      value: custom
+  skillsPerLevel: 0
+  subType: base
+  tag: familiar
+type: class

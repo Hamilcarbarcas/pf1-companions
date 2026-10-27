@@ -1,0 +1,98 @@
+_id: jHOWtqgqxTczYf8B
+_key: '!items!jHOWtqgqxTczYf8B'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ape
+ownership:
+  default: 0
+sort: 200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: UYKCR92U
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 1Hyx2t7s
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: oLcdQp5A
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: ks0fG7WA
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: ClAqf4p6
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: CruWMjr3
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 8WMwKMo8
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Large, deep-set eyes peer from beneath this great ape’s thick brow as it lumbers forward on its legs and knuckles.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 claws (1d4)</p><p><strong>4th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Ape Advancement
+        uuid: Compendium.pf1-companions.companions.Item.ibgeajcDfXaimv5I
+  size: med
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

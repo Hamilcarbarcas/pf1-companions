@@ -1,0 +1,89 @@
+_id: j7XCS1E8eLflZ63G
+_key: '!items!j7XCS1E8eLflZ63G'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Locust, Giant
+ownership:
+  default: 0
+sort: 1000000
+system:
+  changeFlags: {}
+  changes:
+    - _id: JddAXMmG
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: s5En0kzp
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: v3MclrG1
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: ElGvZOkQ
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: apXzWT2y
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: K7MVgif8
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>The giant locust has long limber legs and the ability to spit a caustic glob of noxious goo.</p><p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>Special Qualities:</strong> +18 Acrobatics When Jumping, Leap, CMD +8 vs. Trip</p><p><strong>Special Attacks:</strong> Spit Goo</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +2 Con; Voracious.</p><p>Spit Goo (Ex):</p><p>A giant locust can spit at a target within 30 ft. as a ranged Touch Attack, causing them to become Sickened for 1 round on a hit.</p><p>Leap (Ex):</p><p>A giant locust can take 10 on Acrobatics checks to jump, even when distracted or threatened.</p><p>Voracious (Ex):</p><p>A giant locust''s bite attack deals double damage to creatures with the plant subtype and to objects made of paper, wood, or other plant materials.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Locust, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.AgJ4Md8EQ1WgJ9K2
+  size: sm
+  speeds:
+    burrow: null
+    climb: 20
+    fly: 20
+    flyManeuverability: poor
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

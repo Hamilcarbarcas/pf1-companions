@@ -1,0 +1,87 @@
+_id: ymSBsASBSMiiuXgt
+_key: '!items!ymSBsASBSMiiuXgt'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Squirrel (Familiar)
+ownership:
+  default: 0
+sort: 8500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: xGys3Mp9
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: N3uACm4K
+      formula: '9'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: eVFcIy3v
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 2JX8sf2h
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 552UPoHE
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: B2eXUCIz
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Escape Artist checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Squirrel Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.CUCInb6EApJlGzGm
+  size: dim
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

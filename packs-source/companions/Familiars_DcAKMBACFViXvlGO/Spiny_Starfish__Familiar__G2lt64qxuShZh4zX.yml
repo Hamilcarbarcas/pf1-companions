@@ -1,0 +1,104 @@
+_id: G2lt64qxuShZh4zX
+_key: '!items!G2lt64qxuShZh4zX'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Spiny Starfish (Familiar)
+ownership:
+  default: 0
+sort: 8400000
+system:
+  changeFlags: {}
+  changes:
+    - _id: lLlKq6ML
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: lqFDYCkh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Isy1ocLb
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: HK403MJv
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 0LIGhjiI
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: yHMRGl2q
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: r54WOhYn
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: AV9U4f1k
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+    - _id: K181zWo4
+      formula: '20'
+      operator: add
+      priority: 0
+      target: sensets
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: <p><strong>Natural Attacks:</strong> slam (1d2)</p><p><strong>Master bonus:</strong> Master treats his effective character level as 4 higher to recover hit points by resting</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Spiny Starfish Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.6HROLBjwsCk96yw3
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 5
+    fly: null
+    flyManeuverability: ''
+    land: 5
+    swim: 5
+  tags:
+    - Familiar Species
+type: race

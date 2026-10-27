@@ -1,0 +1,90 @@
+_id: RjgkkDoBD6HBSYkM
+_key: '!items!RjgkkDoBD6HBSYkM'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Badger
+ownership:
+  default: 0
+sort: 800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: utljV139
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 0iGZlUmU
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: CvmQtoL3
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 8TX2NsZ9
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: BVhVqkZH
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: HNuh1I8h
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This stocky, muscular mammal is the size of a badger, its snarling lips revealing a mouth full of yellow teeth.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 claws (1d3)</p><p><strong>Special Qualities:</strong> rage</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con.</p><p>Rage (Ex):</p><p>As a Free Action a badger can enter a rage, gaining a +2 bonus on Melee Attack rolls, melee damage rolls, thrown weapon damage rolls, and Will Saving Throws . In addition, they take a -2 penalty to Armor Class . They also gain 2 temporary hit points per Hit Die. A badger can rage for up to 4 rounds per day. When their rage ends, they are Fatigued for 1 minute.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Badger Advancement
+        uuid: Compendium.pf1-companions.companions.Item.ukuCXRBuEWcUMgfz
+  size: sm
+  speeds:
+    burrow: 10
+    climb: 10
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

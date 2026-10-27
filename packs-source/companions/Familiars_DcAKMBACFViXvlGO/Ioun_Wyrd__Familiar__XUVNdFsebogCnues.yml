@@ -1,0 +1,88 @@
+_id: XUVNdFsebogCnues
+_key: '!items!XUVNdFsebogCnues'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Ioun Wyrd (Familiar)
+ownership:
+  default: 0
+sort: 3200000
+system:
+  changeFlags: {}
+  changes:
+    - _id: yJ75sFhC
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: ITJiQTnp
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: ApkKwckt
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: PVnWgIE8
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 4iixP22K
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: HTfAh4k3
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensebs
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - construct
+  description:
+    value: <p><strong>Natural Attacks:</strong> slam (1d4)</p><p><strong>Special Qualities:</strong> Ioun Affinity, Share Iouns</p><p><strong>Master bonus:</strong> Master gains a +1 natural armor bonus to AC</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Very Strong Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.lXo1LKRA9W7B1Z54
+      - name: Ioun Wyrd Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.bZYezczop75kKrBo
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 30
+    flyManeuverability: average
+    land: null
+    swim: null
+  tags:
+    - Familiar Species
+type: race

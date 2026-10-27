@@ -1,0 +1,37 @@
+_id: I0leaV1R4qGnl4My
+_key: '!items!I0leaV1R4qGnl4My'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    masterBonus: true
+folder: wQdLjdJV6Em83iUU
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Keulia Familiar Bonus
+ownership:
+  default: 0
+sort: 3600000
+system:
+  abilityType: na
+  changes:
+    - _id: I0leaV1R
+      formula: '3'
+      operator: add
+      priority: 0
+      target: skill.dis
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>Master gains a +3 bonus to Disguise checks.</p><p>Applies to the master while this familiar is linked and present; inactive on the familiar.</p>
+  disabled: true
+  subType: companion
+type: feat

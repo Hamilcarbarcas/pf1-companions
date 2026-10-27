@@ -1,0 +1,62 @@
+_id: UJPiwuP14orfVVQt
+_key: '!items!UJPiwuP14orfVVQt'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Caterpillar, Giant (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 7700000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: JdXEmCqO
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: zRGgbUmJ
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: xBX3A2S7
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: 1XYf3wHk
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: 1Vn47XmZ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The caterpillar, giant's 4th-level advancement.</p>
+  subType: companion
+type: feat

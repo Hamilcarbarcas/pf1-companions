@@ -1,0 +1,101 @@
+_id: ZIkDmh8edpcvNU96
+_key: '!items!ZIkDmh8edpcvNU96'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Corpse-Eater Fungus
+ownership:
+  default: 0
+sort: 500000
+system:
+  changeFlags: {}
+  changes:
+    - _id: QcTKPbqk
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 3grBC6BM
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: qTxysjb6
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: GOQ79Uik
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: dB1Qv46T
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 07QexxQ7
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jvi8kuFf
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: sU7bc7m8
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p>This pale mass of fungal matter looks something like a spider with a thorny, acidic mouth in place of a body.</p><p><strong>Natural Attacks:</strong> bite (1d6 plus 1d2 acid)</p><p><strong>Special Qualities:</strong> CMD +12 vs. Trip</p><p><strong>Special Attacks:</strong> Spit Acid</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +2 Con; Darkvision 60 ft.</p><p>Spit Acid (Ex):</p><p>A corpse-eater fungus can spit acid as a ranged Touch Attack with a 30-foot range, dealing 1d6 acid damage on a hit.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Corpse-Eater Fungus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.pV7x7cq7zRsKOghE
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

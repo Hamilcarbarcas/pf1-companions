@@ -1,0 +1,101 @@
+_id: ubXuJMLDsYF6TiTU
+_key: '!items!ubXuJMLDsYF6TiTU'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Uintatherium
+ownership:
+  default: 0
+sort: 3800000
+system:
+  changeFlags: {}
+  changes:
+    - _id: oczColyK
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: d05702ZC
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: PnJIOqNI
+      formula: '7'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: LZ9oO6Y4
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 5Y52mR20
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: ai9lKa9e
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: GObDuszo
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: FPj0Mzxc
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This large creature is built like a rhinoceros, but with fangs like a saber-toothed tiger and smaller hornlike ridges.</p><p><strong>Natural Attacks:</strong> bite (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Uintatherium Advancement
+        uuid: Compendium.pf1-companions.companions.Item.x1YSepfW4pgambjK
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

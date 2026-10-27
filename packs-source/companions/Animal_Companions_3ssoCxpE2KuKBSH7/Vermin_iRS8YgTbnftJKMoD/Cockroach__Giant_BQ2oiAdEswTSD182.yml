@@ -1,0 +1,93 @@
+_id: BQ2oiAdEswTSD182
+_key: '!items!BQ2oiAdEswTSD182'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Cockroach, Giant
+ownership:
+  default: 0
+sort: 600000
+system:
+  changeFlags: {}
+  changes:
+    - _id: LOntDc3m
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 1SkQlisF
+      formula: '7'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: lREXL4NS
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: pckdxSdf
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: KBgxNoUt
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: wHKYXrH7
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+    - _id: qfyJjisY
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensets
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>Swift and unsettling, the giant cockroach is notoriously difficult to slay. These creatures prefer dark places and seem to have no opposition to crawling through filth.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Hold Breath, Light Sensitivity, CMD +8 vs. Trip, Bonus Feat: Endurance</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> +2 natural armor; +2 Str, +2 Dex, +2 Con; Bonus Feat: Diehard.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Cockroach, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.SaUGdtINKMhraiIe
+  size: sm
+  speeds:
+    burrow: null
+    climb: 20
+    fly: 20
+    flyManeuverability: poor
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

@@ -1,0 +1,81 @@
+_id: RoPch9YQCrsYcJpc
+_key: '!items!RoPch9YQCrsYcJpc'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Tarsier (Familiar)
+ownership:
+  default: 0
+sort: 8800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: L7yiNgHv
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: XzToGtpT
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: bO3r9cFi
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 0I9Jyzzu
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: z4rVujay
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Acrobatics checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Tarsier Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.D9Stf35QuaWkQpGG
+  size: dim
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

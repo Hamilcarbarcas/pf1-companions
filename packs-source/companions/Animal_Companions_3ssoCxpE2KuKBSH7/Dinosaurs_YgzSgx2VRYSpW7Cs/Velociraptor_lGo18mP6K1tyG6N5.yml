@@ -1,0 +1,104 @@
+_id: lGo18mP6K1tyG6N5
+_key: '!items!lGo18mP6K1tyG6N5'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Velociraptor
+ownership:
+  default: 0
+sort: 3900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 21wPi4fR
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: KjGovyJU
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: OCf8iwg8
+      formula: '7'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 806fqUzZ
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Dlz0HHSj
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: PBpTF3LH
+      formula: '4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: mc2uKEJK
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 8YBHkv90
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>This small, sleek dinosaur has vicious, snapping jaws and feet that end in large talons for gutting prey.</p><p><strong>Natural Attacks:</strong> 2 talons (1d6), bite (1d4)</p><p><strong>7th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +2 Con; new attacks: 2 claws (1d4); Pounce.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Very Strong Attack (Talon)
+        uuid: Compendium.astora-mod.misc-features.Item.RrbEYxqTQ1Rkjtxi
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Velociraptor Advancement
+        uuid: Compendium.pf1-companions.companions.Item.9IjmwXODh1PQKFTS
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 60
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

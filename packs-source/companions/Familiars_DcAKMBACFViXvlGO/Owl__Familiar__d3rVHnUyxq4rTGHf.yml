@@ -1,0 +1,89 @@
+_id: d3rVHnUyxq4rTGHf
+_key: '!items!d3rVHnUyxq4rTGHf'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Owl (Familiar)
+ownership:
+  default: 0
+sort: 5100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: yLutWoRG
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: gkpjf2eB
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: IPijbHrN
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: CuhXeekq
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Ub24X8sj
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: TikPF1pK
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 talons (1d4)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on sight-based and opposed Perception checks in shadows or darkness</p>
+  links:
+    children: []
+    supplements:
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Very Strong Attack (Talon)
+        uuid: Compendium.astora-mod.misc-features.Item.RrbEYxqTQ1Rkjtxi
+      - name: Owl Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.WbQXrVqnMaGN7PEU
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,100 @@
+_id: u2ITtZMtEerqY5oS
+_key: '!items!u2ITtZMtEerqY5oS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Armadillo (Familiar)
+ownership:
+  default: 0
+sort: 500000
+system:
+  changeFlags: {}
+  changes:
+    - _id: tEq5qfAN
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: fCksxfnu
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 2sCeb96o
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: NQMLJH8t
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: eaTIQ4Yx
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 5aIAA0BU
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 26Ad9A70
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: igIe48o8
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> claw (1d2)</p><p><strong>Master bonus:</strong> Master gains a +1 natural armor bonus to AC</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Single Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.JJsMMoBNT42TCtkO
+      - name: Armadillo Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.WL8UkvM6lQqn3SQi
+  size: tiny
+  speeds:
+    burrow: 5
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

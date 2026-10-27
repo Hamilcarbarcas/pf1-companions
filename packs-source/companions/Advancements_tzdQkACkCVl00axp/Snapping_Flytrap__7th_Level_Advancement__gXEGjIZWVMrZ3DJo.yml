@@ -1,0 +1,70 @@
+_id: gXEGjIZWVMrZ3DJo
+_key: '!items!gXEGjIZWVMrZ3DJo'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  ckl-roll-bonuses:
+    bonus_astora-attack-count: '1'
+    target_weapon-type:
+      - Bite
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Snapping Flytrap (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 29500000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: x8YBKvJ4
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: Lm8MDEIO
+      formula: '8'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: Ko45uLR5
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: RjKr6quU
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: 1wG6bDFX
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The snapping flytrap's 7th-level advancement.</p>
+  flags:
+    boolean:
+      bonus_astora-attack-count: true
+      target_weapon-type: true
+  subType: companion
+type: feat

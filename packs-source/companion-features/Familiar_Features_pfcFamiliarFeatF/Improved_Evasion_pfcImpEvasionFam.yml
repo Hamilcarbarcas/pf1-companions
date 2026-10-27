@@ -1,0 +1,31 @@
+_id: pfcImpEvasionFam
+_key: '!items!pfcImpEvasionFam'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+name: Improved Evasion
+ownership:
+  default: 0
+sort: 100000
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Familiar
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>When subjected to an attack that normally allows a Reflex saving throw for half damage, a familiar takes no damage if it makes a successful saving throw and half damage even if the saving throw fails.</p>
+  subType: companion
+type: feat

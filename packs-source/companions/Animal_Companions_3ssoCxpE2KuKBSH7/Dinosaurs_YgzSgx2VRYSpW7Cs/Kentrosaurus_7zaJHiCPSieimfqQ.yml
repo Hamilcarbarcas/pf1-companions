@@ -1,0 +1,84 @@
+_id: 7zaJHiCPSieimfqQ
+_key: '!items!7zaJHiCPSieimfqQ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Kentrosaurus
+ownership:
+  default: 0
+sort: 2200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: Rqre0wWi
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: scKKXVe5
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 0RthFKAg
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 9rYHusUC
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: BjXtyzB7
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This quadrupedal dinosaur has two rows of dorsal spikes, a spiked tail, and two more spikes projecting from its shoulders.</p><p><strong>Natural Attacks:</strong> tail (1d8)</p><p><strong>Special Qualities:</strong> impaling strike</p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; Defensive Spikes.</p><p>Defensive Spikes (Ex):</p><p>At the end of its turn, a kentrosaurus can crouch down and splay its back and shoulder spikes. It cannot make attacks of opportunity when using its defensive spikes in this way, but until its next turn any creature that attacks the kentrosaurus with light or one-handed melee weapons, natural weapons, or unarmed strikes takes 1d6 points of piercing damage unless it succeeds at a Reflex saving throw (DC = 10 + 1/2 HD + Dexterity modifier).</p>
+  links:
+    children: []
+    supplements:
+      - name: Tail Slap
+        uuid: Compendium.astora-mod.combat-items.Item.i7tJJDuZm51q8JWf
+      - name: Strong Attack (Tail Slap)
+        uuid: Compendium.astora-mod.misc-features.Item.Ol6KhRBgAQYrPApd
+      - name: Kentrosaurus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.4lLgWb16VneValQE
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

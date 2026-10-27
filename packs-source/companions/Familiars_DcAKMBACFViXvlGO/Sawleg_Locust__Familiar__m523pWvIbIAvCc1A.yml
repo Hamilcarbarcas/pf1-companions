@@ -1,0 +1,92 @@
+_id: m523pWvIbIAvCc1A
+_key: '!items!m523pWvIbIAvCc1A'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Sawleg Locust (Familiar)
+ownership:
+  default: 0
+sort: 7200000
+system:
+  changeFlags: {}
+  changes:
+    - _id: 4ROegk9h
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: a8R7CNRe
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 3xavLkHS
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: nSfb0vjI
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: YIJHC495
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: u6XCAbtm
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: hJqGCFpI
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Acrobatics checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Sawleg Locust Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.T1TsQnvTAAbuMgoJ
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 15
+    fly: 40
+    flyManeuverability: average
+    land: 15
+    swim: null
+  tags:
+    - Familiar Species
+type: race

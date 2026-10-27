@@ -1,0 +1,195 @@
+/*
+ * pf1-companions. Every selector is scoped under a pfcomp- class: module CSS is unlayered and
+ * outranks core's layers, so a bare rule would restyle the whole application.
+ */
+
+/* --- Grant section (item sheet) ------------------------------------------- */
+
+.pfcomp-grant .pfcomp-grant-companion .form-fields {
+  align-items: center;
+  gap: 4px;
+}
+
+.pfcomp-grant .pfcomp-grant-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1 1 auto;
+}
+
+.pfcomp-grant .pfcomp-grant-open img {
+  width: 24px;
+  height: 24px;
+  border: none;
+  object-fit: cover;
+}
+
+.pfcomp-grant .pfcomp-grant-none {
+  flex: 1 1 auto;
+  color: var(--color-text-dark-secondary, #4b4a44);
+  font-style: italic;
+}
+
+.pfcomp-grant .pfcomp-grant-companion button {
+  flex: 0 0 auto;
+  width: auto;
+  line-height: 22px;
+}
+
+/* --- Companions list (master's Features tab) ------------------------------ */
+
+.pfcomp-companions .pfcomp-companions-row {
+  align-items: center;
+  min-height: 30px;
+  padding: 1px 2px;
+  border-bottom: 1px solid var(--color-border-light-2, #c9c7b8);
+}
+
+.pfcomp-companions .pfcomp-companions-name {
+  flex: 2 1 0;
+  display: flex;
+  align-items: center;
+}
+
+.pfcomp-companions .pfcomp-companions-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pfcomp-companions .pfcomp-companions-open img {
+  width: 28px;
+  height: 28px;
+  border: none;
+  object-fit: cover;
+}
+
+.pfcomp-companions .pfcomp-companions-empty {
+  color: var(--color-text-dark-secondary, #4b4a44);
+  font-style: italic;
+}
+
+.pfcomp-companions .pfcomp-companions-detail {
+  flex: 2 1 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pfcomp-companions .pfcomp-companions-level,
+.pfcomp-companions .pfcomp-companions-hp {
+  flex: 0 0 64px;
+}
+
+.pfcomp-companions .pfcomp-companions-controls {
+  flex: 0 0 48px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+/* --- "Companion of" line (companion's Summary tab) ------------------------ */
+
+.pfcomp-companion-of {
+  flex: 0 0 auto;
+  padding: 2px 4px 4px;
+  font-size: var(--font-size-13, 13px);
+}
+
+.pfcomp-companion-of .pfcomp-companion-of-master {
+  font-weight: bold;
+}
+
+/* --- Picker window --------------------------------------------------------- */
+
+.pfcomp-picker .window-content {
+  gap: 4px;
+}
+
+.pfcomp-picker .pfcomp-picker-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 2px;
+}
+
+.pfcomp-picker .pfcomp-picker-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.pfcomp-picker .pfcomp-picker-filters select {
+  flex: 1 1 120px;
+  min-width: 0;
+}
+
+.pfcomp-picker .pfcomp-picker-filters label.checkbox {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.pfcomp-picker [hidden] {
+  display: none !important;
+}
+
+.pfcomp-picker h4 {
+  margin: 4px 0 2px;
+  border-bottom: 1px solid var(--color-border-light-2, #c9c7b8);
+}
+
+.pfcomp-picker .pfcomp-picker-hint,
+.pfcomp-picker .pfcomp-picker-empty {
+  margin: 0 0 4px;
+  font-size: var(--font-size-12, 12px);
+  opacity: 0.8;
+}
+
+.pfcomp-picker .pfcomp-picker-list {
+  max-height: 320px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.pfcomp-picker .pfcomp-picker-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pfcomp-picker .pfcomp-picker-row:hover {
+  background: var(--color-hover-bg, rgba(255, 255, 255, 0.08));
+}
+
+.pfcomp-picker .pfcomp-picker-row img {
+  width: 32px;
+  height: 32px;
+  border: none;
+  object-fit: cover;
+}
+
+.pfcomp-picker .pfcomp-picker-name {
+  flex: 1 1 auto;
+}
+
+.pfcomp-picker .pfcomp-picker-note {
+  flex: 0 0 auto;
+  font-size: var(--font-size-11, 11px);
+  opacity: 0.75;
+}
+
+.pfcomp-picker .pfcomp-picker-row.pfcomp-disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.pfcomp-picker .pfcomp-picker-row.pfcomp-current .pfcomp-picker-name {
+  font-weight: bold;
+}

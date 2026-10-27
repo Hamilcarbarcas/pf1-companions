@@ -1,0 +1,94 @@
+_id: KuhQl05lkwqFpycS
+_key: '!items!KuhQl05lkwqFpycS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Hobbe Hound
+ownership:
+  default: 0
+sort: 4600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: NGKJbsug
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: HTti1teY
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 0MUm2Hva
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: n2KQBTem
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: PVRemTnT
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jYoovMo6
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: XpycWYdk
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Hobgoblin druids, hunters, and rangers who can take an animal companion can choose a hobbe hound.</p><p><strong>Natural Attacks:</strong> bite (1d6 plus allergic reaction)</p><p><strong>Special Qualities:</strong> Allergic Reaction</p><p><strong>7th-Level Advancement:</strong> +3 natural armor; +6 Str, -2 Dex, +2 Con; Fire Resistance 3.</p><p>Allergic Reaction (Ex):</p><p>A hobbe hound’s saliva and skin produce highly irritating secretions that affect all creatures except those with the Goblinoid Subtype. A non-goblinoid creature that takes damage from a hobbe hound’s bite, deals damage to a hobbe hound with a Natural Weapon or Unarmed Attack, or otherwise comes into contact with a hobbe hound (including attempts to Grapple or Ride the creature) must succeed at a Fortitude Save (DC = 10 + 1/2 HD + Constitution modifier) or break out in an itchy rash.</p><p>A creature affected by this rash takes a -2 penalty to Dexterity and Charisma for 24 hours (multiple allergic reactions do not stack). Remove Disease or any form of magical healing removes the rash instantly. This is a Disease effect.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Hobbe Hound Advancement
+        uuid: Compendium.pf1-companions.companions.Item.eHujCxgOPYXWoFbY
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

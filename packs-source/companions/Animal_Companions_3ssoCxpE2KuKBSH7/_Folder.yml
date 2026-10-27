@@ -1,0 +1,20 @@
+_id: 3ssoCxpE2KuKBSH7
+_key: '!folders!3ssoCxpE2KuKBSH7'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+color: null
+description: ''
+flags: {}
+folder: null
+name: Animal Companions
+sort: 0
+sorting: a
+type: Item

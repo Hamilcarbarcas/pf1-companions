@@ -1,0 +1,93 @@
+_id: PgYTiNRoCblgoQlH
+_key: '!items!PgYTiNRoCblgoQlH'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Tauhoti (Familiar)
+ownership:
+  default: 0
+sort: 8900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: SEfyng8j
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 71L6QBdl
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: TJrNcslR
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: arATgqBL
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: pfr0gkVx
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 56rR78o5
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: MVcTf700
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on one Profession check of her choice, selected when gaining the familiar</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Tauhoti Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.qd3hYUcMQoSLAsWR
+  size: dim
+  speeds:
+    burrow: 5
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

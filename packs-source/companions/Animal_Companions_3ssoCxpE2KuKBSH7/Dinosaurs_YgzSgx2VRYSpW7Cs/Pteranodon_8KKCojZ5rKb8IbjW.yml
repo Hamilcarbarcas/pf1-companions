@@ -1,0 +1,90 @@
+_id: 8KKCojZ5rKb8IbjW
+_key: '!items!8KKCojZ5rKb8IbjW'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Pteranodon
+ownership:
+  default: 0
+sort: 2800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: E4EAvg3U
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: cKqPDL8p
+      formula: '11'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: EziA2awP
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: cDGDWxGC
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: xgolsq58
+      formula: '2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: rZCmP3b0
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.</p><p><strong>Natural Attacks:</strong> bite (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Pteranodon Advancement
+        uuid: Compendium.pf1-companions.companions.Item.K9JpR9GHgoZRIQ0C
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 50
+    flyManeuverability: clumsy
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

@@ -1,0 +1,37 @@
+_id: idlijt8L46w0xQNm
+_key: '!items!idlijt8L46w0xQNm'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    masterBonus: true
+folder: wQdLjdJV6Em83iUU
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Turtle Familiar Bonus
+ownership:
+  default: 0
+sort: 9600000
+system:
+  abilityType: na
+  changes:
+    - _id: idlijt8L
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>Master gains a +1 natural armor bonus to AC.</p><p>Applies to the master while this familiar is linked and present; inactive on the familiar.</p>
+  disabled: true
+  subType: companion
+type: feat

@@ -1,0 +1,44 @@
+_id: epS2s63uGpHk4gad
+_key: '!items!epS2s63uGpHk4gad'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Snake, Spitting Cobra (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 29100000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: KQqwUDz7
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: 4Du8HjRl
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>The snake, spitting cobra's 7th-level advancement.</p><p><strong>Gains:</strong> Poison (upgraded)</p>
+  subType: companion
+type: feat

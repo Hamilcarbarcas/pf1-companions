@@ -1,0 +1,93 @@
+_id: gSIrE0mczpgeaIzR
+_key: '!items!gSIrE0mczpgeaIzR'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Meerkat (Familiar)
+ownership:
+  default: 0
+sort: 4400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 1pc1ymg7
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: m8sfYAsS
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: CZxaWaRU
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: m735MieD
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: md9yH0Ps
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 0nx6IAqM
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: DM0fYvRf
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Escape Artist checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Meerkat Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.VBiIJaVI1rsfbrjN
+  size: tiny
+  speeds:
+    burrow: 5
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

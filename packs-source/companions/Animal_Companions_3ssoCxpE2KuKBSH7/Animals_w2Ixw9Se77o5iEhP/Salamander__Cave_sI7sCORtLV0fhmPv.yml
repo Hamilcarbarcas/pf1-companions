@@ -1,0 +1,99 @@
+_id: sI7sCORtLV0fhmPv
+_key: '!items!sI7sCORtLV0fhmPv'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Salamander, Cave
+ownership:
+  default: 0
+sort: 7800000
+system:
+  changeFlags: {}
+  changes:
+    - _id: WrxXVT5Z
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: RbYqWiI0
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: f28FG3Ul
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: KfZJGHuX
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: YR9EAnmw
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: K9z5qST5
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 39NnKENv
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: RJl9V0fG
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.</p><p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con; Combat Trained.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Salamander, Cave Advancement
+        uuid: Compendium.pf1-companions.companions.Item.C8P1zNXHQ5khVSsR
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

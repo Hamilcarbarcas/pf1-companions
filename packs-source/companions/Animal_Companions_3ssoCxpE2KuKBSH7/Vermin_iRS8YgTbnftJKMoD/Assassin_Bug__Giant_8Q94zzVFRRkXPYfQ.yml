@@ -1,0 +1,89 @@
+_id: 8Q94zzVFRRkXPYfQ
+_key: '!items!8Q94zzVFRRkXPYfQ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Assassin Bug, Giant
+ownership:
+  default: 0
+sort: 200000
+system:
+  changeFlags: {}
+  changes:
+    - _id: JQGAwIGJ
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 3KLKfdhS
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 2b8DbkTT
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: qnV6JFLn
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: tG4S9gcY
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: ntvPavP6
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>This long-legged, beetle-like insect can spew a stream of poison at its foes from a distance.</p><p><strong>Natural Attacks:</strong> bite (1d4 plus poison), 2 claws (1d3)</p><p><strong>Special Qualities:</strong> CMD +8 vs. Trip</p><p><strong>Special Attacks:</strong> Poison, Poison Stream</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +1 natural armor; +4 Str, -2 Dex, +2 Con; Poison (upgraded).</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, moderate Dexterity, 1 save to cure. At 4th level, the poison requires 2 saves to cure.</p><p>Poison Stream (Ex):</p><p>The assassin bug releases a stream of its poison in a 15 ft. line, exposing all creatures targeted to its poison unless the succeed on a Reflex Save (DC = 10 + 1/2 HD + Dexterity modifier). This ability is usable every 1d4 rounds as a Standard Action.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Assassin Bug, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.UuOpRW3I2oD79DIa
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 30
+    flyManeuverability: clumsy
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

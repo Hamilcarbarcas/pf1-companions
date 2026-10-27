@@ -1,0 +1,101 @@
+_id: XWJeXFGfpEsqqNlu
+_key: '!items!XWJeXFGfpEsqqNlu'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Sea Krait (Familiar)
+ownership:
+  default: 0
+sort: 7400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 0B7vHWS8
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 0obmAOSD
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: jyP15alP
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 8qxLEgZx
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: AHnBGJ4G
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: N8jiLpJx
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: xfhytwkL
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: OpkN5kh7
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d2 plus Poison)</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Fortitude saves (use viper stats for sea kraits)</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Sea Krait Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.ndR4e0LXbrVin1d6
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: 20
+  tags:
+    - Familiar Species
+type: race

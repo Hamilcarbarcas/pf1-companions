@@ -1,0 +1,100 @@
+_id: I87t2bDcou90VuU8
+_key: '!items!I87t2bDcou90VuU8'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Eohippus
+ownership:
+  default: 0
+sort: 3500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: mYqPmoUQ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 6aGyLfEj
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: ee2YOAbv
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 6Xsbp8TH
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: XnDiTA7P
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: dlCjuSwW
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: cOlQEief
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: Br8s3KPo
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>The eohippus is a small, primeval ancestor of the modern horse. It has three-toed feet rather than hooves.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>4th-Level Advancement:</strong> +2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Eohippus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.ydk1kh444AFlk5iq
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

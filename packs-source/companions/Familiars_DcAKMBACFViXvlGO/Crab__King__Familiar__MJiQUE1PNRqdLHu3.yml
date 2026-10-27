@@ -1,0 +1,86 @@
+_id: MJiQUE1PNRqdLHu3
+_key: '!items!MJiQUE1PNRqdLHu3'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Crab, King (Familiar)
+ownership:
+  default: 0
+sort: 1300000
+system:
+  changeFlags: {}
+  changes:
+    - _id: yfG9LGgH
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 5aYRzqut
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: xiEvZ3v7
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: onDyfElB
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: mHIJZnV4
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: SxME7E29
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p><strong>Natural Attacks:</strong> 2 claws (1d2 plus Grab)</p><p><strong>Special Qualities:</strong> Water Dependency</p><p><strong>Special Attacks:</strong> Constrict</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>Master bonus:</strong> Master gains a +2 bonus on combat maneuver checks to start and maintain a grapple</p>'
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Crab, King Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.vYHYtGzlFNVxILkD
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: 20
+  tags:
+    - Familiar Species
+type: race

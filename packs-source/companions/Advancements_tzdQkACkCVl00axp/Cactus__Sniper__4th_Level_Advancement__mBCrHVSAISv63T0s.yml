@@ -1,0 +1,56 @@
+_id: mBCrHVSAISv63T0s
+_key: '!items!mBCrHVSAISv63T0s'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Cactus, Sniper (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 6300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: XcQ3pdn4
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: 1oT25ql0
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: kbXrTem6
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: kAXKcpwc
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The cactus, sniper's 4th-level advancement.</p><p><strong>Gains:</strong> Thorns (upgraded)</p>
+  subType: companion
+type: feat

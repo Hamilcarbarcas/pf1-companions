@@ -1,0 +1,102 @@
+_id: lvWF3D8T39WoxDyV
+_key: '!items!lvWF3D8T39WoxDyV'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Pilo
+ownership:
+  default: 0
+sort: 6400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: z7Jcm566
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: Y0TP7jOW
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: y118qv6I
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: sEhrczeL
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: MJ2Bx7RT
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: c8Vf5jL2
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: q6ZEyxTF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 37nF58mG
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>Sharp quills cover this bright yellow, six-legged animal, and its long, twitching snout probes the air around it.</p><p><strong>Natural Attacks:</strong> gore (1d6)</p><p><strong>Special Attacks:</strong> Roll Up</p><p><strong>4th-Level Advancement:</strong> +2 natural armor; +2 Str, +2 Con; new attacks: tail slap (1d4); Poison, Quills.</p><p>Roll Up (Ex):</p><p>As a Move Action, a pilo can tuck itself into a ball. This grants the pilo a +4 bonus to its natural armor, but its speed is reduced to 10 feet.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, moderate Dexterity, 1 save to cure.</p><p>Quills (Ex):</p><p>Any creature attacking a pilo with a Natural Weapon or an Unarmed Attack takes 1d6 points of piercing damage. A creature that grapples a pilo takes 2d6 points of piercing damage each round it is engaged in a Grapple. A pilo can also use its quills to damage any opponent it successfully bull rushes. Any creature that takes damage from a pilo’s quills risks being poisoned.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Pilo Advancement
+        uuid: Compendium.pf1-companions.companions.Item.XNtEDSL9iYaMtyyS
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

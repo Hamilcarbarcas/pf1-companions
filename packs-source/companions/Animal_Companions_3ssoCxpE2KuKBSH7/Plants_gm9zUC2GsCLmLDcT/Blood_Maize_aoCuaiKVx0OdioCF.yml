@@ -1,0 +1,90 @@
+_id: aoCuaiKVx0OdioCF
+_key: '!items!aoCuaiKVx0OdioCF'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Blood Maize
+ownership:
+  default: 0
+sort: 100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: XzIxJlNu
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: YyfLXYVL
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: PubERqom
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: fYGEmFKS
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: hArPkUFZ
+      formula: '5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: UszjwkKS
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p><strong>Natural Attacks:</strong> 3 slams (1d3 plus bleed)</p><p><strong>Special Qualities:</strong> Tremorsense 60 ft. Change Foliage, Root Deep</p><p><strong>Special Attacks:</strong> Bleed (1d3)</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 Str, -2 Dex, +2 Con; Blinding Bloom, Bleed (1d6).</p><p>Change Foliage (Su):</p><p>Three times per day as an Immediate Action that does not provoke attacks of opportunity, a blood maize plant can make itself appear as a different type of plant. This new appearance mimics that of any plant up to two size categories smaller than the blood maize and need not resemble the blood maize’s true form. For example, the blood maize can take on the semblance of a pumpkin vine, strawberry plant, or sunflower. A blood maize plant’s statistics remain the same, even if it is masquerading as a plant of a smaller size category. It can’t assume the form of another plant creature and can imitate only the appearance of Plants that are normally considered part of the surrounding terrain. This effect is a visual illusion only and does not alter the perceived Scent or tactile properties of the blood maize. While using this ability, the blood maize gains a +10 Racial bonus on Stealth checks.</p><p>A successful DC 20 Knowledge (nature) or Survival check is required to identify the plant’s true nature. A creature that interacts with a blood maize plant while it is using this ability can disbelieve the illusion with a successful Will Save (DC = 10 + 1/2 HD + Charisma modifier). Changing back into its true form requires an Immediate Action. This is an Illusion (Glamer) effect.</p><p>Root Deep (Ex):</p><p>As a Free Action that doesn’t provoke attacks of opportunity, a blood maize plant can use its long hooklike appendage to root itself deep into dirt or soil, but not into rock or other harder materials. This grants the blood maize a +4 Racial bonus against Bull Rush or Trip attempts.</p><p>Blinding Bloom (Ex):</p><p>Once per day as a Standard Action that doesn’t provoke attacks of opportunity, a blood maize plant can release a stationary, 20-foot-high cloud of fine pollen in a 20-foot radius centered on its square. The cloud acts as an Obscuring Mist spell, but it lasts for 1 round, after which it dissipates. A creature in the cloud when the pollen is released or that moves into the cloud before it dissipates must succeed at a Fortitude Save (DC = 10 + 1/2 HD + Charisma modifier) or be Blinded for 1 round.</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Two Extra Attacks (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.6sralVNridNDsY3e
+      - name: Blood Maize Advancement
+        uuid: Compendium.pf1-companions.companions.Item.jBGtBNuUs3PhUiQY
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

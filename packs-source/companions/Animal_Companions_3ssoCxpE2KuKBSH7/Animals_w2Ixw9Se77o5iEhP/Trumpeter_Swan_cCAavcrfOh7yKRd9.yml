@@ -1,0 +1,83 @@
+_id: cCAavcrfOh7yKRd9
+_key: '!items!cCAavcrfOh7yKRd9'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Trumpeter Swan
+ownership:
+  default: 0
+sort: 9300000
+system:
+  changeFlags: {}
+  changes:
+    - _id: mbXo03BE
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 3x9q2N60
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: GaOGi1LK
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: o7YqZyZg
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: mHyfKap5
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This large waterfowl has a wide wingspan, all-white feathers, a black bill, and a long, curving neck.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 wings (1d3)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Wing
+        uuid: Compendium.astora-mod.combat-items.Item.n5nIM58TebICLgXv
+      - name: Trumpeter Swan Advancement
+        uuid: Compendium.pf1-companions.companions.Item.SrKjCb2GuzmYpTVa
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 80
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

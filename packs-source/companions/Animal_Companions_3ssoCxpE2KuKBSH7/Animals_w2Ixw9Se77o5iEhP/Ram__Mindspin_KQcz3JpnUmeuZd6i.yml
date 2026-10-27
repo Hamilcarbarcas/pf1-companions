@@ -1,0 +1,94 @@
+_id: KQcz3JpnUmeuZd6i
+_key: '!items!KQcz3JpnUmeuZd6i'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ram, Mindspin
+ownership:
+  default: 0
+sort: 7100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: fSk91J2N
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: WkHZXCpi
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: Fs3ie2WM
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 68DDOD8R
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 9gCkEt6x
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 3FoWtQXO
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 2d43Jeoj
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This stark white ram’s curved horns appear to have sharp thorns studding every inch of their surface.</p><p><strong>Natural Attacks:</strong> gore (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Bleed (1), Powerful Charge (gore, 1d8).</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Ram, Mindspin Advancement
+        uuid: Compendium.pf1-companions.companions.Item.EB1nTkqT4aXpZHCm
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

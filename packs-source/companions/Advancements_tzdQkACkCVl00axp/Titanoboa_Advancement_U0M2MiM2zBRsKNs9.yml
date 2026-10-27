@@ -1,0 +1,36 @@
+_id: U0M2MiM2zBRsKNs9
+_key: '!items!U0M2MiM2zBRsKNs9'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-enhanced-links:
+    classFeatures:
+      - level: 7
+        uuid: Compendium.pf1-companions.companions.Item.Oskmk6Tq4RTyJt9C
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Titanoboa Advancement
+ownership:
+  default: 0
+sort: 32800000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>Grants the titanoboa's 7th-level advancement when its companion class reaches level 7.</p>
+  subType: archetype
+type: feat

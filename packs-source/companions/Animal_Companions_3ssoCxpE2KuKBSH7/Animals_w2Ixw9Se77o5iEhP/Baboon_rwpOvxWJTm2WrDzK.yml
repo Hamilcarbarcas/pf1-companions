@@ -1,0 +1,88 @@
+_id: rwpOvxWJTm2WrDzK
+_key: '!items!rwpOvxWJTm2WrDzK'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Baboon
+ownership:
+  default: 0
+sort: 600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: GDBNaKTJ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 1NVZUrW0
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: orjzdZPK
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: l5nyx0QF
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: vgxpdAUy
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Dzv8dJBZ
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>A hairy, stout animal with opposable thumbs, this creature has a pronounced muzzle and bright red buttocks.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Baboon Advancement
+        uuid: Compendium.pf1-companions.companions.Item.3GUwKVAKqab7Cw4l
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

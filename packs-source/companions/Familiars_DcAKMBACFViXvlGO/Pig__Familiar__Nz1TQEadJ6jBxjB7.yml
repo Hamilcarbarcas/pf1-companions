@@ -1,0 +1,99 @@
+_id: Nz1TQEadJ6jBxjB7
+_key: '!items!Nz1TQEadJ6jBxjB7'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Pig (Familiar)
+ownership:
+  default: 0
+sort: 5800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: vJQnR1vd
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: KhzY1OYA
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: YEPlVkFE
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: mcGdNsaZ
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: NBqnl6d5
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: FRDm7V6Q
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: CVFAxS3e
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 5o6ZnCgA
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Diplomacy checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Pig Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.lzC7XhJ9kX86TAAs
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

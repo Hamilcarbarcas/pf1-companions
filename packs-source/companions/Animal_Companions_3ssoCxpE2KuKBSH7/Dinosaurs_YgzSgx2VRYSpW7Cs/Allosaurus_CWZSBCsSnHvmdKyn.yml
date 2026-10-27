@@ -1,0 +1,100 @@
+_id: CWZSBCsSnHvmdKyn
+_key: '!items!CWZSBCsSnHvmdKyn'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Allosaurus
+ownership:
+  default: 0
+sort: 100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: Zldzn2hp
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: jnAzcA4T
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: O4dkoYlC
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: hKFfN0Bq
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: EPRN8NIP
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: dbce93xK
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 claws (1d4)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Grab, Pounce.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Allosaurus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.iPblFSc6sb65mHaa
+  scriptCalls:
+    - _id: dsNxBIWEiqlnjlka
+      category: pf1el:create:supplements:Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      hidden: false
+      img: icons/svg/dice-target.svg
+      name: Secondary attack
+      type: script
+      value: |-
+        const actions = item.toObject().system.actions.map((a) => foundry.utils.mergeObject(a, { naturalAttack: { primary: false } }));
+        await item.update({ "system.actions": actions });
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

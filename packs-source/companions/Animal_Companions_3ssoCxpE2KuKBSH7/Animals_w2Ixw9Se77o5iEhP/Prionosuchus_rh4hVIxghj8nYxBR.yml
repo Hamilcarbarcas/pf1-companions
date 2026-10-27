@@ -1,0 +1,101 @@
+_id: rh4hVIxghj8nYxBR
+_key: '!items!rh4hVIxghj8nYxBR'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Prionosuchus
+ownership:
+  default: 0
+sort: 6700000
+system:
+  changeFlags: {}
+  changes:
+    - _id: f8fJHqYq
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: Jf5ruI9K
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: j2StPsTh
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: VbXlSzEJ
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: BcJXSFVJ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: XWbKPoVh
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 2pDvTcuQ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: ZVszydhQ
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This primeval crocodile is equally effective in the water and on land. Its jaws are capable of crushing things with great force.</p><p><strong>Natural Attacks:</strong> bite (1d8 plus grab)</p><p><strong>Special Attacks:</strong> Grab, Constrict (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +4 Str, -2 Dex, +4 Con; Constrict (2d6).</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Prionosuchus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.ZdeSTnlaKBf9PfDv
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: 30
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

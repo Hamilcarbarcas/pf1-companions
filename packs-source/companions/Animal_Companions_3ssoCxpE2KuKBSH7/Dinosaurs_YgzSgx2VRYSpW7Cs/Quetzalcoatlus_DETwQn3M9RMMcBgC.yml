@@ -1,0 +1,96 @@
+_id: DETwQn3M9RMMcBgC
+_key: '!items!DETwQn3M9RMMcBgC'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Quetzalcoatlus
+ownership:
+  default: 0
+sort: 2900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: QGSXf0Yl
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: lzRVFsqm
+      formula: '11'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: sXTnVrws
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 4RXTqF1f
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 2w9DUTpL
+      formula: '2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: V2sQmaaW
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: sfnSsMrN
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.</p><p><strong>Natural Attacks:</strong> bite (1d8)</p><p><strong>9th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; new attacks: 2 wings (1d4); Razor-Sharp Beak.</p><p>Razor-Sharp Beak (Ex):</p><p>A quetzalcoatlus’s razor-sharp beak has a critical modifier of x3.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Quetzalcoatlus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.wyTxKz2CkQkNOvux
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 50
+    flyManeuverability: clumsy
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

@@ -1,0 +1,62 @@
+_id: 8TSduGU2gkm48dKW
+_key: '!items!8TSduGU2gkm48dKW'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Spider, Web Tyrant (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 30500000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: AkA2syJk
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: u6zHHlC9
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: muytRxl6
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: zHBWaHZt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: F0xVE0th
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The spider, web tyrant's 4th-level advancement.</p>
+  subType: companion
+type: feat

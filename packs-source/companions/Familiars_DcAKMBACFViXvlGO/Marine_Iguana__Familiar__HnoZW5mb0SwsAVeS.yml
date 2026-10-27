@@ -1,0 +1,87 @@
+_id: HnoZW5mb0SwsAVeS
+_key: '!items!HnoZW5mb0SwsAVeS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Marine Iguana (Familiar)
+ownership:
+  default: 0
+sort: 4300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 30zZzv1N
+      formula: '1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: m2thM1C8
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: ywUegXTY
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: GQVF6Cl8
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 1OTmby99
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 7JkZEM6S
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Swim checks (use dwarf caiman stats for marine iguanas)</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Marine Iguana Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.k0nfW34IZB7Pjukr
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 10
+    swim: 30
+  tags:
+    - Familiar Species
+type: race

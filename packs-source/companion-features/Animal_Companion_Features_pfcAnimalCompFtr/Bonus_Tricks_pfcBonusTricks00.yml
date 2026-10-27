@@ -1,0 +1,31 @@
+_id: pfcBonusTricks00
+_key: '!items!pfcBonusTricks00'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcAnimalCompFtr
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+name: Bonus Tricks
+ownership:
+  default: 0
+sort: 500000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+  changes: []
+  contextNotes: []
+  description:
+    value: <p><strong>Bonus tricks:</strong> [[floor(@class.level / 3) + 1]]</p><p>The total number of "bonus" tricks the animal knows in addition to any the master might choose to teach it (see the Handle Animal skill). These bonus tricks don't require any training time or Handle Animal checks, and they don't count against the normal limit of tricks known by the animal. The master selects these bonus tricks, and once selected, they can't be changed.</p>
+  subType: companion
+type: feat

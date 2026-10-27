@@ -1,0 +1,99 @@
+_id: V0my2nfwboKUBHzi
+_key: '!items!V0my2nfwboKUBHzi'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Maw
+ownership:
+  default: 0
+sort: 500000
+system:
+  changeFlags: {}
+  changes:
+    - _id: Nug8DN1Z
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 4XiFQfPe
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: SwOHgoa0
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 5YNh8Zhi
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: JsLSNAuD
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: qtOVdPbq
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: FAtOl8K4
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: <p>Maws are an odd creature that consists of a reptilian, tailless body on two strong legs. The head comprises most of the torso and is largely the gaping mouth. They are omnivorous and will eat nearly anything they come across. Their voracious appetites and aggressiveness make them a general nuisance to nearby societies.</p><p><strong>Natural Attacks:</strong> bite (1d8), claw (1d3)</p><p><strong>Special Qualities:</strong> +4 to Saves vs. Disease and Poison</p><p><strong>7th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +2 Con; Disease.</p><p>Disease (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, causes red ache.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Very Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.zhMUGNKVWsqCygZX
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Single Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.JJsMMoBNT42TCtkO
+      - name: Maw Advancement
+        uuid: Compendium.pf1-companions.companions.Item.NK28QY73C6bfyZ3r
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

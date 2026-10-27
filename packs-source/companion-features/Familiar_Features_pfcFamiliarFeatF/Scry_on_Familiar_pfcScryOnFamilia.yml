@@ -1,0 +1,31 @@
+_id: pfcScryOnFamilia
+_key: '!items!pfcScryOnFamilia'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/magic/perception/eye-ringed-glow-angry-teal.webp
+name: Scry on Familiar
+ownership:
+  default: 0
+sort: 800000
+system:
+  abilityType: sp
+  associations:
+    classes:
+      - Familiar
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>The master may scry on the familiar (as if casting the <em>scrying</em> spell) once per day.</p>
+  subType: companion
+type: feat

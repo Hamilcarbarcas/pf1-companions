@@ -1,0 +1,95 @@
+_id: eACOjA8jyRR32i1T
+_key: '!items!eACOjA8jyRR32i1T'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Penguin (Familiar)
+ownership:
+  default: 0
+sort: 5500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: SIy0UO9Q
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: mK99y37t
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: j2kUlrTl
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: I2Qmr7O5
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 2wpBAy8R
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: ljvbnJgM
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: b3UgBqOy
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Special Qualities:</strong> Hold Breath</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Swim checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Penguin Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.PwInDtuvFZs7LbVf
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 10
+    swim: 40
+  tags:
+    - Familiar Species
+type: race

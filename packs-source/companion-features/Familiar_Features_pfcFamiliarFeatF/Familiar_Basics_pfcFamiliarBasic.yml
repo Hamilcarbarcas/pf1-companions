@@ -1,0 +1,47 @@
+_id: pfcFamiliarBasic
+_key: '!items!pfcFamiliarBasic'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Familiar Basics
+ownership:
+  default: 0
+sort: 10000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Familiar
+  changes:
+    - _id: pfcFInt01
+      formula: max(0, 5 + ceil(@class.level / 2) - @abilities.int.base)
+      operator: add
+      priority: -100
+      target: int
+      type: untypedPerm
+    - _id: pfcFNac01
+      formula: ceil(@class.level / 2)
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>A familiar uses the basic statistics for a creature of its kind, with these changes. It counts as having Hit Dice equal to the master's level.</p><ul><li><strong>Hit Points:</strong> half the master's total hit points (not including temporary hit points), rounded down.</li><li><strong>Attacks:</strong> the master's base attack bonus; Strength or Dexterity, whichever is greater, for melee attacks with natural weapons.</li><li><strong>Saving Throws:</strong> for each save, the familiar's base save bonus (Fortitude +2, Reflex +2, Will +0) or the master's, whichever is better, with the familiar's own ability modifiers.</li><li><strong>Skills:</strong> for each skill, the familiar's ranks or the master's, whichever is better, with the familiar's own ability modifiers.</li><li><strong>Intelligence:</strong> [[5 + ceil(@class.level / 2)]]. <strong>Natural armor:</strong> +[[ceil(@class.level / 2)]] over its existing bonus.</li></ul>
+  flags:
+    boolean:
+      weaponFinesse: true
+    dictionary: {}
+  subType: companion
+type: feat

@@ -1,0 +1,81 @@
+_id: DgOI7oylPtmcC74F
+_key: '!items!DgOI7oylPtmcC74F'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Peafowl (Familiar)
+ownership:
+  default: 0
+sort: 5400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: V9xIJIIE
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: DEhKFABP
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: dP3bOOE5
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 9lizxZow
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: z1iiGYLT
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 talons (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Intimidate checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Peafowl Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.sZ7wv8MmcrQMMhdQ
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: clumsy
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

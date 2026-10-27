@@ -1,0 +1,87 @@
+_id: J3DpAIIB9gQ5uMh0
+_key: '!items!J3DpAIIB9gQ5uMh0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Toucan (Familiar)
+ownership:
+  default: 0
+sort: 9200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: d2biBiaE
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 77ppfyba
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 3EZs6HZQ
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: qUBLn6D8
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 6sFaPQTK
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: zHN2or1M
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Diplomacy checks (use raven stats for toucans [cannot speak])</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Toucan Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.PZ0l987S1FxY9aWk
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

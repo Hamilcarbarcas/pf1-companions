@@ -1,0 +1,92 @@
+_id: sBM7wLpaTXZXVi7B
+_key: '!items!sBM7wLpaTXZXVi7B'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Giant Flea (Familiar)
+ownership:
+  default: 0
+sort: 2600000
+system:
+  changeFlags: {}
+  changes:
+    - _id: 5ZlNDMmY
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: LMNhngeY
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: Q0Xeyggv
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: ZhEiYdGA
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 834Y0Uyh
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 6yA2QsCI
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: ykjLfWUf
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Fortitude saves against disease (witch only)</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Giant Flea Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.HQPzSjHgHVnmupXj
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

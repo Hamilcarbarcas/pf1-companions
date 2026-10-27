@@ -1,0 +1,96 @@
+_id: cdgXmvz3SJOihREB
+_key: '!items!cdgXmvz3SJOihREB'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Moa
+ownership:
+  default: 0
+sort: 5600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 6wRcgjyL
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: uq4qH3RH
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: tnpk7ck8
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: Mln1SHR9
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: iCBANvg4
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 5MzTGnkE
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: gsBHOkwV
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Standing on muscular legs that end in enormous talons, this flightless bird is almost twice the height of a man.</p><p><strong>Natural Attacks:</strong> 2 talons (1d3)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +4 Str, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Weak Attack (Talon)
+        uuid: Compendium.astora-mod.misc-features.Item.jKyNEaODWfisNcli
+      - name: Moa Advancement
+        uuid: Compendium.pf1-companions.companions.Item.y6KHNuFh8FES3Qj3
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

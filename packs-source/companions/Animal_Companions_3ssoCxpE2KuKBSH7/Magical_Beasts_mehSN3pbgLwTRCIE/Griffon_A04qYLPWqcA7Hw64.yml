@@ -1,0 +1,104 @@
+_id: A04qYLPWqcA7Hw64
+_key: '!items!A04qYLPWqcA7Hw64'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Griffon
+ownership:
+  default: 0
+sort: 200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: MhloFJIP
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 7KGJMlbB
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: xfPNDgIJ
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: gu6lpMmi
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: QI7YVuFE
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: FA9MMOfa
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: I3O9zBtL
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+    - _id: gVEWy4VH
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: '<p>This majestic beast has the body of a lion, the head and forelegs of a great eagle, and a massive pair of feathered wings.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 talons (1d4)</p><p><strong>Special Qualities:</strong> Racial Skill Bonus: +4 Acrobatics, +4 Perception</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +6 Str, -2 Dex, +4 Con; Pounce, Rake (2 talons).</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Griffon Advancement
+        uuid: Compendium.pf1-companions.companions.Item.5Te2Gngn3G9AmWhx
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 80
+    flyManeuverability: average
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

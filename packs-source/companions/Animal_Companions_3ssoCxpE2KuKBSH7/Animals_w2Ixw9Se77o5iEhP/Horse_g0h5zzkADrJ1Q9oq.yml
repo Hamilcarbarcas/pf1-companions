@@ -1,0 +1,104 @@
+_id: g0h5zzkADrJ1Q9oq
+_key: '!items!g0h5zzkADrJ1Q9oq'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Horse
+ownership:
+  default: 0
+sort: 4700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: bDA6O1BG
+      formula: '6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: pI1Gv1j6
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 8TeiZa9N
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: k28DhJb7
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: JI6GZNvm
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: d6vwskHm
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jtuNzRtW
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 6haLwFwS
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This proud horse thunders across the grassy plain with fluid grace, wind tugging at its loose-fitting barding.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 hoofs (1d6)</p><p><strong>Special Qualities:</strong> Docile</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con; Combat Trained.</p><p>Docile (Ex):</p><p>Unless it is combat trained, a horse’s hooves are treated as secondary attacks, taking a -5 penalty to hit (see Natural Weapon).</p><p>* This is a secondary natural attack, and takes a -5 penalty to hit, see Natural Weapon for more information on how secondary attacks work.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Very Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.qx2Uq7t6cK8j0jn7
+      - name: Hoof
+        uuid: Compendium.astora-mod.combat-items.Item.eUBYo3efWNTbc8gE
+      - name: Horse Advancement
+        uuid: Compendium.pf1-companions.companions.Item.HH7fmbU8FBSX8huM
+  size: lg
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

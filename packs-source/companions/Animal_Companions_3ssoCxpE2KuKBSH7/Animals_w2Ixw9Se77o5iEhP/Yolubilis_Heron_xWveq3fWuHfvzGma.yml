@@ -1,0 +1,96 @@
+_id: xWveq3fWuHfvzGma
+_key: '!items!xWveq3fWuHfvzGma'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Yolubilis Heron
+ownership:
+  default: 0
+sort: 10300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 0zTGGEoH
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: uzMOEHaM
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 5FyqjQLh
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: OAhP6js5
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: zQS9lAZP
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: qc9nQ3Ud
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: xqiPqEB8
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak.</p><p><strong>Natural Attacks:</strong> bite (1d8)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +2 Con; Still Predator.</p><p>Still Predator (Ex):</p><p>A Yolubilis heron has the ability to stand perfectly still for hours at a time while awaiting prey, making it easy to mistake the bird’s legs for slim tree trunks. A Yolubilis heron can use the Freeze ability while adjacent to trees or any vegetation that could conceal its upper body. While standing in water, it can use the Freeze ability against submerged creatures. Other creatures with low Intelligence scores or poor senses might be tricked by this ability as well.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Yolubilis Heron Advancement
+        uuid: Compendium.pf1-companions.companions.Item.fCd33Vh8536trECD
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: average
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,100 @@
+_id: QWCBF8xWatPiXlZr
+_key: '!items!QWCBF8xWatPiXlZr'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Deer, Reindeer
+ownership:
+  default: 0
+sort: 2800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: NpaKKVmY
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: oeReAU9y
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: w7A5yQrj
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: E6h9PRkn
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: uWyqRt2d
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 1WYwhwGS
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jymdu9OR
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 4Pjulw1j
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>A denizen of the frozen tundra, the reindeer is a sure-footed companion in icy terrain, and it can used for transportation as well as defense.</p><p><strong>Natural Attacks:</strong> gore (1d6)</p><p><strong>Special Qualities:</strong> Snow Adaptation</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Dex, +2 Con.</p><p>Snow Adaptation (Ex):</p><p>A reindeer ignores Difficult Terrain from ice and snow.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Deer, Reindeer Advancement
+        uuid: Compendium.pf1-companions.companions.Item.o5YuJdBWkGsXPa5W
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

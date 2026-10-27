@@ -1,0 +1,85 @@
+_id: Sy0Soo3MwVwT8GmV
+_key: '!items!Sy0Soo3MwVwT8GmV'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Cat, Margay (Familiar)
+ownership:
+  default: 0
+sort: 800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: htz5kx5e
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: f6NnpKlU
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: GUTcHCfY
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: XymCTnFB
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: hsMoJCoM
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: mwOz0hiH
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +3 bonus on Bluff checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Cat, Margay Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.6kXwEOVz77J7deNb
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

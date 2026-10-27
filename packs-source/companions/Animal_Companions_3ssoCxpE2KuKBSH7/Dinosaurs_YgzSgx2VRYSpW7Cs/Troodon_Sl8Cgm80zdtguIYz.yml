@@ -1,0 +1,90 @@
+_id: Sl8Cgm80zdtguIYz
+_key: '!items!Sl8Cgm80zdtguIYz'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Troodon
+ownership:
+  default: 0
+sort: 3600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: pZUDy43L
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: uvx9Qttq
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: sEFoUJP4
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: rYLusoMJ
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: iTzuVFKc
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: C1JYXrw3
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This small, slender-necked dinosaur’s bright, inquisitive eyes seem to miss nothing.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 claws (1d3)</p><p><strong>Special Qualities:</strong> Easily Trained</p><p><strong>4th-Level Advancement:</strong> size Medium; +1 natural armor; +4 Str, +4 Dex, +4 Con.</p><p>Easily Trained (Ex):</p><p>A troodon is unusually quick to pick up tricks and animal training. All Handle Animal checks made to train a troodon gain a +2 bonus. A troodon can learn an additional 2 tricks beyond what an animal of its Intelligence can normally be taught.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Troodon Advancement
+        uuid: Compendium.pf1-companions.companions.Item.F9ACikjoj8ibPQZW
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

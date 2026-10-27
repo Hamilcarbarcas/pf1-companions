@@ -1,0 +1,12 @@
+module.zip
+*.log
+.DS_Store
+
+# Compiled LevelDB packs are built from packs-source/ by pack-tools.
+packs/
+
+# The design record is kept locally, not published with the module.
+DESIGN*.md
+
+# The doc-edit log is kept locally, not published with the module.
+README-EDITS.md

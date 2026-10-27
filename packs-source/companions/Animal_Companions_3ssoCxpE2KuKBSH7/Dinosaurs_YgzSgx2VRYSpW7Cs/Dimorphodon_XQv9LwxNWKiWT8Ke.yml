@@ -1,0 +1,93 @@
+_id: XQv9LwxNWKiWT8Ke
+_key: '!items!XQv9LwxNWKiWT8Ke'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Dimorphodon
+ownership:
+  default: 0
+sort: 1400000
+system:
+  changeFlags: {}
+  changes:
+    - _id: m2n6Dx0G
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: vGW5c4Xf
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: DzbD7sDB
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: EdCylgiP
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: LFfx82Ce
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: PcgDMqm2
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 7TlCFoiW
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con; bite gains Strong Attack (Bite); Poison.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 6 rounds, Mild Strength, 1 save to cure</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Dimorphodon Advancement
+        uuid: Compendium.pf1-companions.companions.Item.mp8637ONOzl0IBe6
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 80
+    flyManeuverability: clumsy
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

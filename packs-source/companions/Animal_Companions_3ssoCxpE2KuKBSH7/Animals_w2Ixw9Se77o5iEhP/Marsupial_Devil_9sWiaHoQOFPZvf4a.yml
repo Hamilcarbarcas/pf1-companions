@@ -1,0 +1,96 @@
+_id: 9sWiaHoQOFPZvf4a
+_key: '!items!9sWiaHoQOFPZvf4a'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Marsupial Devil
+ownership:
+  default: 0
+sort: 5400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: qln6R9P3
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 0T5Zp5Nc
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: vIZIgOwJ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: IOLE3QpX
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: efcJYxmU
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 2ZnJVz1U
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: INutR7lH
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This toothy marsupial has a perhaps undeserved reputation for ferocity.</p><p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>4th-Level Advancement:</strong> +4 Str, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Marsupial Devil Advancement
+        uuid: Compendium.pf1-companions.companions.Item.EFyLX0o5htR1bbzm
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,99 @@
+_id: VOM7kbB7kxTWmkoZ
+_key: '!items!VOM7kbB7kxTWmkoZ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Compsognathus (Familiar)
+ownership:
+  default: 0
+sort: 1200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: YCKNMZcO
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: uhNPjXiM
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: zXmqitJZ
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: B36ByxOf
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: gooWt2sB
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: a0jTvjTH
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 3nKh6lJx
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: zak72Lfi
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3 plus Poison)</p><p><strong>Master bonus:</strong> Master gains a +4 bonus on initiative checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Compsognathus Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.HuN6cmDWAT3E52AP
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: 20
+  tags:
+    - Familiar Species
+type: race

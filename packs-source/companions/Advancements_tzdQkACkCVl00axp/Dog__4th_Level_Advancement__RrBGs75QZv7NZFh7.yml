@@ -1,0 +1,56 @@
+_id: RrBGs75QZv7NZFh7
+_key: '!items!RrBGs75QZv7NZFh7'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Dog (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 11900000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: IHI0B2Qm
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: 3pkPv3a1
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: 78hRjHFK
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: q5nRDxyQ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>The dog's 4th-level advancement.</p>
+  subType: companion
+type: feat

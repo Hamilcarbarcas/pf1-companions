@@ -1,0 +1,100 @@
+_id: BpbghRp4JagOoHJ9
+_key: '!items!BpbghRp4JagOoHJ9'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Mome Rath
+ownership:
+  default: 0
+sort: 5800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: K27jK5WW
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: gF6ejUT6
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 2tPDZwtb
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: vZwnCzsE
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: FDOSlCvY
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: v4EZpd1f
+      formula: '7'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 8fdYt3mg
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: vVRH1fZN
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Moss and lichen grow from the shaggy back of this boar-like animal. Its curving claws and prehensile tail hold it in the trees.</p><p><strong>Natural Attacks:</strong> 2 claws (1d3 plus poison)</p><p><strong>Special Attacks:</strong> Poison</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 Str, -2 Dex, +4 Con; Poison (upgraded).</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 3 rounds, Sickened 1d3 rounds on each failed save, 1 save to cure. At 4th level, the target is Sickened 1d6 rounds on each failed save.</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Mome Rath Advancement
+        uuid: Compendium.pf1-companions.companions.Item.L2dvsgDIPlABSnB4
+  size: sm
+  speeds:
+    burrow: null
+    climb: 10
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

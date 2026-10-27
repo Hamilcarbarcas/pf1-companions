@@ -1,0 +1,79 @@
+_id: csjeZOQtGtPbVkP0
+_key: '!items!csjeZOQtGtPbVkP0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Suture Vine (Familiar)
+ownership:
+  default: 0
+sort: 8600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: ajXc3zzn
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: Sze64ZK1
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 0FOnCOrR
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: wXP2Kdb5
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 8vRPpUL0
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +3 bonus on Heal checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Suture Vine Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.1LC7r68G7sgNsvHN
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 15
+    fly: null
+    flyManeuverability: ''
+    land: 15
+    swim: null
+  tags:
+    - Familiar Species
+type: race

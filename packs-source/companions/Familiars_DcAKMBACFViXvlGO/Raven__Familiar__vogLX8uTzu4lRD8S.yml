@@ -1,0 +1,87 @@
+_id: vogLX8uTzu4lRD8S
+_key: '!items!vogLX8uTzu4lRD8S'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Raven (Familiar)
+ownership:
+  default: 0
+sort: 6600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: DQ3WlrHE
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: k9mbSsLQ
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: SFF6gq00
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: Di58Ld5n
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: S1XUj5z6
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: YuVtrXnN
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Appraise checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Raven Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.6csDatnCIltsN0gq
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

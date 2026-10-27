@@ -1,0 +1,102 @@
+_id: 68jYGhcptppQPKnL
+_key: '!items!68jYGhcptppQPKnL'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Warcat
+ownership:
+  default: 0
+sort: 9700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: eEFGsiQy
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: OiwHPIck
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: HhAXpGOG
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: wKtsK9UV
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: f320Yv6A
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Ni6PsmE1
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: BUMOPUT4
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: kK0v2Ykd
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This massive catlike creature has the lithe grace of a feline despite a shell-like armor of segmented plates.</p><p><strong>Natural Attacks:</strong> bite (1d6), 2 claws (1d4)</p><p><strong>Special Attacks:</strong> Rake (2 claws)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Grab, Pounce.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Warcat Advancement
+        uuid: Compendium.pf1-companions.companions.Item.OzKTmstwfhcvp3Gx
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,68 @@
+_id: ujX9Dua4kXIH1F2X
+_key: '!items!ujX9Dua4kXIH1F2X'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-enhanced-links:
+    classFeatures:
+      - level: 4
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - level: 4
+        uuid: Compendium.astora-mod.misc-features.Item.jKyNEaODWfisNcli
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Hippogriff (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 16300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: cvdimCsE
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: 4NhBqlZP
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: YRGPQMAN
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: JVkAS7NA
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: ChYxb6wD
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The hippogriff's 4th-level advancement.</p>
+  subType: companion
+type: feat

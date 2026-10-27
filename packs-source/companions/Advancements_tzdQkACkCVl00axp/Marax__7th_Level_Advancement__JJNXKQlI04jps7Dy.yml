@@ -1,0 +1,68 @@
+_id: JJNXKQlI04jps7Dy
+_key: '!items!JJNXKQlI04jps7Dy'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-enhanced-links:
+    classFeatures:
+      - level: 7
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - level: 7
+        uuid: Compendium.astora-mod.misc-features.Item.JdkWF3l6KfY44pFT
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Marax (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 19700000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: gJ1BZOcE
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: NbtZMRwH
+      formula: '6'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: 3rwtF9xS
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: NNntHFca
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: 3gnrO7TA
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The marax's 7th-level advancement.</p><p><strong>Gains:</strong> Pounce</p>
+  subType: companion
+type: feat

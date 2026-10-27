@@ -1,0 +1,87 @@
+_id: ciIWXYh2ag59efR2
+_key: '!items!ciIWXYh2ag59efR2'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Arctic Hare (Familiar)
+ownership:
+  default: 0
+sort: 300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: j2ARttFq
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: cbKxzSJB
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: To4K84Ay
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: bi7Ssk4n
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: NVh7EFPN
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Bx3FC62f
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +4 bonus on initiative checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Arctic Hare Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.O1lmIuzv6hlxhI42
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Familiar Species
+type: race

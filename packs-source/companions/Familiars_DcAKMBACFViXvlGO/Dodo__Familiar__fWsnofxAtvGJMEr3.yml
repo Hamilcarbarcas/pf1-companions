@@ -1,0 +1,89 @@
+_id: fWsnofxAtvGJMEr3
+_key: '!items!fWsnofxAtvGJMEr3'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Dodo (Familiar)
+ownership:
+  default: 0
+sort: 1500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: t3XJQF6c
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: BR81WcM2
+      formula: '1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: V0Ip8oud
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: FkOPua6A
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 3ODTh1TH
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 1EC7wuGH
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3)</p><p><strong>Master bonus:</strong> Master gains a +4 bonus on initiative checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Dodo Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.7IoGIWsQ4Xh3Jnj2
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

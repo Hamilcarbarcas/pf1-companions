@@ -1,0 +1,96 @@
+_id: tLUTOZBuzOlj6j2v
+_key: '!items!tLUTOZBuzOlj6j2v'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Therizinosaurus
+ownership:
+  default: 0
+sort: 3300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: ZtTKDk2A
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 9KlXjEJ5
+      formula: '8'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: UOi0ShPS
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: AxOSRB1o
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: M7OyrrBE
+      formula: '1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: aVlhIRT6
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: DTrGHiIQ
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This feathered bipedal saurian looks somewhat comical—save for its outlandish sword-sized claws.</p><p><strong>Natural Attacks:</strong> 2 claws (1d6)</p><p><strong>Special Qualities:</strong> sprint</p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; Bleed (1d6), Sweeping Strike.</p><p>Sprint (Ex):</p><p>Once per hour, a small cat can move at 10 times its normal speed (500 feet) when it makes a Charge.</p><p>Sweeping Strike (Ex):</p><p>As a Full-Round Action, a therizinosaurus can hunker down and make a great, sweeping attack with its claws against up to four adjacent foes. The dinosaur makes an attack roll against each target, inflicting claw damage on a successful hit.</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Strong Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.RUTxlE9xMB1McNZs
+      - name: Therizinosaurus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.B6im45dk8zRA90Ml
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

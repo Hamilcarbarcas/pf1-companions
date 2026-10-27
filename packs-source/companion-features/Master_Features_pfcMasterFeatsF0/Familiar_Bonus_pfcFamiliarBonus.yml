@@ -1,0 +1,38 @@
+_id: pfcFamiliarBonus
+_key: '!items!pfcFamiliarBonus'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcMasterFeatsF0
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Familiar Bonus
+ownership:
+  default: 0
+sort: 100000
+system:
+  abilityType: na
+  actions:
+    - _id: pfcPresenceAct00
+      actionType: other
+      activation:
+        cost: 1
+        type: nonaction
+        unchained:
+          cost: 1
+          type: nonaction
+      name: Toggle Familiar Presence
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>The bonus this character gains from their familiar, kept in step with the linked familiar. It applies while the familiar is within 1 mile; use this feature to mark the familiar away or back.</p>
+  subType: misc
+type: feat

@@ -1,0 +1,94 @@
+_id: 8Ctg6iu5UJTjhqIk
+_key: '!items!8Ctg6iu5UJTjhqIk'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+  pf1-enhanced-links:
+    renames:
+      - name: Spur
+        tab: supplements
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Platypus (Familiar)
+ownership:
+  default: 0
+sort: 5900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: RtiHdtI7
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: E0Jd1TwZ
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 2j3sC3FP
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: jVc1FqpV
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: iPtIVOUh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: m2ZKXfAQ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> spur (1d3 plus Poison)</p><p><strong>Special Qualities:</strong> Semiaquatic</p><p><strong>Special Attacks:</strong> Poison</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Swim checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Sting
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      - name: Strong Attack (Sting)
+        uuid: Compendium.astora-mod.misc-features.Item.fwdmE4sUCMMC12uI
+      - name: Platypus Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.ACLq0zA97hASWD3W
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 10
+    swim: 40
+  tags:
+    - Familiar Species
+type: race

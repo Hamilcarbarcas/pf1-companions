@@ -1,0 +1,93 @@
+_id: 3aRtIwoLjurvkXQ6
+_key: '!items!3aRtIwoLjurvkXQ6'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Mongoose (Familiar)
+ownership:
+  default: 0
+sort: 4600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 5Zib0iTV
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: nGoa8BNl
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: UttLfXno
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Gg5UDpXT
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: DoK0glbT
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: Vi2RprDS
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: kjVGRTP7
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3 plus Attach)</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Fortitude saves (use weasel stats for mongooses)</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Mongoose Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.VDihAhub0oTLrAOI
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

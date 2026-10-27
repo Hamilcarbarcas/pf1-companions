@@ -1,0 +1,117 @@
+_id: WIGnZwV6P8EMDh39
+_key: '!items!WIGnZwV6P8EMDh39'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+  pf1-enhanced-links:
+    renames:
+      - name: Tail Barb
+        tab: supplements
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Marax
+ownership:
+  default: 0
+sort: 5300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: XorewVmf
+      formula: '6'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: gUIh8IcX
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 6kPUMAiu
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: Z4s4mlIQ
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: WnCc5EKC
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Skio1LuX
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: xMVruoXT
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: vBMdXUlb
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>Dense, bony growths line the back of this bipedal predator. Between its gnashing, toothy underbite, scythe-like claws, and spiked tail, no part of this beast offers mercy.</p><p><strong>Natural Attacks:</strong> bite (1d6), tail barb (1d4 plus poison)</p><p><strong>Special Attacks:</strong> Poison</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +6 Str, -2 Dex, +2 Con; new attacks: 2 claws (1d4); Pounce.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, moderate Dexterity, 1 save to cure.</p><p>*This is a secondary natural attack that deals piercing damage, and takes a -5 penalty to hit, see Natural Weapon for more information on how secondary attacks work.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Sting
+        uuid: Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      - name: Marax Advancement
+        uuid: Compendium.pf1-companions.companions.Item.UEhaxITmgj4csnq8
+  scriptCalls:
+    - _id: WKwQ1JAHHOtsgpYo
+      category: pf1el:create:supplements:Compendium.astora-mod.combat-items.Item.dH03htL0QtUCDEBi
+      hidden: false
+      img: icons/svg/dice-target.svg
+      name: Secondary attack
+      type: script
+      value: |-
+        const actions = item.toObject().system.actions.map((a) => foundry.utils.mergeObject(a, { naturalAttack: { primary: false } }));
+        await item.update({ "system.actions": actions });
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

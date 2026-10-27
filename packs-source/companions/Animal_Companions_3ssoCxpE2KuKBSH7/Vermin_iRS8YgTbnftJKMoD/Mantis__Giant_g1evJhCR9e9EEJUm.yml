@@ -1,0 +1,75 @@
+_id: g1evJhCR9e9EEJUm
+_key: '!items!g1evJhCR9e9EEJUm'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Mantis, Giant
+ownership:
+  default: 0
+sort: 1100000
+system:
+  changeFlags: {}
+  changes:
+    - _id: PgVGqH59
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: g1kC4j1M
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: EPX9vdMz
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: jQFNc1kH
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>This towering insect walks on its back four legs. Its head is triangular and its front legs sport razor-sharp edges and claws.</p><p><strong>Natural Attacks:</strong> 2 claws (1d4 plus grab)</p><p><strong>Special Attacks:</strong> Grab, Lunge</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Mandibles, Sudden Strike.</p><p>Lunge (Ex):</p><p>A giant mantis’s limbs are capable of reaching much farther than normal for a creature of its size. As a full-attack action, it can make a single attack with its claws at double its normal reach. When a giant mantis attacks with a claw in this manner, it gains a +4 bonus on its attack roll. A giant mantis cannot make attacks of opportunity with its lunge.</p><p>Mandibles (Ex):</p><p>A giant mantis gains a secondary attack against a grabbed target, dealing 1d6 damage.</p><p>Sudden Strike (Ex):</p><p>A giant mantis may take a Full Attack action in the surprise round.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Mantis, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.pXFQEfSD3qtOjWME
+  size: med
+  speeds:
+    burrow: null
+    climb: 30
+    fly: 40
+    flyManeuverability: average
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

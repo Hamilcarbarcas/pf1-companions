@@ -1,0 +1,98 @@
+_id: bvb3ssdQ6yIpoTUO
+_key: '!items!bvb3ssdQ6yIpoTUO'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Amargasaurus
+ownership:
+  default: 0
+sort: 200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: XwUcvteh
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: DJQWsLBU
+      formula: '8'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: xfsCuclC
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: fu15vSro
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: pOYLM8rS
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: s4PbpRU8
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: HSFG424G
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This sauropod has an elongated neck and a long, tapering tail.</p><p><strong>Natural Attacks:</strong> slam (1d6), tail slap (1d6)</p><p><strong>4th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Trample.</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Strong Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.ONkzOGVgRpD9e7jb
+      - name: Tail Slap
+        uuid: Compendium.astora-mod.combat-items.Item.i7tJJDuZm51q8JWf
+      - name: Amargasaurus Advancement
+        uuid: Compendium.pf1-companions.companions.Item.shJCbeJ2spGzlhrK
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

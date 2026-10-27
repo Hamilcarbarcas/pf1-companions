@@ -1,0 +1,82 @@
+_id: ZL8mjuCpVZFgTyTV
+_key: '!items!ZL8mjuCpVZFgTyTV'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Raven, Giant
+ownership:
+  default: 0
+sort: 7300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: iBAmINVI
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 0DFOMisN
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: XdoWwC9d
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: tzEBWo2H
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Sw1VYXat
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This glossy, jet-black bird stands as tall as a dwarf. Its eerily intelligent black eyes are quick to take in everything around it.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Scavenger</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, +2 Dex, +2 Con.</p><p>Scavenger (Ex):</p><p>Giant ravens are hardy birds that often feed on carrion or even Undead flesh. As a direct result of this unusual dietary habit, they gain a +4 bonus on saves to resist ingested diseases.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Raven, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.BUewHizFFeXKUzVa
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 50
+    flyManeuverability: average
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

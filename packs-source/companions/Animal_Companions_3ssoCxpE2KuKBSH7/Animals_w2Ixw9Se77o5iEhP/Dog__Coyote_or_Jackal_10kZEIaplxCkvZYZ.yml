@@ -1,0 +1,100 @@
+_id: 10kZEIaplxCkvZYZ
+_key: '!items!10kZEIaplxCkvZYZ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Dog, Coyote or Jackal
+ownership:
+  default: 0
+sort: 3200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 4Wfb0gyZ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: I2lHlZ8o
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: d9rcpDHt
+      formula: '6'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: EQBXfvNM
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: qBwG5yW4
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: jv8LGKI2
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: VIWGHeRQ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 0kiJalZE
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>This small dog has a rough coat and a hungry look in its dark brown eyes.</p><p><strong>Natural Attacks:</strong> bite (1d4 plus trip)</p><p><strong>Special Qualities:</strong> Racial Skill Bonus: Bluff +4, Stealth +4</p><p><strong>4th-Level Advancement:</strong> +2 Dex, +2 Con; Opportunistic Bite.</p><p>Opportunistic Bite (Ex):</p><p>On a successful bite attack against an opponent it’s Flanking or that is denied its Dexterity bonus to AC, a jackal deals 1 additional point of damage.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Dog, Coyote or Jackal Advancement
+        uuid: Compendium.pf1-companions.companions.Item.Poocpq27u53upZld
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,31 @@
+_id: pfcSpeakMaster00
+_key: '!items!pfcSpeakMaster00'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/skills/social/diplomacy-handshake-blue.webp
+name: Speak with Master
+ownership:
+  default: 0
+sort: 500000
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Familiar
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>A familiar and the master can communicate verbally as if they were using a common language. Other creatures do not understand the communication without magical help.</p>
+  subType: companion
+type: feat

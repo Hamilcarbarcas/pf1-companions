@@ -1,0 +1,85 @@
+{
+  "PF1COMP": {
+    "Kind": {
+      "none": "None",
+      "animalCompanion": "Animal Companion",
+      "familiar": "Familiar"
+    },
+    "Grant": {
+      "Title": "Companion Grant",
+      "Toggle": "Click to expand / collapse",
+      "Kind": "Grants",
+      "Level": "Effective Level",
+      "LevelHint": "Formula in the master's roll data; grants of one kind on the same companion add up.",
+      "Companion": "Companion",
+      "CompanionHint": "Choose an actor, or drop one here.",
+      "Choose": "Choose",
+      "Clear": "Clear",
+      "None": "None chosen",
+      "Missing": "Missing actor",
+      "Class": "Companion Class",
+      "ClassHint": "Drop a class here to use it instead of the default.",
+      "Default": "(default)"
+    },
+    "Subtype": {
+      "Single": "Companion Feature",
+      "Plural": "Companion Features"
+    },
+    "Familiar": {
+      "Flavor": "Familiar (master)",
+      "BonusName": "Familiar Bonus ({name})",
+      "Away": "{name} is away.",
+      "Back": "{name} is back.",
+      "NoDelete": "Unlink the familiar to remove this."
+    },
+    "Setup": {
+      "ConflictTitle": "Companion Classes",
+      "ConflictBody": "{name} has classes whose Hit Dice the companion class replaces. Remove them?",
+      "ClassMissing": "Companion class not found: {uuid}",
+      "AbilitiesNot10": "{name}'s species sets its ability scores; set the actor's own scores to 10."
+    },
+    "Master": {
+      "Title": "Companions",
+      "Feature": "Feature",
+      "Level": "Level",
+      "LevelTip": "Effective level",
+      "HP": "HP",
+      "MarkAway": "Mark familiar away",
+      "MarkBack": "Mark familiar present",
+      "Pan": "Find token",
+      "Release": "Release companion"
+    },
+    "Line": {
+      "CompanionOf": "Companion of",
+      "Level": "Level {level}"
+    },
+    "Picker": {
+      "Title": "Choose Companion",
+      "Eligible": "Companions",
+      "Other": "Other actors",
+      "OtherHint": "No companion class yet; choosing one adds it.",
+      "Empty": "No actors you own can be chosen.",
+      "Search": "Search by name",
+      "AllTypes": "All types",
+      "AllFolders": "All folders",
+      "HideUnavailable": "Hide unavailable",
+      "NoMatch": "No actors match.",
+      "Current": "Current",
+      "LinkedTo": "Companion of {name}",
+      "OtherKind": "another feature",
+      "HasCompanions": "Has companions of its own",
+      "ConfirmTitle": "Choose Companion",
+      "ConfirmOther": "{name} has no companion class yet. Choosing it adds the {class} class. Continue?"
+    },
+    "Warn": {
+      "NoGrant": "This feature grants no companion.",
+      "NotWorldActor": "Companions can only be chosen on a world actor.",
+      "NotOwner": "You don't own this actor.",
+      "NotOwnerCompanion": "You don't own that actor.",
+      "CompanionMaster": "A companion can't have companions of its own.",
+      "NotEligible": "That actor can't be chosen.",
+      "NotOnScene": "{name} has no token on this scene.",
+      "NotClass": "Drop a class item."
+    }
+  }
+}

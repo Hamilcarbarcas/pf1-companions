@@ -1,0 +1,87 @@
+_id: kX6ZB69s6qpHDv01
+_key: '!items!kX6ZB69s6qpHDv01'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Thrush (Familiar)
+ownership:
+  default: 0
+sort: 9000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: fhAQu37B
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: FybHVn6K
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: TQLQbqBC
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 12hgKBnn
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: aSXpMFQv
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: T09aVXC7
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Diplomacy checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Thrush Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.OSMd5ejNSTL4BQ2g
+  size: dim
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Familiar Species
+type: race

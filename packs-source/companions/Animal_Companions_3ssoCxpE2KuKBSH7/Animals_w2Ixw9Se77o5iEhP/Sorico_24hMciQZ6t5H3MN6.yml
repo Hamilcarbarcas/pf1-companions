@@ -1,0 +1,92 @@
+_id: 24hMciQZ6t5H3MN6
+_key: '!items!24hMciQZ6t5H3MN6'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Sorico
+ownership:
+  default: 0
+sort: 8700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: Nwj0XXzq
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: lNoAWFsO
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: wxsJGI5Y
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Kq8EuqCd
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: qmSoeVW1
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: gFLNEV8T
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This large, tawny rodent has powerful forelimbs ending in spade-like claws. Sand and mud cakes the creature’s fur.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 claws (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, +2 Dex, +2 Con; Dust Cloud.</p><p>Dust Cloud (Ex):</p><p>Three times per day as a Move Action, a sorico can shake loose a cloud of dust and sand from its coat that fills its space, providing Concealment for 1 round. A light wind disperses this cloud immediately. Any creatures sharing a sorico’s space when it uses this ability must succeed at a Fortitude Save (DC = 10 + 1/2 HD + Constitution modifier) or become Staggered for 1 round as they cough and sneeze. Creatures that don’t breathe are immune to this effect.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Strong Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.RUTxlE9xMB1McNZs
+      - name: Sorico Advancement
+        uuid: Compendium.pf1-companions.companions.Item.PUPpVYgesIqwy1L8
+  size: sm
+  speeds:
+    burrow: 10
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

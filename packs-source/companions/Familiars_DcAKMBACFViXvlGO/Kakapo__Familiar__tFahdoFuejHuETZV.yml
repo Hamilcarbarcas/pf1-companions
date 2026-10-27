@@ -1,0 +1,79 @@
+_id: tFahdoFuejHuETZV
+_key: '!items!tFahdoFuejHuETZV'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Kakapo (Familiar)
+ownership:
+  default: 0
+sort: 3500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 0B83A0io
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: ZJypLC8F
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: RwddrFj2
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 5DLrl1LR
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: OBrSeeaC
+      formula: '2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Master bonus:</strong> Master gains a +3 bonus on Climb checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Kakapo Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.fH9mL6qemZnVNmJG
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 10
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

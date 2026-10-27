@@ -1,0 +1,87 @@
+_id: h0RayQ5ihvAWMNry
+_key: '!items!h0RayQ5ihvAWMNry'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Dwarf Caiman (Familiar)
+ownership:
+  default: 0
+sort: 1800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: iE5XrK9m
+      formula: '1'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: TwhyW4xc
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: qGn68jr7
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: jjaTRqDa
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: OdjKG5QW
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: GYcyjizP
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Stealth checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Dwarf Caiman Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.RQe3p51FN0EBxkrt
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 10
+    swim: 30
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,66 @@
+_id: AlODDydMPr2oFzAy
+_key: '!items!AlODDydMPr2oFzAy'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-enhanced-links:
+    classFeatures:
+      - level: 7
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Velociraptor (7th-Level Advancement)
+ownership:
+  default: 0
+sort: 34300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: 8F8wEnY0
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: uu1heZXO
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: ORC9hE3s
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: KgA1HNBZ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: NXxk5WRv
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The velociraptor's 7th-level advancement.</p><p><strong>Gains:</strong> Pounce</p>
+  subType: companion
+type: feat

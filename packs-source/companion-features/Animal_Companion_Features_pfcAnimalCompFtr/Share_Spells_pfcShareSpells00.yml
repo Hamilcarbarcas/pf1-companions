@@ -1,0 +1,31 @@
+_id: pfcShareSpells00
+_key: '!items!pfcShareSpells00'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcAnimalCompFtr
+img: icons/magic/control/energy-stream-link-large-teal.webp
+name: Share Spells
+ownership:
+  default: 0
+sort: 200000
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Animal Companion
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>The master may cast a spell with a target of "You" on their animal companion (as a touch range spell) instead of on themself. The master may cast spells on their animal companion even if the spells normally do not affect creatures of the companion's type (animal). Spells cast in this way must come from a class that grants an animal companion. This ability does not allow the animal to share abilities that are not spells, even if they function like spells.</p>
+  subType: companion
+type: feat

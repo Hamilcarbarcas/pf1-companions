@@ -1,0 +1,89 @@
+_id: YQt85cHJKwdFUzjS
+_key: '!items!YQt85cHJKwdFUzjS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bristle Boar
+ownership:
+  default: 0
+sort: 1500000
+system:
+  changeFlags: {}
+  changes:
+    - _id: HClri2Ag
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: kpZ4crbf
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: g12AthVN
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: sWa2w81K
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: LWqNPLwR
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: S29j6Oh6
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>The vicious spines surrounding this boar’s head are almost as unnerving as the wild look in its eyes.</p><p><strong>Natural Attacks:</strong> gore (1d6)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Spines.</p><p>Spines (Ex):</p><p>Those hit by a bristle boar’s gore attack must succeed at a Reflex saving throw to avoid being speared by the dangerously sharp spines around its head and neck. Failure results in 1d4 points of piercing damage.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Bristle Boar Advancement
+        uuid: Compendium.pf1-companions.companions.Item.QuIS6fvgzvetwqF0
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,95 @@
+_id: URjzswQi2t90owS3
+_key: '!items!URjzswQi2t90owS3'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Mosquito, Giant
+ownership:
+  default: 0
+sort: 1200000
+system:
+  changeFlags: {}
+  changes:
+    - _id: KrqhoYZK
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: obpzbuEK
+      formula: '11'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: uEkEhASd
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: izFf0iN1
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 1Eow9YZ8
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: GsA8513w
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: oiBNuT4d
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>Between its bloodthirsty nature and the annoying drone of its wings, the giant mosquito is a much-loathed creature. Unlike its smaller cousins, a giant mosquito can easily kill larger creatures by draining them of their blood.</p><p><strong>Natural Attacks:</strong> bite (1d6 plus bleed and grab)</p><p><strong>Special Qualities:</strong> CMD +8 vs. Trip</p><p><strong>Special Attacks:</strong> Bleed (1d4), Grab</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>7th-Level Advancement:</strong> size Medium; +1 natural armor; +4 Str, -2 Dex, +2 Con; Bleed (2d4), Blood Drain (1d2 Constitution).</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Mosquito, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.CHuhP5R2VLHTcoXG
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 60
+    flyManeuverability: good
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

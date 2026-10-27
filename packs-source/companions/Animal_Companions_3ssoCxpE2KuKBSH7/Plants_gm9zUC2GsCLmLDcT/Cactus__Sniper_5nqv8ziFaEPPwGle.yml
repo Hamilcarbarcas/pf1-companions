@@ -1,0 +1,88 @@
+_id: 5nqv8ziFaEPPwGle
+_key: '!items!5nqv8ziFaEPPwGle'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Cactus, Sniper
+ownership:
+  default: 0
+sort: 300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: P3CAZ62F
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: OnMWjSzf
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 1gPoouox
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: EU8mojfC
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: NqC1VtBK
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: BOXwa14L
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p>This single-stalked cactus sports dozens of long, thin needles. Capable of crawling on three stalklike roots, the sniper cactus can fire its thorns with deadly accuracy.</p><p><strong>Natural Attacks:</strong> gore (1d4)</p><p><strong>Special Qualities:</strong> CMD +2 vs. Trip</p><p><strong>Special Attacks:</strong> Thorns</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +2 Dex, +2 Con; Thorns (upgraded).</p><p>Thorns (Ex):</p><p>This Ranged Attack has a 60 foot range, deals 1d8 damage, and gains no bonus to damage from high Strength scores. At 4th level, the damage increases to 2d6 piercing damage, and the sniper cactus can fire two per round when making a full-attack action.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Cactus, Sniper Advancement
+        uuid: Compendium.pf1-companions.companions.Item.J8k9Pf4yKFtYcsN4
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

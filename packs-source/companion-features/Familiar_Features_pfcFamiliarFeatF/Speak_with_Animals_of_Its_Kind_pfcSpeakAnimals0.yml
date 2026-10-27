@@ -1,0 +1,31 @@
+_id: pfcSpeakAnimals0
+_key: '!items!pfcSpeakAnimals0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/creatures/mammals/rodent-rat-diseaed-gray.webp
+name: Speak with Animals of Its Kind
+ownership:
+  default: 0
+sort: 600000
+system:
+  abilityType: ex
+  associations:
+    classes:
+      - Familiar
+  changes: []
+  contextNotes: []
+  description:
+    value: '<p>A familiar can communicate with animals of approximately the same kind as itself (including dire varieties): bats with bats, rats with rodents, cats with felines, hawks and owls and ravens with birds, lizards and snakes with reptiles, toads with amphibians, weasels with similar creatures (weasels, minks, polecats, ermines, skunks, wolverines, and badgers). Such communication is limited by the intelligence of the conversing creatures.</p>'
+  subType: companion
+type: feat

@@ -1,0 +1,88 @@
+_id: gJplQs0efBedNtEP
+_key: '!items!gJplQs0efBedNtEP'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ridge Flier
+ownership:
+  default: 0
+sort: 800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: oV5S0oER
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: RkAiE26R
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 5qvtBwdj
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: bvdChVsB
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: ngsJ1XZU
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Tkjqetti
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: '<p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Sense Intruder, Hyper-Aggression, Racial Skill Bonus: +4 Perception</p><p><strong>4th-Level Advancement:</strong> +1 natural armor; +2 Str, +2 Con.</p><p>Sense Intruder (Ex):</p><p>Ridge fliers have a preternatural ability to sense when a creature has entered their territory. A ridge flier gains a +20 bonus to Perception checks to notice the presence of a creature nearby. This only allows them to know there is a creature within 100 feet of them, they must make a standard Perception check (without the bonus) to pinpoint the intruder.</p><p>Hyper-aggression (Ex):</p><p>If a ridge flier spots a creature that they do not recognize as part of their flock or other individual they are trained to accept, there is a 10% chance every minute that they will fly into a rage and attack the invading creature. The ridge flier gains a 1 bonus to hit and damage, 1 temporary hit point per hit die, a +8 bonus to Perception to find the target of its rage, and a -2 penalty to its AC. The rage lasts until the creature is Dead or 1 minute, whichever is shorter. The ridge flier cannot end this rage voluntarily.</p><p>If the ridge flier enters a combat not already under the effects of the hyper-aggression, or the original target is killed during the combat, the chance that the ridge flier enters the rage is increased to 50% each round. The combat-induced rage is directed at a random qualifying target in sight.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Ridge Flier Advancement
+        uuid: Compendium.pf1-companions.companions.Item.6sbB9qOdVfEfoult
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 80
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

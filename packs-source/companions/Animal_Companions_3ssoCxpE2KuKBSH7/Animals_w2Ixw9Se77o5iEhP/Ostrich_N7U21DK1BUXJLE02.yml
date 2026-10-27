@@ -1,0 +1,98 @@
+_id: N7U21DK1BUXJLE02
+_key: '!items!N7U21DK1BUXJLE02'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ostrich
+ownership:
+  default: 0
+sort: 6100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: lqBhZ1Xh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: pu5xZAf5
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: wqsvo24T
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: FVGaZ1ME
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: e353UyJX
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: NgQd9pvZ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 9pqiWLyr
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This human-sized bird has a long neck and legs sprouting from a round body covered in fluffy gray feathers.</p><p><strong>Natural Attacks:</strong> claw (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Crouch.</p><p>Crouch (Ex):</p><p>An ostrich can hide in plain sight as a bush or shrub by crouching down and concealing its head and legs. It makes a Stealth check as normal, but anyone who observes it from within 30 feet automatically sees through the ruse.</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Single Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.JJsMMoBNT42TCtkO
+      - name: Strong Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.RUTxlE9xMB1McNZs
+      - name: Ostrich Advancement
+        uuid: Compendium.pf1-companions.companions.Item.4gpwR2NJKmAyw4T8
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

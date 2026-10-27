@@ -1,0 +1,93 @@
+_id: 6vs1IlEDwNh4Ojxr
+_key: '!items!6vs1IlEDwNh4Ojxr'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Ermine (Familiar)
+ownership:
+  default: 0
+sort: 2000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: iqTqCDg4
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: iu0KSwhF
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: V8irjiTm
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: GK2WWJej
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: QuxM1kp5
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: xYLxftXx
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: WXf3rltW
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3 plus Attach)</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Reflex saves (use weasal statistics, +4 Stealth to blend into snow)</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Ermine Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.kaqrNhcJBuwo6E2V
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

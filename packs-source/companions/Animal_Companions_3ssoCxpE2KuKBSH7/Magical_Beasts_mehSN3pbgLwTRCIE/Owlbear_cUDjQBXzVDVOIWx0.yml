@@ -1,0 +1,104 @@
+_id: cUDjQBXzVDVOIWx0
+_key: '!items!cUDjQBXzVDVOIWx0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Owlbear
+ownership:
+  default: 0
+sort: 700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 0xKrANwF
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: HEdQ2DLW
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: LbzNfnHI
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: bvaF1T24
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: WGbpkwOG
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: gT5cL0cZ
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 8NipIdPP
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+    - _id: RhGvaH6s
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4), 2 claws (1d4 plus grab)</p><p><strong>Special Attacks:</strong> Grab</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Owlbear Advancement
+        uuid: Compendium.pf1-companions.companions.Item.Y0ydHQYZzrcDAoLa
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

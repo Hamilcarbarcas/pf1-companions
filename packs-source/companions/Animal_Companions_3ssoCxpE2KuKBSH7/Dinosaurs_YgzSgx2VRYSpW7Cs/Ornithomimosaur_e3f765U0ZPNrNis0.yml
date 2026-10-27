@@ -1,0 +1,102 @@
+_id: e3f765U0ZPNrNis0
+_key: '!items!e3f765U0ZPNrNis0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: YgzSgx2VRYSpW7Cs
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Ornithomimosaur
+ownership:
+  default: 0
+sort: 2600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: a9di7ioX
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 82SeFR7E
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: sX7u2mgx
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: yicAE5R5
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 93OjErCf
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: bpSaNeKf
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: HWh0FaEO
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: Ek7AZ0Ym
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This bipedal dinosaur has long legs built for speed and a long neck that gives it an ostrichlike profile.</p><p><strong>Natural Attacks:</strong> 2 claws (1d8)</p><p><strong>7th-Level Advancement:</strong> +2 natural armor; +2 Str, +2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Very Strong Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.j5EgRsRhgF8OVV6i
+      - name: Ornithomimosaur Advancement
+        uuid: Compendium.pf1-companions.companions.Item.Wsyxf6eJiS5vJvaR
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Dinosaur
+type: race

@@ -1,0 +1,83 @@
+_id: rrBfFbqAkYXc5KSN
+_key: '!items!rrBfFbqAkYXc5KSN'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Archaeopteryx (Familiar)
+ownership:
+  default: 0
+sort: 100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: SCClWaZV
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: f5KqPzBt
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: wYH5SECx
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: cbA15JZ5
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: DVLfSlo3
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Weak Flier</p><p><strong>Master bonus:</strong> Master gains a +2 bonus on Reflex saves</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Archaeopteryx Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.i3DVRp7IUBqNfNTh
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 10
+    fly: 40
+    flyManeuverability: poor
+    land: 40
+    swim: null
+  tags:
+    - Familiar Species
+type: race

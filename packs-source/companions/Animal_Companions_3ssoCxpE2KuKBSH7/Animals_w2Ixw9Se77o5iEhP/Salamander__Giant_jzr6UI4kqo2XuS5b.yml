@@ -1,0 +1,101 @@
+_id: jzr6UI4kqo2XuS5b
+_key: '!items!jzr6UI4kqo2XuS5b'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Salamander, Giant
+ownership:
+  default: 0
+sort: 7900000
+system:
+  changeFlags: {}
+  changes:
+    - _id: NEQYAb49
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 75S8Asoz
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 1vfviphr
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: qGVo6aMy
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Xgv8bp0w
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Wobpov7m
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: ff9T0b89
+      formula: '3'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: qqujCUxL
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This oversized amphibian has a mouth full of tiny but rather sharp teeth.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Breathing Skin, Tremorsense 30 ft. (underwater only)</p><p><strong>4th-Level Advancement:</strong> +2 natural armor; +2 Str, -2 Dex, +4 Con.</p><p>Breathing Skin (Ex):</p><p>Because an amphibious creature’s skin aids in its breathing, it takes a -2 penalty on Fortitude Saving Throws against gases, contact and inhaled Poisons, and all other inhaled effects.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Salamander, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.06vj2tKbHk5ILbFz
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: 30
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

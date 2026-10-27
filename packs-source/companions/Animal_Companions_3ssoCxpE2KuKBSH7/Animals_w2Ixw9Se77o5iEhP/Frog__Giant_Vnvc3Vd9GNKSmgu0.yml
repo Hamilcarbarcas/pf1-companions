@@ -1,0 +1,100 @@
+_id: Vnvc3Vd9GNKSmgu0
+_key: '!items!Vnvc3Vd9GNKSmgu0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Frog, Giant
+ownership:
+  default: 0
+sort: 3800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: ALkjr5Mt
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: xhlxlrmS
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: DWalc5Im
+      formula: '6'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: GzZwu6iD
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Mbz4s3gV
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 4CqzYVkF
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: L0EwIMd7
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: BiTSRl1t
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This creature looks like a normal frog, with moist, mottled, blackish-green skin, but grown to truly monstrous size.</p><p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>Special Attacks:</strong> Tongue, Pull (Tongue, 5 ft.)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Dex; Swallow Whole.</p><p>Tongue (Ex):</p><p>A giant frog’s tongue is a primary attack with reach equal to three times the frog’s normal reach (15 feet for a Medium giant frog). A giant frog’s tongue deals no damage on a hit, but can be used to Grab. A giant frog does not gain the Grappled condition while using its tongue in this manner.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Frog, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.6XWmUIL4oUhIRI3f
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: 30
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

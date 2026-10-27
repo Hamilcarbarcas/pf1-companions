@@ -1,0 +1,81 @@
+_id: j04hRddfGhe9aamV
+_key: '!items!j04hRddfGhe9aamV'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Stag
+ownership:
+  default: 0
+sort: 8900000
+system:
+  changeFlags: {}
+  changes:
+    - _id: YUVGQCGF
+      formula: '9'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: LRGKhHZ1
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: NVQD0TVj
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: Buum0c1E
+      formula: '5'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: t3Ttopr6
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>Majestic and graceful, this powerful animal has branching antlers atop it head.</p><p><strong>Natural Attacks:</strong> gore (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 Str, -2 Dex, +2 Con; new attacks: 2 hoofs (1d4).</p>'
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Stag Advancement
+        uuid: Compendium.pf1-companions.companions.Item.M8hCAcWW7efC4fja
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: null
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

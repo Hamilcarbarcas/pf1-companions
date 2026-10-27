@@ -1,0 +1,100 @@
+_id: OaAgD9fgZhxjwRQ5
+_key: '!items!OaAgD9fgZhxjwRQ5'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+  pf1-enhanced-links:
+    renames:
+      - name: Shocking Tentacle
+        tab: supplements
+        uuid: Compendium.astora-mod.combat-items.Item.ccqsxfkXDtV1teZM
+folder: mehSN3pbgLwTRCIE
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Thundercloud Jellyfish
+ownership:
+  default: 0
+sort: 1000000
+system:
+  changeFlags: {}
+  changes:
+    - _id: 1u7oTqDJ
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: VPGodv9e
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: tUE36CHT
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: opKFGR39
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: NerS0C0q
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: EygXlaCl
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: 2OsdLOD5
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensebs
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - magicalBeast
+  description:
+    value: '<p><strong>Natural Attacks:</strong> shocking tentacle (1d6 plus paralysis)</p><p><strong>Special Qualities:</strong> Blind, Amorphous, Damage Reduction 10/Slashing or Piercing, Cannot be Tripped</p><p><strong>Special Attacks:</strong> Shocking Tentacles, Paralysis</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p><p>Shocking Tentacles (Ex):</p><p>A thundercloud jellyfish’s arms deliver electricity damage and a Paralysis effect with a melee Touch Attack. The creature’s Strength modifier is used for the attack roll but is not added to damage. Additionally, when large size, the arms have a 10-foot reach. The arms are unable to Grapple unless the target creature is 3 size categories smaller than the thundercloud Jellyfish. The arms are predominantly for bringing plant material to the mouth within the bell, not for picking up or wrapping around larger foes.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Tentacle
+        uuid: Compendium.astora-mod.combat-items.Item.ccqsxfkXDtV1teZM
+      - name: Strong Attack (Tentacle)
+        uuid: Compendium.astora-mod.misc-features.Item.yuxStdKirYg7yIJH
+      - name: Thundercloud Jellyfish Advancement
+        uuid: Compendium.pf1-companions.companions.Item.2DS8Wpxj9ZV65On0
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 20
+    flyManeuverability: perfect
+    land: null
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Magical Beast
+type: race

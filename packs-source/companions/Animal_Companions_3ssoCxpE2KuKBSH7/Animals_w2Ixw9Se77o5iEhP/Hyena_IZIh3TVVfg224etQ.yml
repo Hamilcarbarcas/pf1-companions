@@ -1,0 +1,94 @@
+_id: IZIh3TVVfg224etQ
+_key: '!items!IZIh3TVVfg224etQ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Hyena
+ownership:
+  default: 0
+sort: 4800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: tX05k9Ho
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: ieVlP7rH
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 2mWAC7Xk
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: lvqT2QpO
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: sO0KTCSh
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: fDExe9iM
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: ZS859ihz
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This hyena is covered in shaggy, tan-colored fur with black and brown stripes.</p><p><strong>Natural Attacks:</strong> bite (1d4 plus trip)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Hyena Advancement
+        uuid: Compendium.pf1-companions.companions.Item.mRX57B82MWSbqskQ
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

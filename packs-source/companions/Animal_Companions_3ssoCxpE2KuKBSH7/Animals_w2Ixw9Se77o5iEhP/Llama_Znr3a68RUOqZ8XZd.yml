@@ -1,0 +1,94 @@
+_id: Znr3a68RUOqZ8XZd
+_key: '!items!Znr3a68RUOqZ8XZd'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Llama
+ownership:
+  default: 0
+sort: 5200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: EE6E1XFM
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: kZ2gVNF5
+      formula: '6'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: YAykMzrY
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: u17ZHL6y
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: pJi0Xzar
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Vf5jgx7W
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: QbFEJXu3
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>While some value it for its hair, the llama makes a fine animal companion as well, and it has traditionally been used as a beast of burden in mountainous regions.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Llama Advancement
+        uuid: Compendium.pf1-companions.companions.Item.MubHSusNQoTvFgxx
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

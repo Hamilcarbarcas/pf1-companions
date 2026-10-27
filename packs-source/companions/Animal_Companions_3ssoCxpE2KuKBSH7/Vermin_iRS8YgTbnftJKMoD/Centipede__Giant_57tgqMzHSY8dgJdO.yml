@@ -1,0 +1,87 @@
+_id: 57tgqMzHSY8dgJdO
+_key: '!items!57tgqMzHSY8dgJdO'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Centipede, Giant
+ownership:
+  default: 0
+sort: 500000
+system:
+  changeFlags: {}
+  changes:
+    - _id: CsySBsbN
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: QbU703Gc
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: 8ZdADCdq
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: OuycFYwo
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: eWDBli1I
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: xGMZ66Rf
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p>This lengthy, segmented horror writhes and twists, pulsing its venomous mandibles in search of prey.</p><p><strong>Natural Attacks:</strong> bite (1d4 plus poison)</p><p><strong>Special Qualities:</strong> Cannot be Tripped</p><p><strong>Special Attacks:</strong> Poison</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con.</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 6 rounds, mild Dexterity, 1 save to cure.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Centipede, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.m5sg6ziH4jhX3Vik
+  size: sm
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

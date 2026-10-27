@@ -1,0 +1,76 @@
+_id: f8NmWHvuTuUuZ63C
+_key: '!items!f8NmWHvuTuUuZ63C'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Axe Beak
+ownership:
+  default: 0
+sort: 500000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: d7dOzP3f
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: fZ6BACjJ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: M9hYSLVE
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 4VTPy7Rl
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This stout bird stands upon two long, muscular legs, each ending in a large, curved talon. A pair of undersized wings sprouts from amid its broad body feathers, as does a powerful neck ending in an avian head armed with a grisly serrated beak.</p><p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>4th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con; Sudden Charge.</p><p>Sudden Charge (Ex):</p><p>When making a Charge attack, an axe beak makes a single bite attack. If successful, it may also attempt to Trip its opponent as a Free Action without provoking an Attack of Opportunity. If the attempt fails, the axe beak cannot be tripped in return.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Axe Beak Advancement
+        uuid: Compendium.pf1-companions.companions.Item.wHXcQeh1FfmJMQlU
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 50
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

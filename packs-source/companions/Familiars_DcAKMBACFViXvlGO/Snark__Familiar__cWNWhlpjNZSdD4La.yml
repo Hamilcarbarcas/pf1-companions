@@ -1,0 +1,95 @@
+_id: cWNWhlpjNZSdD4La
+_key: '!items!cWNWhlpjNZSdD4La'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Snark (Familiar)
+ownership:
+  default: 0
+sort: 8100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 81runlEL
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 1CLA15Qh
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: lxL6WxQv
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 34OiGmvb
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: zkJqNWOt
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 9WF3d0K2
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: A6M8TVtm
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 claws (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Stealth checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Strong Attack (Claw)
+        uuid: Compendium.astora-mod.misc-features.Item.RUTxlE9xMB1McNZs
+      - name: Snark Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.cBT5UncDMfb0Ezh4
+  size: dim
+  speeds:
+    burrow: null
+    climb: 15
+    fly: 30
+    flyManeuverability: poor
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

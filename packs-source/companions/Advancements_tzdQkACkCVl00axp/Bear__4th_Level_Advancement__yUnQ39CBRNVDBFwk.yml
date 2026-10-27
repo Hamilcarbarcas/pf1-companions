@@ -1,0 +1,56 @@
+_id: yUnQ39CBRNVDBFwk
+_key: '!items!yUnQ39CBRNVDBFwk'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Bear (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 3700000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: N9hCKIKT
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: nuPXZumY
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: eIY1zY3p
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: Gi2tSawV
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>The bear's 4th-level advancement.</p>
+  subType: companion
+type: feat

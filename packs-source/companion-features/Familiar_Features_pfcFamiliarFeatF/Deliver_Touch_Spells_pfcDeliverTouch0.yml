@@ -1,0 +1,31 @@
+_id: pfcDeliverTouch0
+_key: '!items!pfcDeliverTouch0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcFamiliarFeatF
+img: icons/magic/light/hand-sparks-smoke-teal.webp
+name: Deliver Touch Spells
+ownership:
+  default: 0
+sort: 400000
+system:
+  abilityType: su
+  associations:
+    classes:
+      - Familiar
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>A familiar can deliver touch spells for the master. If the master and the familiar are in contact at the time the master casts a touch spell, the master can designate the familiar as the "toucher." The familiar can then deliver the touch spell just as the master could. As usual, if the master casts another spell before the touch is delivered, the touch spell dissipates.</p>
+  subType: companion
+type: feat

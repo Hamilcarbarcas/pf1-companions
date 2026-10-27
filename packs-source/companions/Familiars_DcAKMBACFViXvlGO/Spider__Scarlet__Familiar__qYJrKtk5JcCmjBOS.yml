@@ -1,0 +1,80 @@
+_id: qYJrKtk5JcCmjBOS
+_key: '!items!qYJrKtk5JcCmjBOS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Spider, Scarlet (Familiar)
+ownership:
+  default: 0
+sort: 8300000
+system:
+  changeFlags: {}
+  changes:
+    - _id: ThTRteJy
+      formula: '-7'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: uWeoiZZM
+      formula: '11'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: RPciuPdP
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: xNXZ7ip4
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: YihBYaaN
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p><strong>Natural Attacks:</strong> bite (1d3 plus Poison)</p><p><strong>Special Attacks:</strong> Poison</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Climb checks (if familiar is within 1 mile)</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Spider, Scarlet Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.wAMBnUGbDiLaNIIl
+  size: tiny
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Familiar Species
+type: race

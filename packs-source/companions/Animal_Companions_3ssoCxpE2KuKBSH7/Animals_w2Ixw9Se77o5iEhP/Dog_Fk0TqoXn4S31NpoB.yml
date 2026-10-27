@@ -1,0 +1,100 @@
+_id: Fk0TqoXn4S31NpoB
+_key: '!items!Fk0TqoXn4S31NpoB'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Dog
+ownership:
+  default: 0
+sort: 3100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: 3tt8DXpz
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: PVxUG0Cc
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: kkuT10tf
+      formula: '5'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: zuhV8m9h
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: UOzoTFS8
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: dIf0htHb
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: 7YSI82Bq
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: I8gmfVDC
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This small dog has a rough coat and a hungry look in its dark brown eyes.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Dog Advancement
+        uuid: Compendium.pf1-companions.companions.Item.0NFF76tF1lT9wA0R
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

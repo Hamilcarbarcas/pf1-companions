@@ -1,0 +1,43 @@
+_id: pfcStrDexBonus00
+_key: '!items!pfcStrDexBonus00'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcAnimalCompFtr
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Str/Dex Bonus
+ownership:
+  default: 0
+sort: 400000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+  changes:
+    - _id: pfcStr01
+      formula: floor(@class.level / 3)
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: pfcDex01
+      formula: floor(@class.level / 3)
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>Add +[[floor(@class.level / 3)]] to the animal companion's Strength and Dexterity scores.</p>
+  subType: companion
+type: feat

@@ -1,0 +1,87 @@
+_id: n0YQG2fajb5RhuIr
+_key: '!items!n0YQG2fajb5RhuIr'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Tuatara (Familiar)
+ownership:
+  default: 0
+sort: 9400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: v2an7Z7u
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: Ckf9fwez
+      formula: '3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: vJiS49DR
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: zinnqTGv
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: gMLRt4fv
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: K31bP6W4
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> bite (1d3 plus Attach)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Survival checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Tuatara Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.bgWkTNMeFELrojlu
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,92 @@
+_id: XXAEpmp9SldSXb7n
+_key: '!items!XXAEpmp9SldSXb7n'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bird
+ownership:
+  default: 0
+sort: 1200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: Et8ciX20
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: kX16mnLg
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: CjXe09Ex
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 5RHyYs9N
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Apn9TQRo
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: ApwJHGTm
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This magnificent bird of prey has dark feathers save for those on its head, which are pure white.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 talons (1d4)</p><p><strong>4th-Level Advancement:</strong> +2 Str, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Talon
+        uuid: Compendium.astora-mod.combat-items.Item.ezGScCCUNJ1TdGB7
+      - name: Strong Attack (Talon)
+        uuid: Compendium.astora-mod.misc-features.Item.OSqKCnrgubAKXGsR
+      - name: Bird Advancement
+        uuid: Compendium.pf1-companions.companions.Item.mJALe4M8uEjAjzQV
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 80
+    flyManeuverability: average
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

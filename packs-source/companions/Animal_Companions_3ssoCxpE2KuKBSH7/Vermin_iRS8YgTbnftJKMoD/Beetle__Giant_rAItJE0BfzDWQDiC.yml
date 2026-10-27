@@ -1,0 +1,89 @@
+_id: rAItJE0BfzDWQDiC
+_key: '!items!rAItJE0BfzDWQDiC'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: iRS8YgTbnftJKMoD
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Beetle, Giant
+ownership:
+  default: 0
+sort: 300000
+system:
+  changeFlags: {}
+  changes:
+    - _id: d7Lu2m2s
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: SHIhgvDe
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: lw4CvtH4
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 5BmS6HgL
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: UCdpxnES
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: qA2lKNzy
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - vermin
+  description:
+    value: '<p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>Special Qualities:</strong> CMD +8 vs. Trip</p><p><em>Mindless: no Intelligence score (set Intelligence to blank on the actor).</em></p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Trample (1d4).</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Strong Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.v1xpIH32aMQppGxS
+      - name: Beetle, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.vI42k09nTgeJ9A17
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: 20
+    flyManeuverability: poor
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Vermin
+type: race

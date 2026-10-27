@@ -1,0 +1,95 @@
+_id: gJdvdtMCgfBf9T88
+_key: '!items!gJdvdtMCgfBf9T88'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Tortoise
+ownership:
+  default: 0
+sort: 9200000
+system:
+  changeFlags: {}
+  changes:
+    - _id: B92LC2A5
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: YA0QVePp
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: QCegZpf5
+      formula: '6'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: FM36RIDK
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: KeJ56YSy
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: Lea8ARPo
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: hfe5o6kh
+      formula: '6'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: '<p>This tortoise is half the height of a human, and has a domed shell, leathery skin, and a long neck.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>7th-Level Advancement:</strong> size Large; +8 natural armor; +4 Str, -2 Dex, +2 Con; Bonus Feat: Great Fortitude.</p>'
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.VnaSqtTwpg7lTRE4
+      - name: Tortoise Advancement
+        uuid: Compendium.pf1-companions.companions.Item.p1JTi045jPutAb0k
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 10
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

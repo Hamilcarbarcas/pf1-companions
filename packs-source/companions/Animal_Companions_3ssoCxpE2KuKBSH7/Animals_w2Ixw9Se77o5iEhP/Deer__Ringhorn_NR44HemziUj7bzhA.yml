@@ -1,0 +1,100 @@
+_id: NR44HemziUj7bzhA
+_key: '!items!NR44HemziUj7bzhA'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Deer, Ringhorn
+ownership:
+  default: 0
+sort: 2900000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: o6mG3E1N
+      formula: '1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: WIIsNrxc
+      formula: '8'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: iA4bV3hN
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: QgiyuiGf
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: JtPoY5Zr
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: zKAdHl8U
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: JfOXaJC2
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: LW04DoxC
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>The horns of this goatlike deer grow up and curve around into a pair of massive, spiraling rings atop its head.</p><p><strong>Natural Attacks:</strong> 2 hoofs (1d3)</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 Str, -2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Hoof
+        uuid: Compendium.astora-mod.combat-items.Item.eUBYo3efWNTbc8gE
+      - name: Deer, Ringhorn Advancement
+        uuid: Compendium.pf1-companions.companions.Item.N9ef19x7aXzLONxx
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,37 @@
+_id: tdAJ5pBEW1qP6CvV
+_key: '!items!tdAJ5pBEW1qP6CvV'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    masterBonus: true
+folder: wQdLjdJV6Em83iUU
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Rabbit Familiar Bonus
+ownership:
+  default: 0
+sort: 6300000
+system:
+  abilityType: na
+  changes:
+    - _id: tdAJ5pBE
+      formula: '4'
+      operator: add
+      priority: 0
+      target: init
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>Master gains a +4 bonus on initiative checks.</p><p>Applies to the master while this familiar is linked and present; inactive on the familiar.</p>
+  disabled: true
+  subType: companion
+type: feat

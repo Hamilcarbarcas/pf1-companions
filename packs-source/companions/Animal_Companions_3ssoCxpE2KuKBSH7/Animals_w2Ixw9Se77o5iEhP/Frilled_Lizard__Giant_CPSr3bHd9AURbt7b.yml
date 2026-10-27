@@ -1,0 +1,98 @@
+_id: CPSr3bHd9AURbt7b
+_key: '!items!CPSr3bHd9AURbt7b'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Frilled Lizard, Giant
+ownership:
+  default: 0
+sort: 3700000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: aLkr9NIT
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: hxeBWSxt
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: by3B3xZE
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: e2Lw4N6b
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: T4J4WjhM
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: dxNWYu3g
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: aFTXLEkW
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This large lizard can display a frightening frill on its neck when it charges.</p><p><strong>Natural Attacks:</strong> bite (1d6), tail (1d4)</p><p><strong>Special Attacks:</strong> Intimidating Charge</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +8 Str, -2 Dex, +4 Con.</p><p>Intimidating Charge (Ex):</p><p>When a giant frilled lizard charges, it hisses ferociously, extends its neck frills, and darts forward on its hind legs, increasing its base speed to 50 feet for that round. In addition to the normal effects of a Charge, the creature charged must make a Will Save (DC = 10 + 1/2 HD + Charisma modifier) or be Shaken for 1d6 rounds. This is a Fear effect.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Tail Slap
+        uuid: Compendium.astora-mod.combat-items.Item.i7tJJDuZm51q8JWf
+      - name: Weak Attack (Tail Slap)
+        uuid: Compendium.astora-mod.misc-features.Item.2uC1GHz9tU7UdgBl
+      - name: Frilled Lizard, Giant Advancement
+        uuid: Compendium.pf1-companions.companions.Item.vuZBwNp14QspofWM
+  size: med
+  speeds:
+    burrow: null
+    climb: 30
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

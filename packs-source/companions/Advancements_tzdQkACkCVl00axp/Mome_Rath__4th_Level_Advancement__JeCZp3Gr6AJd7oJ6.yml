@@ -1,0 +1,56 @@
+_id: JeCZp3Gr6AJd7oJ6
+_key: '!items!JeCZp3Gr6AJd7oJ6'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Mome Rath (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 21500000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: RG8auleZ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: size
+      type: untyped
+    - _id: gN5woV2b
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: ecfqM9Cl
+      formula: '-2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: sEfGSGn5
+      formula: '4'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+  contextNotes: []
+  description:
+    value: <p>The mome rath's 4th-level advancement.</p><p><strong>Gains:</strong> Poison (upgraded)</p>
+  subType: companion
+type: feat

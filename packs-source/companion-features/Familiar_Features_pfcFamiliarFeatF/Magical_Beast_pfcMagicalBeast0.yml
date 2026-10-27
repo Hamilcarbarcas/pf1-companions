@@ -1,0 +1,38 @@
+_id: pfcMagicalBeast0
+_key: '!items!pfcMagicalBeast0'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    creatureType:
+      add: magicalBeast
+      remove:
+        - animal
+        - vermin
+folder: pfcFamiliarFeatF
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+name: Magical Beast
+ownership:
+  default: 0
+sort: 50000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Familiar
+      - Bonded Mount
+  changes: []
+  contextNotes: []
+  description:
+    value: <p>Treated as a magical beast instead of an animal (or vermin) for the purpose of any effect that depends on its type.</p>
+  subType: companion
+type: feat

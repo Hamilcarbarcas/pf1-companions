@@ -1,0 +1,93 @@
+_id: 92RSlgOYPKMZSoQS
+_key: '!items!92RSlgOYPKMZSoQS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bat, Dire
+ownership:
+  default: 0
+sort: 900000
+system:
+  changeFlags: {}
+  changes:
+    - _id: J6ufDHYj
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: cV0LSNfq
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: zuLpm4jl
+      formula: '-1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: ceWSbvgs
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 1JHrjFve
+      formula: '4'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 1TPrndXD
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: XrIZr7fi
+      formula: '40'
+      operator: add
+      priority: 0
+      target: sensebse
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This giant, furry bat is nearly the size of an ox, with dark leathery wings that open wider than two men with arms outstretched.</p><p><strong>Natural Attacks:</strong> bite (1d6)</p><p><strong>7th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Bat, Dire Advancement
+        uuid: Compendium.pf1-companions.companions.Item.GSw7VsqndiS9tM2f
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: good
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

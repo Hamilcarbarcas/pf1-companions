@@ -1,0 +1,90 @@
+_id: gFN1cwktIqKcnx1j
+_key: '!items!gFN1cwktIqKcnx1j'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Rash Creeper
+ownership:
+  default: 0
+sort: 1000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: MPukyP2G
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: HP3VykZX
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: PEvEDvlF
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: j9BgpgEk
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: vpHkWg97
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: FlhePt3r
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p>This mass of creeping vines and leaves slithers almost like a snake. Contact with this predatory plant causes a sickening and sometimes debilitating rash.</p><p><strong>Natural Attacks:</strong> slam (1d4 plus poison)</p><p><strong>Special Qualities:</strong> Cannot be Tripped</p><p><strong>Special Attacks:</strong> Poison</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +2 Con; Poison (upgraded).</p><p>Poison (Ex):</p><p>Injury, DC = 10 + 1/2 HD + Constitution modifier, 1/round for 4 rounds, mild Dexterity, Sickened 1 round on each failed save, 1 save to cure. At 4th level, the poison follows the moderate Dexterity track, and requires 2 saves to cure</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Strong Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.ONkzOGVgRpD9e7jb
+      - name: Rash Creeper Advancement
+        uuid: Compendium.pf1-companions.companions.Item.eTcjg8wV39y3JY2m
+  size: sm
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

@@ -1,0 +1,37 @@
+_id: x4CnZyx8IKsgCPVw
+_key: '!items!x4CnZyx8IKsgCPVw'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    masterBonus: true
+folder: wQdLjdJV6Em83iUU
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Snail Kite Familiar Bonus
+ownership:
+  default: 0
+sort: 7900000
+system:
+  abilityType: na
+  changes:
+    - _id: x4CnZyx8
+      formula: '3'
+      operator: add
+      priority: 0
+      target: skill.fly
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>Master gains a +3 bonus on Fly checks (use hawk stats for snail kites).</p><p>Applies to the master while this familiar is linked and present; inactive on the familiar.</p>
+  disabled: true
+  subType: companion
+type: feat

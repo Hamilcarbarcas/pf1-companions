@@ -1,0 +1,102 @@
+_id: IvdhaetBE305NDHS
+_key: '!items!IvdhaetBE305NDHS'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bear
+ownership:
+  default: 0
+sort: 1000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: S9Av17Ph
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: QAKrKfKx
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: LQCLoVsy
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: shSPzLYC
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: ArrNziMz
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: P3eGmoNz
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: KgRjVwU1
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: f2DAkvjC
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>Broad, powerful muscles move beneath this massive bear’s fur, promising both speed and lethal force.</p><p><strong>Natural Attacks:</strong> bite (1d4), 2 claws (1d3)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Bear Advancement
+        uuid: Compendium.pf1-companions.companions.Item.OUOC3G90OK24vcDr
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,88 @@
+_id: Pzh7YG9PyWpwGnX4
+_key: '!items!Pzh7YG9PyWpwGnX4'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Thylacine
+ownership:
+  default: 0
+sort: 9000000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: wZwUxENJ
+      formula: '2'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: vZ7WbHhC
+      formula: '5'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: qevRCh85
+      formula: '6'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: uczWhYJZ
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: fWE1Cwdj
+      formula: '3'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: IQ7s9VzJ
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This odd creature is about the size of a dog, but it has the slender build of a cat, heavy whiskers, and dark stripes down its back. Its long tail flips about, smacking the ground as it scans the woods. It yips and bays in a complex pattern, offering warning to anything that may cross its path.</p><p><strong>Natural Attacks:</strong> bite (1d4)</p><p><strong>Special Qualities:</strong> Powerful Jaws</p><p><strong>4th-Level Advancement:</strong> size Medium; +2 natural armor; +4 Str, -2 Dex, +4 Con.</p><p>Powerful Jaws (Ex):</p><p>A thylacine’s muscular jaws threaten a critical hit on a natural roll of 19 or 20.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Thylacine Advancement
+        uuid: Compendium.pf1-companions.companions.Item.mB47hmrOqTR0zYoT
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

@@ -1,0 +1,20 @@
+_id: pfcBondedMountFt
+_key: '!folders!pfcBondedMountFt'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792886400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792886400000
+  systemId: pf1
+  systemVersion: '11.11'
+color: null
+description: ''
+flags: {}
+folder: null
+name: Bonded Mount Features
+sort: 300000
+sorting: a
+type: Item

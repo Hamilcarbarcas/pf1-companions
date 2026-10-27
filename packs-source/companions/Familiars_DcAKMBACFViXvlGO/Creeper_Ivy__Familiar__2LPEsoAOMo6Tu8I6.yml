@@ -1,0 +1,81 @@
+_id: 2LPEsoAOMo6Tu8I6
+_key: '!items!2LPEsoAOMo6Tu8I6'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Creeper Ivy (Familiar)
+ownership:
+  default: 0
+sort: 1400000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: xv18zKy9
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: 79d8uPgs
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: OHWxMR5P
+      formula: '-10'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: tpcVxJC0
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: fCBnFE6H
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p><strong>Natural Attacks:</strong> slam (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Climb checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Creeper Ivy Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.j0C6LxZlfNtKQDuw
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 15
+    fly: null
+    flyManeuverability: ''
+    land: 15
+    swim: null
+  tags:
+    - Familiar Species
+type: race

@@ -1,0 +1,102 @@
+_id: p3RyqrsYIAj8kv0a
+_key: '!items!p3RyqrsYIAj8kv0a'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Snake, Constrictor
+ownership:
+  default: 0
+sort: 8300000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: XW3OHukv
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: YyZfIE9L
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: rWnydrcy
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: AM02RxHH
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: alK8zKop
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: 1SaeO14R
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: BfbqxeNL
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: e3l1cA0f
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This large snake has a thick, muscular body and dull green scales decorated with dirty brown stripes.</p><p><strong>Natural Attacks:</strong> bite (1d3 plus grab)</p><p><strong>Special Attacks:</strong> Grab</p><p><strong>4th-Level Advancement:</strong> size Large; +1 natural armor; +8 Str, -2 Dex, +4 Con; Constrict 1d4.</p>
+  links:
+    children: []
+    supplements:
+      - name: Bite
+        uuid: Compendium.astora-mod.combat-items.Item.bU2sn1gIlZJufRwy
+      - name: Very Weak Attack (Bite)
+        uuid: Compendium.astora-mod.misc-features.Item.qx2Uq7t6cK8j0jn7
+      - name: Snake, Constrictor Advancement
+        uuid: Compendium.pf1-companions.companions.Item.NpTTYV13AKYDJjmk
+  size: med
+  speeds:
+    burrow: null
+    climb: 20
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: 20
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

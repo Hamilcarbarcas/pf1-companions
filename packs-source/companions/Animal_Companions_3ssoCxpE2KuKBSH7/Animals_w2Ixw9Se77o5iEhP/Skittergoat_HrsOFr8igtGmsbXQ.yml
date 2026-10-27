@@ -1,0 +1,88 @@
+_id: HrsOFr8igtGmsbXQ
+_key: '!items!HrsOFr8igtGmsbXQ'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Skittergoat
+ownership:
+  default: 0
+sort: 8100000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: LTd2jx7h
+      formula: '3'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: GipFeWum
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: XIP4A2zo
+      formula: '1'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: XdnFkUzs
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: MLIbp4UJ
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: S0UEIAGJ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This small goat has sharp horns that wrap around its head to point forward, making it resemble a tiny bull.</p><p><strong>Natural Attacks:</strong> gore (1d4)</p><p><strong>4th-Level Advancement:</strong> size Medium; +4 Str, -2 Dex, +2 Con; Egg Cracker.</p><p>Egg Cracker (Ex):</p><p>A skittergoat’s horns are able to crack through the tough shells of ankheg eggs. When a skittergoat charges, its gore attack is resolved against the target’s touch AC. In addition, when breaking an Object, a skittergoat ignores 1 point of the Object’s Hardness.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Skittergoat Advancement
+        uuid: Compendium.pf1-companions.companions.Item.m9q1B7xjqmiyAUED
+  size: sm
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 30
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race

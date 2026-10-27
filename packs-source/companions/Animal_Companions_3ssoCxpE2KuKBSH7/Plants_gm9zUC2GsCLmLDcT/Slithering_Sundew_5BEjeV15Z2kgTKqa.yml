@@ -1,0 +1,96 @@
+_id: 5BEjeV15Z2kgTKqa
+_key: '!items!5BEjeV15Z2kgTKqa'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: gm9zUC2GsCLmLDcT
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Slithering Sundew
+ownership:
+  default: 0
+sort: 1200000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: i0TrRdm7
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: kEDnLrHU
+      formula: '7'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: MWF4DDov
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: 7Dyi3ZjP
+      formula: '-9'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: YuUZHqD4
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: wC1iBXep
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: YEIdlZyQ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - plant
+  description:
+    value: <p>Looking something like a two-headed serpent, this slithering plant strikes with two sticky, constricting slams.</p><p><strong>Natural Attacks:</strong> 2 slams (1d4 plus 1d2 acid plus grab)</p><p><strong>Special Qualities:</strong> Cannot be Tripped</p><p><strong>Special Attacks:</strong> Grab, Constrict (1d8 acid)</p><p><strong>7th-Level Advancement:</strong> size Large; +2 natural armor; +6 Str, -2 Dex, +4 Con; Constrict (2d6 acid).</p>
+  links:
+    children: []
+    supplements:
+      - name: Slam
+        uuid: Compendium.astora-mod.combat-items.Item.wnU54KDe7dLaJJMc
+      - name: Extra Attack (Slam)
+        uuid: Compendium.astora-mod.misc-features.Item.CrvAehqFEYRKnQGo
+      - name: Slithering Sundew Advancement
+        uuid: Compendium.pf1-companions.companions.Item.851lebO2403yqBM6
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 20
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Plant
+type: race

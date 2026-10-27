@@ -1,0 +1,99 @@
+_id: 1SN21CuxDbbysZ7e
+_key: '!items!1SN21CuxDbbysZ7e'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: familiar
+folder: DcAKMBACFViXvlGO
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+name: Sloth (Familiar)
+ownership:
+  default: 0
+sort: 7800000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: M8yvV4f8
+      formula: '-5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: EXfV5uHx
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: j7gl78LM
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: XwfpwNHV
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 76FduPxw
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: eL9oqOH2
+      formula: '-3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: k79DxKfP
+      formula: '1'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+    - _id: Q6XlPnt4
+      formula: '30'
+      operator: add
+      priority: 0
+      target: sensesc
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p><strong>Natural Attacks:</strong> 2 claws (1d2)</p><p><strong>Master bonus:</strong> Master gains a +3 bonus on Climb checks</p>
+  links:
+    children: []
+    supplements:
+      - name: Claw
+        uuid: Compendium.astora-mod.combat-items.Item.sBUmg9SWqtmcxnuA
+      - name: Sloth Familiar Bonus
+        uuid: Compendium.pf1-companions.companions.Item.XCC8WBKg3qzJWIiE
+  size: tiny
+  speeds:
+    burrow: null
+    climb: 5
+    fly: null
+    flyManeuverability: ''
+    land: 5
+    swim: null
+  tags:
+    - Familiar Species
+type: race

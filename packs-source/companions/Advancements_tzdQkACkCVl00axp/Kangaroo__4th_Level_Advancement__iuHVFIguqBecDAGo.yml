@@ -1,0 +1,60 @@
+_id: iuHVFIguqBecDAGo
+_key: '!items!iuHVFIguqBecDAGo'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-enhanced-links:
+    classFeatures:
+      - level: 4
+        uuid: Compendium.astora-mod.misc-features.Item.ONkzOGVgRpD9e7jb
+folder: tzdQkACkCVl00axp
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+name: Kangaroo (4th-Level Advancement)
+ownership:
+  default: 0
+sort: 18100000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Animal Companion
+      - Bonded Mount
+  changes:
+    - _id: FhXQhsk1
+      formula: '4'
+      operator: add
+      priority: 0
+      target: str
+      type: untypedPerm
+    - _id: vsGzoILF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: untypedPerm
+    - _id: mNmVZRPF
+      formula: '2'
+      operator: add
+      priority: 0
+      target: con
+      type: untypedPerm
+    - _id: tZX9RN4J
+      formula: '2'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  description:
+    value: <p>The kangaroo's 4th-level advancement.</p>
+  subType: companion
+type: feat

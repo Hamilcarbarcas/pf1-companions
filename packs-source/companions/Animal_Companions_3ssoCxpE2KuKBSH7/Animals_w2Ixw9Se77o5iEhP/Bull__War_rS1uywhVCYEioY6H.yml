@@ -1,0 +1,96 @@
+_id: rS1uywhVCYEioY6H
+_key: '!items!rS1uywhVCYEioY6H'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1792972800000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1792972800000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: animalCompanion
+folder: w2Ixw9Se77o5iEhP
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+name: Bull, War
+ownership:
+  default: 0
+sort: 1600000
+system:
+  changeFlags:
+    lowLightVision: true
+  changes:
+    - _id: J0mKnLM8
+      formula: '5'
+      operator: add
+      priority: 0
+      target: str
+      type: base
+    - _id: dQRGlOxF
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: pToFkbRg
+      formula: '3'
+      operator: add
+      priority: 0
+      target: con
+      type: base
+    - _id: PpvqmMf5
+      formula: '-8'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: 3X3h6HsZ
+      formula: '1'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: RfymrLgG
+      formula: '-6'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: z0UC3UTG
+      formula: '4'
+      operator: add
+      priority: 0
+      target: nac
+      type: untyped
+  contextNotes: []
+  creatureSubtypes: []
+  creatureTypes:
+    - animal
+  description:
+    value: <p>This immense bovine has horns reminiscent of a stag, with daggerlike points spreading more than fifteen feet across.</p><p><strong>Natural Attacks:</strong> gore (1d8)</p><p><strong>4th-Level Advancement:</strong> size Large; +3 natural armor; +8 Str, -2 Dex, +4 Con; Trample.</p>
+  links:
+    children: []
+    supplements:
+      - name: Gore
+        uuid: Compendium.astora-mod.combat-items.Item.VVUMw3SsiPQGAxy3
+      - name: Strong Attack (Gore)
+        uuid: Compendium.astora-mod.misc-features.Item.0BEHSgUF5cXmXxWl
+      - name: Bull, War Advancement
+        uuid: Compendium.pf1-companions.companions.Item.NKID65xAIrl1u0Bq
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: null
+    flyManeuverability: ''
+    land: 40
+    swim: null
+  tags:
+    - Animal Companion Species
+    - Animal
+type: race
