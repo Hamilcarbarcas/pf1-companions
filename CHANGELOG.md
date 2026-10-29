@@ -49,3 +49,6 @@ matching each release tag.
 ### Fixed
 - A companion class added to an actor by hand now counts as its companion class: no warning when choosing it,
   and no second class added on linking.
+
+### Changed
+- The **Companion Grant** section is hidden on features that don't grant a companion. A **Show N more sections** line at the foot of the Advanced tab reveals it (shared sheet kit 1.7.0).

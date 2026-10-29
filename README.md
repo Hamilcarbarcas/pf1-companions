@@ -23,7 +23,8 @@ Familiars and animal companions for Pathfinder 1e, linked to their master and ad
 ## Granting a companion
 
 Any feature can grant a companion. Open the feature, go to its **Advanced** tab, and fill in the
-**Companion Grant** section:
+**Companion Grant** section (hidden until used: click **Show N more sections** at the foot of the
+tab to reveal it):
 
 - **Grants**: Animal Companion or Familiar.
 - **Effective Level**: a formula in the master's roll data, such as `@classes.druid.level` or
