@@ -1,12 +1,13 @@
 /**
  * pf1-companions entry point. DESIGN.md §12: links, roll data, refresh, sheet UI (phase 1);
- * companion subtype, class sync, companion setup (phase 2); familiars (phase 5).
+ * companion subtype, class sync, companion setup (phase 2); familiars (phase 5); Command Companion (§16).
  */
 
 import { api } from "./api.mjs";
 import { MODULE_ID } from "./constants.mjs";
 import * as creatureType from "./creature-type.mjs";
 import * as familiar from "./familiar.mjs";
+import * as handling from "./handling.mjs";
 import * as links from "./links.mjs";
 import * as masterItems from "./master-items.mjs";
 import * as refresh from "./refresh.mjs";
@@ -28,6 +29,7 @@ Hooks.once("init", () => {
     familiar.registerHooks();
     creatureType.registerHooks();
     masterItems.registerHooks();
+    handling.registerHooks();
     grantSection.registerHooks();
     masterSection.registerHooks();
     companionLine.registerHooks();

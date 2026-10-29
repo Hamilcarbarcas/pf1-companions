@@ -1,6 +1,7 @@
 /**
- * Master-side familiar items: Familiar Bonus (copied from the familiar's bonus feat, off while
- * the familiar is away) and Alertness (on while the familiar is adjacent). DESIGN.md §7.1, §7.2
+ * Master-side items: Familiar Bonus (copied from the familiar's bonus feat, off while the
+ * familiar is away) and Alertness (on while the familiar is adjacent), DESIGN.md §7.1, §7.2;
+ * Command Companion, one per animal companion granting feature, §16.
  *
  * Desired state is derived from the links; the writer client creates, updates and deletes the
  * items to match. The away flag lives on the granting feature (`grant.away`).
@@ -18,6 +19,8 @@ const t = (key) => game.i18n.localize(key);
 
 const roleOf = (item) => item.flags?.[MODULE_ID]?.[MASTER_ITEM_FLAG] ?? null;
 const keyOf = (role, familiarUuid) => `${role}:${familiarUuid}`;
+/** Command items are one per granting feature, the rest one per familiar. */
+const keyOfFlag = (flag) => (flag.role === "command" ? `command:${flag.grant}` : keyOf(flag.role, flag.familiar));
 
 /** The familiar's race-supplied bonus feat. §7.2 */
 const bonusSource = (familiar) => familiar.items.find((i) => i.flags?.[MODULE_ID]?.[MASTER_BONUS_FLAG]) ?? null;
@@ -58,11 +61,31 @@ function wanted(master) {
       });
     }
   }
+  // §16: features granting the same companion share one.
+  for (const { companion, item: grantItem } of getCompanionLinks(master, "animalCompanion")) {
+    const key = `command:${grantItem.id}`;
+    const spec = out.get(key) ?? { role: "command", grantItem, companions: [], disabled: false };
+    if (!spec.companions.includes(companion)) spec.companions.push(companion);
+    out.set(key, spec);
+  }
   return out;
 }
 
 /** The fields the mod owns on a master item, from a spec. */
 function ownedFields(spec) {
+  if (spec.role === "command") {
+    const [only, ...more] = spec.companions;
+    return {
+      name: more.length ? t("PF1COMP.Command.Plural") : game.i18n.format("PF1COMP.Command.Name", { name: only.name }),
+      // astora's Combat Options section exists only while its engine is on; Miscellaneous otherwise.
+      "system.subType": game.astoraMod?.combatOptions?.enabled?.() ? "combatOption" : "misc",
+      [`flags.${MODULE_ID}.${MASTER_ITEM_FLAG}`]: {
+        role: "command",
+        grant: spec.grantItem.id,
+        companions: spec.companions.map((c) => c.uuid),
+      },
+    };
+  }
   const fields = {
     "system.disabled": spec.disabled,
     [`flags.${MODULE_ID}.${MASTER_ITEM_FLAG}`]: { role: spec.role, familiar: spec.familiar.uuid, grant: spec.grantItem.id },
@@ -101,11 +124,11 @@ async function reconcile(master) {
   const want = wanted(master);
   const existing = master.items.filter((i) => roleOf(i));
 
-  const stale = existing.filter((i) => !want.has(keyOf(roleOf(i).role, roleOf(i).familiar))).map((i) => i.id);
+  const stale = existing.filter((i) => !want.has(keyOfFlag(roleOf(i)))).map((i) => i.id);
   if (stale.length) await master.deleteEmbeddedDocuments("Item", stale, ownWrite());
 
   for (const [key, spec] of want) {
-    const item = existing.find((i) => keyOf(roleOf(i).role, roleOf(i).familiar) === key);
+    const item = existing.find((i) => keyOfFlag(roleOf(i)) === key);
     if (!item) {
       await create(master, spec);
       continue;
@@ -143,9 +166,9 @@ function flush() {
   }
 }
 
-/** Every master with a familiar link. */
+/** Every master with a granting feature. */
 export function scheduleAll() {
-  scheduleMasters(game.actors.filter((a) => grantItems(a, "familiar").length));
+  scheduleMasters(game.actors.filter((a) => grantItems(a).length));
 }
 
 /** Set a granting feature's away flag and say so in chat. §7.1 */
@@ -161,10 +184,33 @@ export async function setAway(grantItem, away) {
   });
 }
 
-/** The presence action on Familiar Bonus: toggle away instead of a normal use. */
+/** Command Companion's use is astora-mod's Handle Animal prompt with its companions. §16 */
+function openCommand(item, role) {
+  const handleAnimal = game.astoraMod?.handleAnimal;
+  if (!handleAnimal) return void ui.notifications.warn(t("PF1COMP.Command.NoEngine"));
+  handleAnimal
+    .prompt(item.parent, { animals: role.companions ?? [], source: item })
+    .catch((err) => console.error(`${MODULE_ID} | Command Companion failed:`, err));
+}
+
+/** pf1-new-script-hooks: stop before PF1's use dialog opens. */
+function onPreAttackDialog(actionUse) {
+  const item = actionUse?.item;
+  const role = item ? roleOf(item) : null;
+  if (role?.role !== "command") return;
+  actionUse.shared.reject = true;
+  openCommand(item, role);
+}
+
+/** The presence action on Familiar Bonus: toggle away instead of a normal use. Command
+ *  Companion without pf1-new-script-hooks lands here after PF1's dialog. */
 function onPreActionUse(actionUse) {
   const item = actionUse?.item;
   const role = item ? roleOf(item) : null;
+  if (role?.role === "command") {
+    openCommand(item, role);
+    return false;
+  }
   if (role?.role !== "bonus") return;
   const grantItem = item.parent?.items.get(role.grant);
   if (grantItem) setAway(grantItem, !readGrant(grantItem)?.away).catch((err) => console.error(`${MODULE_ID} | presence toggle failed:`, err));
@@ -175,6 +221,7 @@ function onPreActionUse(actionUse) {
 function stillLinked(item) {
   const role = roleOf(item);
   const grantItem = item.parent?.items.get(role?.grant);
+  if (role?.role === "command") return !!grantItem && !!readGrant(grantItem)?.companion;
   return !!grantItem && readGrant(grantItem)?.companion === role.familiar;
 }
 
@@ -216,6 +263,7 @@ function onTokenChange(token, changed) {
 }
 
 export function registerHooks() {
+  Hooks.on("pf1PreAttackDialog", onPreAttackDialog);
   Hooks.on("pf1PreActionUse", onPreActionUse);
   Hooks.on("preDeleteItem", onPreDelete);
   Hooks.on("updateItem", onItemUpdate);

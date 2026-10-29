@@ -207,6 +207,7 @@ export async function inject(sheet, html, options) {
     configured: !!grant,
     badge: "",
     title: t("PF1COMP.Grant.Toggle"),
+    niche: true,
   });
   setBadge(section, badgeText(item));
 }

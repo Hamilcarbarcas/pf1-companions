@@ -42,6 +42,10 @@ matching each release tag.
   of at least 6, the celestial template at 11th level, and spell resistance (paladin level + 11) at
   15th.
 
+- **Command Companion** on the master, one per feature granting an animal companion: opens astora-mod's
+  Handle Animal dialog with that companion, with Link's free action to handle, move action to push, and +4. A
+  linked animal companion shows astora-mod's Tricks section and its bonus trick allowance.
+
 ### Fixed
 - A companion class added to an actor by hand now counts as its companion class: no warning when choosing it,
   and no second class added on linking.

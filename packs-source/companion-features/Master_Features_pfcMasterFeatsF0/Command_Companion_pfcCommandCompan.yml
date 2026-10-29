@@ -1,0 +1,44 @@
+_id: pfcCommandCompan
+_key: '!items!pfcCommandCompan'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1793232000000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1793232000000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcMasterFeatsF0
+img: icons/creatures/abilities/paw-print-orange.webp
+name: Command Companion
+ownership:
+  default: 0
+sort: 300000
+system:
+  actions:
+    - _id: pfcCmdCompUse001
+      actionType: other
+      activation:
+        cost: 1
+        type: free
+        unchained:
+          cost: 1
+          type: free
+      duration:
+        units: inst
+      name: Use
+      range:
+        units: personal
+  description:
+    instructions: ''
+    value: '<p>Command your animal companion: a Handle Animal check whose dialog picks the companion and the command, and whose card records it.</p><p><strong>Link:</strong> handle as a free action (DC 10, a trick it knows) or push as a move action (DC 25), with a +4 bonus and no ranks needed.</p><p>Made and kept by pf1-companions, one per feature that grants an animal companion; it goes when the companion is unlinked.</p>'
+  flags:
+    boolean: {}
+    dictionary: {}
+  showInQuickbar: true
+  subType: combatOption
+type: attack

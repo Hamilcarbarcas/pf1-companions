@@ -80,6 +80,11 @@
       "NotEligible": "That actor can't be chosen.",
       "NotOnScene": "{name} has no token on this scene.",
       "NotClass": "Drop a class item."
+    },
+    "Command": {
+      "Name": "Command {name}",
+      "Plural": "Command Companion",
+      "NoEngine": "Command Companion needs astora-mod's Handle Animal feature."
     }
   }
 }

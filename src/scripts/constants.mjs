@@ -34,7 +34,11 @@ export const DEFAULT_CLASS = Object.freeze({
 export const TEMPLATES = Object.freeze({
   bonus: `${PACK}.pfcFamiliarBonus`,
   alertness: `${PACK}.pfcAlertnessFam0`,
+  command: `${PACK}.pfcCommandCompan`,
 });
+
+/** Animal Companion's Link feature: its handling rules apply to the master. DESIGN.md §16 */
+export const LINK_SOURCE = `${PACK}.pfcLinkAnimComp0`;
 
 /** On a familiar's race supplement: the bonus its master gets. DESIGN.md §7.2 */
 export const MASTER_BONUS_FLAG = "masterBonus";

@@ -14,6 +14,7 @@ Familiars and animal companions for Pathfinder 1e, linked to their master and ad
 - [Granting a companion](#granting-a-companion)
 - [Choosing the companion](#choosing-the-companion)
 - [Companion classes](#companion-classes)
+- [Commanding a companion](#commanding-a-companion)
 - [Familiars](#familiars)
 - [The Companions list](#the-companions-list)
 - [Formulas](#formulas)
@@ -58,6 +59,18 @@ Features tab, which only shows on actors that have one.
 A paladin's mount uses the **Bonded Mount** class instead: the same progression, plus an
 Intelligence of at least 6, the celestial template at 11th level, and spell resistance equal to the
 paladin's level + 11 at 15th.
+
+## Commanding a companion
+
+A master gets a **Command Companion** item (named *Command Wolf* for a wolf) for each feature that
+grants an animal companion or bonded mount, in the combat tab's Combat Options section. Using it
+opens astora-mod's Handle Animal roll dialog with that companion: pick the command, and the card
+records it for the GM. Link applies: a free action to handle (DC 10 for a trick it knows), a move
+action to push (DC 25), +4 on the check, and no ranks needed. The same holds when you command your
+companion from the plain **Handle Animal** option.
+
+A linked animal companion shows a **Tricks** section on its Features tab even before it knows any,
+with its bonus trick allowance in the count. See astora-mod's Handle Animal README.
 
 ## Familiars
 
