@@ -1,0 +1,106 @@
+_id: pfcShadowSpecies
+_key: '!items!pfcShadowSpecies'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1793318400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1793318400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  pf1-companions:
+    species:
+      kind: other
+      noAbilities:
+        - str
+        - con
+folder: pfcLivingShadowF
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+name: Shadow (Living Shadow)
+ownership:
+  default: 0
+sort: 100000
+system:
+  changeFlags: {}
+  changes:
+    - _id: pfcLSdex
+      formula: '4'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: pfcLSint
+      formula: '-4'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: pfcLSwis
+      formula: '2'
+      operator: add
+      priority: 0
+      target: wis
+      type: base
+    - _id: pfcLScha
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: pfcLSdef
+      formula: max(1, @abilities.cha.mod)
+      operator: add
+      priority: 0
+      target: ac
+      type: deflection
+    - _id: pfcLSste
+      formula: '6'
+      operator: add
+      priority: 0
+      target: skill.ste
+      type: racial
+    - _id: pfcLSper
+      formula: '4'
+      operator: add
+      priority: 0
+      target: skill.per
+      type: racial
+    - _id: pfcLSdkv
+      formula: '60'
+      operator: add
+      priority: 0
+      target: sensedv
+      type: untyped
+  contextNotes:
+    - target: skill.ste
+      text: +4 in dim light, −4 in bright light
+  creatureSubtypes:
+    - incorporeal
+  creatureTypes:
+    - undead
+  description:
+    value: <p><strong>Shadow</strong> (Medium undead, incorporeal), as a shadowdancer's living shadow. Str –, Dex 14, Con –, Int 6, Wis 12, Cha 13. Fly 40 ft. (good). AC 10 + Dex + deflection (Cha). Darkvision 60 ft.</p><p><strong>Skills:</strong> +4 racial on Stealth in dim light, −4 in bright light (a note on Stealth). <strong>Feats:</strong> Alertness, Dodge (from the Living Shadow class).</p><p><strong>Strength damage:</strong> its incorporeal touch deals 1d6 Strength damage to a living foe (negative energy).</p><p><strong>Setup:</strong> Str and Con are none; PF1 Companions blanks them when the shadow is linked. Its other scores start at 10 (the race adds the offsets).</p>
+  links:
+    children: []
+    supplements:
+      - name: Incorporeal Touch
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcShadowTouch00
+      - name: Incorporeal
+        uuid: Compendium.pf1.monster-abilities.Item.ZB6Insc46LaVWNvR
+      - name: Undead Traits
+        uuid: Compendium.pf1.monster-abilities.Item.kcCRPAHsrWouTbij
+  size: med
+  speeds:
+    burrow: null
+    climb: null
+    fly: 40
+    flyManeuverability: good
+    land: 0
+    swim: null
+  tags:
+    - Living Shadow
+type: race

@@ -1,0 +1,54 @@
+_id: pfcShadowTouch00
+_key: '!items!pfcShadowTouch00'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1793318400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1793318400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags: {}
+folder: pfcLivingShadowF
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+name: Incorporeal Touch
+ownership:
+  default: 0
+sort: 200000
+system:
+  actions:
+    - _id: pfcShTouchAct000
+      ability:
+        attack: dex
+        critMult: 2
+        critRange: 20
+      actionType: mwak
+      activation:
+        cost: 1
+        type: attack
+        unchained:
+          cost: 1
+          type: nonaction
+      damage:
+        parts:
+          - formula: 1d6
+            types:
+              - strength damage
+      name: Attack
+      naturalAttack:
+        primary: true
+        secondary:
+          attackBonus: ''
+          damageMult: 0.5
+      range:
+        units: touch
+      touch: true
+      uses: {}
+  description:
+    value: '<p>Touch attack against a living foe: 1d6 Strength damage (1d8 for a greater shadow). Negative energy.</p>'
+  showInQuickbar: true
+  subType: natural
+type: attack

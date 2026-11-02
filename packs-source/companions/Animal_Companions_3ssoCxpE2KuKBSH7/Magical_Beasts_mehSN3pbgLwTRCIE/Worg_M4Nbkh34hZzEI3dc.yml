@@ -60,7 +60,7 @@ system:
       operator: add
       priority: 0
       target: nac
-      type: untyped
+      type: base
     - _id: u79BvTaM
       formula: '60'
       operator: add

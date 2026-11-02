@@ -9,6 +9,7 @@ const SOURCE_KIND = {
   pfcAnimalCompCls: "animalCompanion",
   pfcBondedMountCl: "animalCompanion",
   pfcFamiliarClass: "familiar",
+  pfcLivingShadowC: "other",
 };
 const SOURCE_PREFIX = `Compendium.${MODULE_ID}.companion-features.Item.`;
 

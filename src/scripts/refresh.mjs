@@ -41,6 +41,8 @@ function flush() {
       } catch (err) {
         console.error(`${MODULE_ID} | reset failed for ${actor.name}:`, err);
       }
+      // reset() alone leaves token bars stale and unlinked tokens' synthetic actors unprepared.
+      actor._updateDependentTokens();
       rerender(actor);
       done.push(actor);
     }

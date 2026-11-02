@@ -6,6 +6,11 @@ matching each release tag.
 ## [Unreleased]
 
 ### Added
+- **Other Companion** grant kind: the companion class sets which numbers come from the master
+  (hit points, base attack bonus, base saves, skills), the way the Familiar class does.
+- **Living Shadow** companion class, **Shadow (Living Shadow)** species, **Incorporeal Touch**, and
+  **Greater Shadow** (8th level), for the shadowdancer's living shadow.
+- Linking a companion whose species has no Strength or Constitution blanks those scores.
 - **Companions & Familiars** (species races) and **Companion Features** (classes and abilities)
   compendiums, in a "PF1 Companions" compendium folder.
 - **Companion Grant** section on a feature's Advanced tab: what the feature grants and its
@@ -49,6 +54,9 @@ matching each release tag.
 ### Fixed
 - A companion class added to an actor by hand now counts as its companion class: no warning when choosing it,
   and no second class added on linking.
+- A companion's token showed its own hit points instead of the ones from its master until its sheet
+  was opened. Its token bars, and an unlinked token's actor, now refresh whenever the master's data
+  changes.
 
 ### Changed
-- The **Companion Grant** section is hidden on features that don't grant a companion. A **Show N more sections** line at the foot of the Advanced tab reveals it (shared sheet kit 1.7.0).
+- The **Companion Grant** section is hidden on features that don't grant a companion. Tick it under **Optional Sections** on the Advanced tab to show it (shared sheet kit 1.8.0).

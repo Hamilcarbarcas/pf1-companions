@@ -3,7 +3,8 @@
     "Kind": {
       "none": "None",
       "animalCompanion": "Animal Companion",
-      "familiar": "Familiar"
+      "familiar": "Familiar",
+      "other": "Other Companion"
     },
     "Grant": {
       "Title": "Companion Grant",
@@ -25,6 +26,9 @@
       "Single": "Companion Feature",
       "Plural": "Companion Features"
     },
+    "Derived": {
+      "Flavor": "From master"
+    },
     "Familiar": {
       "Flavor": "Familiar (master)",
       "BonusName": "Familiar Bonus ({name})",
@@ -36,7 +40,8 @@
       "ConflictTitle": "Companion Classes",
       "ConflictBody": "{name} has classes whose Hit Dice the companion class replaces. Remove them?",
       "ClassMissing": "Companion class not found: {uuid}",
-      "AbilitiesNot10": "{name}'s species sets its ability scores; set the actor's own scores to 10."
+      "AbilitiesNot10": "{name}'s species sets its ability scores; set the actor's own scores to 10.",
+      "NoClass": "This grant names no companion class; add one on the granting feature."
     },
     "Master": {
       "Title": "Companions",

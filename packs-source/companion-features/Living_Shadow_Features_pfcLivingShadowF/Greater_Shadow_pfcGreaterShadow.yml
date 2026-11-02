@@ -1,0 +1,75 @@
+_id: pfcGreaterShadow
+_key: '!items!pfcGreaterShadow'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1793318400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1793318400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  ckl-roll-bonuses:
+    bonus_dice-transform: (@quantity)d8
+folder: pfcLivingShadowF
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+name: Greater Shadow
+ownership:
+  default: 0
+sort: 300000
+system:
+  abilityType: na
+  associations:
+    classes:
+      - Living Shadow
+  changes:
+    - _id: pfcGSdex
+      formula: '2'
+      operator: add
+      priority: 0
+      target: dex
+      type: base
+    - _id: pfcGSint
+      formula: '4'
+      operator: add
+      priority: 0
+      target: int
+      type: base
+    - _id: pfcGScha
+      formula: '3'
+      operator: add
+      priority: 0
+      target: cha
+      type: base
+    - _id: pfcGSref
+      formula: '1'
+      operator: add
+      priority: 0
+      target: ref
+      type: untypedPerm
+    - _id: pfcGSste
+      formula: '5'
+      operator: add
+      priority: 0
+      target: skill.ste
+      type: racial
+    - _id: pfcGSper
+      formula: '2'
+      operator: add
+      priority: 0
+      target: skill.per
+      type: racial
+  contextNotes: []
+  description:
+    value: '<p>At 8th level the living shadow becomes a greater shadow: Dex 16, Int 10, Cha 16; Reflex the master''s base +3; its incorporeal touch deals 1d8 Strength damage. Feats gain Spring Attack (Mobility is folded into Dodge).</p>'
+  flags:
+    boolean:
+      bonus_dice-transform: true
+      target_item: true
+    dictionary:
+      autoTargetItem: Incorporeal Touch
+  subType: companion
+type: feat

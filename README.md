@@ -16,6 +16,7 @@ Familiars and animal companions for Pathfinder 1e, linked to their master and ad
 - [Companion classes](#companion-classes)
 - [Commanding a companion](#commanding-a-companion)
 - [Familiars](#familiars)
+- [Other companions](#other-companions)
 - [The Companions list](#the-companions-list)
 - [Formulas](#formulas)
 - [Compendiums](#compendiums)
@@ -23,10 +24,9 @@ Familiars and animal companions for Pathfinder 1e, linked to their master and ad
 ## Granting a companion
 
 Any feature can grant a companion. Open the feature, go to its **Advanced** tab, and fill in the
-**Companion Grant** section (hidden until used: click **Show N more sections** at the foot of the
-tab to reveal it):
+**Companion Grant** section (hidden until used: tick it under **Optional Sections** on the same tab):
 
-- **Grants**: Animal Companion or Familiar.
+- **Grants**: Animal Companion, Familiar, or Other Companion (see [Other companions](#other-companions)).
 - **Effective Level**: a formula in the master's roll data, such as `@classes.druid.level` or
   `@classes.ranger.level - 3`. When several features grant the same companion, their levels add up.
 
@@ -95,6 +95,25 @@ The master gets two features while the familiar is linked:
 - **Alertness (Familiar)**, on while the familiar's token is next to the master's.
 
 Both are managed for you: they can't be deleted while the familiar is linked.
+
+## Other companions
+
+**Other Companion** is for a companion that is neither an animal companion nor a familiar, such as a
+shadowdancer's living shadow. Its grant has to name its companion class (drop one on the
+**Companion Class** row): the class decides which numbers come from the master, the same way the
+Familiar class does for familiars.
+
+**Living Shadow** is the first. The shadowdancer's Living Shadow feature grants it, with the
+shadowdancer's class level as its level. Build the shadow from a new NPC with the **Shadow (Living
+Shadow)** species from Companion Features, then choose it on the feature. It takes from its master:
+
+- half the master's maximum hit points;
+- the master's base attack bonus;
+- base saves: Fortitude as the master's, Reflex the master's +2, Will the master's +1.
+
+Linking blanks its Strength and Constitution, which a shadow doesn't have. It gets Alertness and
+Dodge, and at 8th level becomes a **Greater Shadow** (better scores, Reflex +3, a 1d8 touch, Spring
+Attack). The penalty for losing it (a level drain) is in its description, not automated.
 
 ## The Companions list
 

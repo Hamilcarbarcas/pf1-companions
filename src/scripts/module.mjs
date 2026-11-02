@@ -6,7 +6,7 @@
 import { api } from "./api.mjs";
 import { MODULE_ID } from "./constants.mjs";
 import * as creatureType from "./creature-type.mjs";
-import * as familiar from "./familiar.mjs";
+import * as derived from "./derived.mjs";
 import * as handling from "./handling.mjs";
 import * as links from "./links.mjs";
 import * as masterItems from "./master-items.mjs";
@@ -26,7 +26,7 @@ Hooks.once("init", () => {
     refresh.registerHooks();
     rollData.registerHooks();
     subtype.registerHooks();
-    familiar.registerHooks();
+    derived.registerHooks();
     creatureType.registerHooks();
     masterItems.registerHooks();
     handling.registerHooks();

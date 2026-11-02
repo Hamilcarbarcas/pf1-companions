@@ -9,11 +9,19 @@ export const MIRROR_FLAG = "master";
 /** Kind marker on a companion class item: flags[MODULE_ID][CLASS_FLAG]. DESIGN.md §6 */
 export const CLASS_FLAG = "kind";
 
-export const KINDS = Object.freeze(["animalCompanion", "familiar"]);
+/** Master-derived numbers on a companion class: flags[MODULE_ID][DERIVED_FLAG]. DESIGN.md §17.1 */
+export const DERIVED_FLAG = "derived";
+
+/** Species race marker, { kind, noAbilities }: flags[MODULE_ID][SPECIES_FLAG]. DESIGN.md §6, §17.3 */
+export const SPECIES_FLAG = "species";
+
+/** `other`: a companion whose master-derived numbers come from its class's `derived` profile. DESIGN.md §17 */
+export const KINDS = Object.freeze(["animalCompanion", "familiar", "other"]);
 
 export const KIND_LABELS = Object.freeze({
   animalCompanion: "PF1COMP.Kind.animalCompanion",
   familiar: "PF1COMP.Kind.familiar",
+  other: "PF1COMP.Kind.other",
 });
 
 /** Actor types that can be masters or companions. */

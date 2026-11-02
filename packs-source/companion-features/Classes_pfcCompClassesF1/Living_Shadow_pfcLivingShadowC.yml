@@ -1,0 +1,79 @@
+_id: pfcLivingShadowC
+_key: '!items!pfcLivingShadowC'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1793318400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1793318400000
+  systemId: pf1
+  systemVersion: '11.11'
+effects: []
+flags:
+  astora-mod:
+    abilityMilestoneExempt: true
+  pf1-companions:
+    derived:
+      bab: true
+      hp: 0.5
+      saves:
+        fort:
+          offset: 0
+        ref:
+          offset: 2
+        will:
+          offset: 1
+      skills: false
+    kind: other
+folder: pfcCompClassesF1
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+name: Living Shadow
+ownership:
+  default: 0
+sort: 400000
+system:
+  bab: custom
+  babFormula: '0'
+  classSkills:
+    acr: false
+    clm: false
+    fly: true
+    per: true
+    ste: true
+    swm: false
+  description:
+    value: '<p>A shadowdancer''s shadow, turned into an undead shade (shadowdancer 2nd level). Its alignment matches the shadowdancer''s, it cannot create spawn, and it cannot be turned or commanded. It only functions within 100 ft. of the shadowdancer; beyond that it vanishes and reappears as their shadow one round later.</p><p><strong>Level</strong> is the shadowdancer''s class level; PF1 Companions keeps it in step. <strong>From the master:</strong> hit points half the master''s total, rounded down; the master''s base attack bonus; base saves Fortitude as the master''s, Reflex the master''s +2, Will the master''s +1. Species: Shadow (Living Shadow). At 8th level it becomes a greater shadow (Greater Shadow).</p><p><strong>If destroyed:</strong> the shadowdancer immediately suffers 1 level drain and casts no shadow. The shadow returns in 1 week or when the shadowdancer gains a level, whichever comes first; until then the drain and the missing shadow can''t be removed by any means. (Not automated.)</p>'
+  hd: 8
+  hp: 0
+  level: 1
+  links:
+    children: []
+    classAssociations:
+      - level: 1
+        name: Alertness
+        uuid: Compendium.astora-mod.feats.Item.0lJ1Cao8Vu3xkGxf
+      - level: 1
+        name: Dodge
+        uuid: Compendium.astora-mod.feats.Item.DtBP5W7OlVacKYZf
+      - level: 8
+        name: Greater Shadow
+        uuid: Compendium.pf1-companions.companion-features.Item.pfcGreaterShadow
+      - level: 8
+        name: Spring Attack
+        uuid: Compendium.astora-mod.feats.Item.CqVMk7gJmx02XGvs
+  savingThrows:
+    fort:
+      custom: '0'
+      value: custom
+    ref:
+      custom: '0'
+      value: custom
+    will:
+      custom: '0'
+      value: custom
+  skillsPerLevel: 0
+  subType: base
+  tag: livingShadow
+type: class

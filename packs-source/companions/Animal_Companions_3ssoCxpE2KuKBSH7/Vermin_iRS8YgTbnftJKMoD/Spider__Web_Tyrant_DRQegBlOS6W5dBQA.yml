@@ -41,7 +41,7 @@ system:
       operator: add
       priority: 0
       target: nac
-      type: untyped
+      type: base
     - _id: l4vM1Lrz
       formula: '60'
       operator: add

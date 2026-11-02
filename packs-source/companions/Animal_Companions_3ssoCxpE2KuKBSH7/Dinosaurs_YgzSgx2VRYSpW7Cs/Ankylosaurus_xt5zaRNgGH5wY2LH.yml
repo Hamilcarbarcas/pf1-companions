@@ -60,7 +60,7 @@ system:
       operator: add
       priority: 0
       target: nac
-      type: untyped
+      type: base
     - _id: EWFOHT4i
       formula: '30'
       operator: add

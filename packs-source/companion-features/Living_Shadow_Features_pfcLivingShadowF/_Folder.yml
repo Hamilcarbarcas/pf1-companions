@@ -1,0 +1,20 @@
+_id: pfcLivingShadowF
+_key: '!folders!pfcLivingShadowF'
+_stats:
+  compendiumSource: null
+  coreVersion: '13.351'
+  createdTime: 1793318400000
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: 1793318400000
+  systemId: pf1
+  systemVersion: '11.11'
+color: null
+description: ''
+flags: {}
+folder: null
+name: Living Shadow Features
+sort: 600000
+sorting: a
+type: Item

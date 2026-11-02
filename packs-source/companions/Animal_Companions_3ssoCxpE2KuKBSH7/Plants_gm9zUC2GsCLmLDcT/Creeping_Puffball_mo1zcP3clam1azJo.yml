@@ -65,7 +65,7 @@ system:
       operator: add
       priority: 0
       target: nac
-      type: untyped
+      type: base
     - _id: aVL5ACzH
       formula: '60'
       operator: add
