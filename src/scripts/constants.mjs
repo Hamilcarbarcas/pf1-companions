@@ -57,5 +57,11 @@ export const MASTER_ITEM_FLAG = "masterItem";
 /** On a feature that changes creature type: { add, remove }. DESIGN.md §5.6 */
 export const CREATURE_TYPE_FLAG = "creatureType";
 
+/** On a class: its levels grant no feats. DESIGN.md §18 */
+export const NO_LEVEL_FEATS_FLAG = "noLevelFeats";
+
+/** On a class: its levels grant no skill ranks (background ranks included). DESIGN.md §18.2 */
+export const NO_LEVEL_SKILLS_FLAG = "noLevelSkills";
+
 /** Kinds whose class HP is written as the average per HD. DESIGN.md §5.1 */
 export const AVERAGE_HP_KINDS = Object.freeze(["animalCompanion"]);

@@ -6,6 +6,14 @@ matching each release tag.
 ## [Unreleased]
 
 ### Added
+- **No Feats from Levels** option on companion classes: the class's levels grant no feats (feats the
+  class itself grants stay free). The Familiar and Living Shadow classes have it on, so their sheets no
+  longer report missing feats; companions built earlier pick it up when the world loads. Requires libWrapper.
+- **No Skill Ranks from Levels** option on companion classes, on for Familiar and Living Shadow: their levels
+  grant no skill ranks (familiars use their master's ranks instead).
+- Companion classes no longer grant background skill ranks; an animal companion keeps its normal ranks.
+- Linking a companion marks it ready for Little Helper's new-actor guide, so its sheet doesn't flag its
+  ability scores and empty inventory. Companions already linked are marked when the world loads.
 - **Other Companion** grant kind: the companion class sets which numbers come from the master
   (hit points, base attack bonus, base saves, skills), the way the Familiar class does.
 - **Living Shadow** companion class, **Shadow (Living Shadow)** species, **Incorporeal Touch**, and

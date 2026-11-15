@@ -16,6 +16,8 @@ flags:
     abilityMilestoneExempt: true
   pf1-companions:
     kind: familiar
+    noLevelFeats: true
+    noLevelSkills: true
 folder: pfcCompClassesF1
 img: icons/creatures/birds/corvid-watchful-glowing-green.webp
 name: Familiar

@@ -7,7 +7,7 @@ Familiars and animal companions for Pathfinder 1e, linked to their master and ad
 ## Requirements
 - Foundry VTT v13
 - PF1e system v11.10
-- astora-mod, PF1 Enhanced Links
+- astora-mod, PF1 Enhanced Links, libWrapper
 
 ## Contents
 
@@ -17,6 +17,7 @@ Familiars and animal companions for Pathfinder 1e, linked to their master and ad
 - [Commanding a companion](#commanding-a-companion)
 - [Familiars](#familiars)
 - [Other companions](#other-companions)
+- [Sheet warnings](#sheet-warnings)
 - [The Companions list](#the-companions-list)
 - [Formulas](#formulas)
 - [Compendiums](#compendiums)
@@ -85,7 +86,9 @@ having that many Hit Dice, and takes from its master:
 - for each skill, the better of its own ranks or the master's.
 
 Its Intelligence, natural armor, and abilities follow the familiar table, and it counts as a magical
-beast. A paladin's bonded mount becomes a magical beast at 11th level the same way.
+beast. A paladin's bonded mount becomes a magical beast at 11th level the same way. Its levels
+grant no feats (the Familiar class has **No Feats from Levels** ticked): a familiar's feats are its
+species', so any you add show as excess on the Features tab.
 
 The master gets two features while the familiar is linked:
 
@@ -113,7 +116,22 @@ Shadow)** species from Companion Features, then choose it on the feature. It tak
 
 Linking blanks its Strength and Constitution, which a shadow doesn't have. It gets Alertness and
 Dodge, and at 8th level becomes a **Greater Shadow** (better scores, Reflex +3, a 1d8 touch, Spring
-Attack). The penalty for losing it (a level drain) is in its description, not automated.
+Attack). Its levels grant no other feats: its class has **No Feats from Levels** ticked
+(after Custom HD on the class sheet), so the feat count is just the feats the class gives it. The penalty for losing it (a level drain) is in its description, not automated.
+
+## Sheet warnings
+
+A companion's feat count follows its class: a class with **No Feats from Levels** ticked (Familiar,
+Living Shadow) adds no feats for its levels; the feats the class itself grants stay free. A companion built
+before a class had the box gets it when the world loads, unless you set the box yourself.
+
+With Little Helper, linking a companion also marks it ready for Little Helper's new-actor guide,
+which would otherwise flag its ability scores (a species keeps them at 10) and its empty
+inventory. Untick it in Little Helper's per-actor overrides to get the guide back.
+
+Skill ranks work the same way: a class with **No Skill Ranks from Levels** ticked (Familiar, Living
+Shadow) adds no skill ranks for its levels, whatever the companion's Intelligence. No companion class
+grants background skill ranks; an animal companion keeps its normal ranks.
 
 ## The Companions list
 

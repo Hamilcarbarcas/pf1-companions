@@ -9,7 +9,7 @@
 import { ACTOR_TYPES, GRANT_FLAG, MIRROR_FLAG, MODULE_ID } from "./constants.mjs";
 import { classKind, grantItems, isWorldActor, readGrant, sumLevels } from "./grants.mjs";
 import { scheduleReset } from "./refresh.mjs";
-import { prepareCompanion } from "./companion-setup.mjs";
+import { prepareCompanion, upkeepCompanion } from "./companion-setup.mjs";
 
 /** companion id -> Map(item uuid -> { masterId, itemId }) */
 const byCompanion = new Map();
@@ -242,12 +242,19 @@ async function syncMirror(actor) {
 /** Active GM only: repair every mirror against the index. §4.1 */
 export async function reconcileMirrors() {
   if (!game.users.activeGM?.isSelf) return;
+  const sources = new Map();
   for (const actor of game.actors) {
     if (!actor.getFlag(MODULE_ID, MIRROR_FLAG) && !isCompanion(actor)) continue;
     try {
       await syncMirror(actor);
     } catch (err) {
       console.error(`${MODULE_ID} | mirror repair failed for ${actor.name}:`, err);
+    }
+    if (!isCompanion(actor)) continue;
+    try {
+      await upkeepCompanion(actor, sources);
+    } catch (err) {
+      console.error(`${MODULE_ID} | companion upkeep failed for ${actor.name}:`, err);
     }
   }
 }

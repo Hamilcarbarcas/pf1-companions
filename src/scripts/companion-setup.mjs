@@ -6,7 +6,7 @@
  * expects base-10 scores that aren't there.
  */
 
-import { CLASS_FLAG, DEFAULT_CLASS, MODULE_ID, SPECIES_FLAG } from "./constants.mjs";
+import { CLASS_FLAG, DEFAULT_CLASS, MODULE_ID, NO_LEVEL_FEATS_FLAG, NO_LEVEL_SKILLS_FLAG, SPECIES_FLAG } from "./constants.mjs";
 import { classKind } from "./grants.mjs";
 
 const t = (key) => game.i18n.localize(key);
@@ -71,6 +71,46 @@ function warnAbilities(actor) {
   if (off.length) ui.notifications.warn(game.i18n.format("PF1COMP.Setup.AbilitiesNot10", { name: actor.name }));
 }
 
+const LH_ID = "koboldworks-pf1-little-helper";
+
+/**
+ * Little Helper's new-actor guide reads a companion's base-10 scores and empty inventory as an
+ * unfinished build. Ticks the guide's per-actor "ready" override, unless someone set it by hand.
+ */
+async function markGuideReady(actor) {
+  if (!game.modules.get(LH_ID)?.active) return;
+  if (actor.getFlag(LH_ID, "overrides")?.ready !== undefined) return;
+  await actor.setFlag(LH_ID, "overrides.ready", true);
+}
+
+const LEVEL_GRANT_FLAGS = [NO_LEVEL_FEATS_FLAG, NO_LEVEL_SKILLS_FLAG];
+
+/**
+ * A companion class copied before its compendium class got No Feats / No Skill Ranks from Levels
+ * takes them now. Only flags the actor's class has no value for, so a box unticked by hand stays
+ * unticked. §18
+ */
+async function adoptLevelGrantFlags(actor, sources) {
+  for (const cls of actor.itemTypes.class) {
+    if (!classKind(cls)) continue;
+    const own = cls.flags?.[MODULE_ID] ?? {};
+    const unset = LEVEL_GRANT_FLAGS.filter((f) => own[f] === undefined);
+    if (!unset.length) continue;
+    const uuid = cls._stats?.compendiumSource;
+    if (!uuid?.startsWith("Compendium.")) continue;
+    if (!sources.has(uuid)) sources.set(uuid, (await fromUuid(uuid))?.flags?.[MODULE_ID] ?? {});
+    const update = {};
+    for (const f of unset) if (sources.get(uuid)[f]) update[`flags.${MODULE_ID}.${f}`] = true;
+    if (Object.keys(update).length) await cls.update(update);
+  }
+}
+
+/** Load-time upkeep for a linked companion (active GM). `sources` caches compendium lookups across actors. */
+export async function upkeepCompanion(actor, sources = new Map()) {
+  await markGuideReady(actor);
+  await adoptLevelGrantFlags(actor, sources);
+}
+
 /** Run after the link is written. */
 export async function prepareCompanion(actor, grant) {
   await offerRemoval(actor, conflictingClasses(actor));
@@ -80,4 +120,5 @@ export async function prepareCompanion(actor, grant) {
   await addClass(actor, grant.kind, uuid);
   await clearAbilities(actor);
   warnAbilities(actor);
+  await upkeepCompanion(actor);
 }

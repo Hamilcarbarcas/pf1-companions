@@ -32,6 +32,10 @@
       {
         "id": "pf1-enhanced-links",
         "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
       }
     ]
   },

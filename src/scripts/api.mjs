@@ -2,13 +2,15 @@
  * Public API: game.modules.get("pf1-companions").api. DESIGN.md §9
  */
 
-import { grantItems, sumLevels } from "./grants.mjs";
+import { classKind, grantItems, sumLevels } from "./grants.mjs";
 import { companionLevel, getCompanions, getLinks, getMaster, link, rebuild, reconcileMirrors, unlink } from "./links.mjs";
 import { scheduleAll } from "./master-items.mjs";
 import { scheduleReset } from "./refresh.mjs";
 import { pickCompanion } from "./ui/picker.mjs";
 
 export const api = {
+  /** A class item is one of this mod's companion classes (by kind flag or compendium source). */
+  isCompanionClass: (cls) => !!classKind(cls),
   /** The master of a companion, or null. */
   getMaster,
   /** Companions of a master, optionally of one kind. */
