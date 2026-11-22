@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the snake, constrictor's 4th-level advancement when its companion class reaches level 4.</p>
+    value: <p>Grants the snake, constrictor's 4th-level advancement when its companion class reaches level 4:</p><ul><li>Size Large</li><li>+1 natural armor</li><li>+8 Str, -2 Dex, +4 Con</li><li>Gains Constrict 1d4</li></ul>
   subType: archetype
 type: feat

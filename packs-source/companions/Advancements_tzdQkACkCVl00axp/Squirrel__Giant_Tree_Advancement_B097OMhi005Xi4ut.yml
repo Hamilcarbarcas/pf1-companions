@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the squirrel, giant tree's 4th-level advancement when its companion class reaches level 4.</p>
+    value: <p>Grants the squirrel, giant tree's 4th-level advancement when its companion class reaches level 4:</p><ul><li>Size Medium</li><li>+4 Str, -2 Dex, +2 Con</li></ul>
   subType: archetype
 type: feat

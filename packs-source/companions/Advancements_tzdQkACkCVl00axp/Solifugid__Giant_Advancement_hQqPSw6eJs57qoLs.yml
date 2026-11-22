@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the solifugid, giant's 4th-level advancement when its companion class reaches level 4.</p>
+    value: <p>Grants the solifugid, giant's 4th-level advancement when its companion class reaches level 4:</p><ul><li>Size Medium</li><li>+3 natural armor</li><li>+4 Str, -2 Dex, +2 Con</li><li>Gains Pounce, Rend (2 claws, 1d4)</li></ul>
   subType: archetype
 type: feat

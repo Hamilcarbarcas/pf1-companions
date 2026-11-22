@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the jack-o’-lantern's 4th-level advancement when its companion class reaches level 4.</p>
+    value: <p>Grants the jack-o’-lantern's 4th-level advancement when its companion class reaches level 4:</p><ul><li>Size Medium</li><li>+1 natural armor</li><li>+2 Str, -2 Dex, +2 Con</li><li>Gains Fear Aura, Breath Weapon</li></ul>
   subType: archetype
 type: feat

@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the toad, giant's 4th-level advancement when its companion class reaches level 4.</p>
+    value: <p>Grants the toad, giant's 4th-level advancement when its companion class reaches level 4:</p><ul><li>+2 Str, +2 Dex</li><li>Gains Poison Skin, Swallow Whole</li></ul>
   subType: archetype
 type: feat

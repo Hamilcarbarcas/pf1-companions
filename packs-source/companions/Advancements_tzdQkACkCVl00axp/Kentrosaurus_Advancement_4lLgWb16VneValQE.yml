@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the kentrosaurus's 7th-level advancement when its companion class reaches level 7.</p>
+    value: <p>Grants the kentrosaurus's 7th-level advancement when its companion class reaches level 7:</p><ul><li>Size Large</li><li>+3 natural armor</li><li>+8 Str, -2 Dex, +4 Con</li><li>Gains Defensive Spikes</li></ul>
   subType: archetype
 type: feat

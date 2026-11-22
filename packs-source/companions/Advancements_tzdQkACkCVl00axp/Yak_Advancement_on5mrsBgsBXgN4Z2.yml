@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the yak's 4th-level advancement when its companion class reaches level 4.</p>
+    value: <p>Grants the yak's 4th-level advancement when its companion class reaches level 4:</p><ul><li>+2 natural armor</li><li>+4 Str, +4 Con</li><li>Gains Pack Animal</li></ul>
   subType: archetype
 type: feat

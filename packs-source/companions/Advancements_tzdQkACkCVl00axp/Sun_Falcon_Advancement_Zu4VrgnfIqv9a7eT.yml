@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the sun falcon's 9th-level advancement when its companion class reaches level 9.</p>
+    value: <p>Grants the sun falcon's 9th-level advancement when its companion class reaches level 9:</p><ul><li>Size Small</li><li>+4 natural armor</li><li>+2 Str, +4 Con</li><li>Gains Breath Weapon (upgraded), Burn (1d6)</li></ul>
   subType: archetype
 type: feat

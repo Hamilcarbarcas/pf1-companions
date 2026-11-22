@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the snake, spitting cobra's 7th-level advancement when its companion class reaches level 7.</p>
+    value: <p>Grants the snake, spitting cobra's 7th-level advancement when its companion class reaches level 7:</p><ul><li>+2 Dex, +2 Con</li><li>Gains Poison (upgraded)</li></ul>
   subType: archetype
 type: feat

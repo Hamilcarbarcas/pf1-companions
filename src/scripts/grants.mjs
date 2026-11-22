@@ -44,9 +44,25 @@ export function evalLevel(formula, rollData) {
   return Number.isFinite(total) ? total : 0;
 }
 
+/**
+ * Actor roll data plus the item-level keys ItemPF#getRollData adds (`@item`, and `@class` from
+ * the item's class association), so a grant resolves as its sheet preview shows. Built from the
+ * actor data passed in rather than item.getRollData(): this runs inside the actor's own
+ * pf1GetRollData hook, where asking the actor for roll data again would re-enter it.
+ */
+function itemRollData(item, rollData) {
+  const data = { ...rollData, item: item.system };
+  const classTag = item.system?.class;
+  if (classTag) data.class = rollData?.classes?.[classTag];
+  return data;
+}
+
 /** Sum of grant levels over items, floored at 0. */
 export function sumLevels(items, rollData) {
-  const total = items.reduce((sum, item) => sum + evalLevel(readGrant(item)?.level, rollData), 0);
+  const total = items.reduce(
+    (sum, item) => sum + evalLevel(readGrant(item)?.level, itemRollData(item, rollData)),
+    0,
+  );
   return Math.max(0, Math.floor(total));
 }
 

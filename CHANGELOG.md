@@ -60,6 +60,8 @@ matching each release tag.
   linked animal companion shows astora-mod's Tricks section and its bonus trick allowance.
 
 ### Fixed
+- A grant's effective-level formula using `@class.level` resolved to 0 for the companion, though the
+  formula preview showed the class level. It now resolves against the feature's own class, as the preview does.
 - A companion class added to an actor by hand now counts as its companion class: no warning when choosing it,
   and no second class added on linking.
 - A companion's token showed its own hit points instead of the ones from its master until its sheet

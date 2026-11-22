@@ -31,6 +31,6 @@ system:
   changes: []
   contextNotes: []
   description:
-    value: <p>Grants the quetzalcoatlus's 9th-level advancement when its companion class reaches level 9.</p>
+    value: '<p>Grants the quetzalcoatlus''s 9th-level advancement when its companion class reaches level 9:</p><ul><li>Size Large</li><li>+3 natural armor</li><li>+8 Str, -2 Dex, +4 Con</li><li>New attacks: 2 wings (1d4)</li><li>Gains Razor-Sharp Beak</li></ul>'
   subType: archetype
 type: feat
